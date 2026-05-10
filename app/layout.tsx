@@ -47,6 +47,7 @@ function Header() {
               alt="Good Company Logo"
               className="h-16 w-auto"
             />
+            <span className="ml-3 text-xl font-bold" style={{ fontFamily: "Fraunces, serif", color: "#3A3A3A" }}>Good Company</span>
           </a>
           <nav className="flex gap-8 items-center">
             <a href="/services" className="text-charcoal font-medium hover:underline">
