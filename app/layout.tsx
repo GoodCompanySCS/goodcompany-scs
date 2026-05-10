@@ -46,7 +46,7 @@ function Header() {
   <img
     src="/logo.svg"
     alt="Good Company Logo"
-    className="h-24 w-auto" 
+    className="h-16 md:h-24 w-auto" 
   />
   <div>
     <h1 className="text-2xl font-bold" style={{ fontFamily: "Fraunces", color: "#87A878" }}>Good Company</h1>
