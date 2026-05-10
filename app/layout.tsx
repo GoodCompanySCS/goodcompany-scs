@@ -40,7 +40,7 @@ function Header() {
   return (
     <header style={{ borderBottomColor: "var(--terracotta)" }} className="border-b-4">
       <div className="container-max py-6">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="flex items-center justify-between">
           <a href="/" className="no-underline hover:no-underline">
            <div className="flex items-center gap-7">
   <img
@@ -54,7 +54,7 @@ function Header() {
   </div>
 </div>
           </a>
-          <nav className="flex gap-8 items-center">
+          <nav className="hidden md:flex gap-8 items-center">
             <a href="/services" className="text-charcoal font-medium hover:underline">
               Services
             </a>
@@ -68,6 +68,7 @@ function Header() {
               Get Started
             </a>
           </nav>
+          <button className="md:hidden text-charcoal text-2xl">☰</button>
         </div>
       </div>
     </header>
