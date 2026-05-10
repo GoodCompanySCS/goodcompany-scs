@@ -40,7 +40,7 @@ function Header() {
   return (
     <header style={{ borderBottomColor: "var(--terracotta)" }} className="border-b-4">
       <div className="container-max py-6">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-4">
           <a href="/" className="no-underline hover:no-underline">
            <div className="flex items-center gap-7">
   <img
