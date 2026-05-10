@@ -54,7 +54,7 @@ function Header() {
   </div>
 </div>
           </a>
-          <nav className="hidden md:flex gap-8 items-center">
+          <nav className="flex gap-4 md:gap-8 items-center flex-wrap md:flex-nowrap justify-center md:justify-start w-full md:w-auto">
             <a href="/services" className="text-charcoal font-medium hover:underline">
               Services
             </a>
