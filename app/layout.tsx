@@ -42,12 +42,17 @@ function Header() {
       <div className="container-max py-6">
         <div className="flex items-center justify-between">
           <a href="/" className="no-underline hover:no-underline">
-            <img
-              src="/logo.svg"
-              alt="Good Company Logo"
-              className="h-16 w-auto"
-            />
-            <span className="ml-3 text-xl font-bold text-charcoal" style={{ fontFamily: "Fraunces" }}>Good Company</span>
+           <div className="flex items-center gap-3">
+  <img
+    src="/logo.svg"
+    alt="Good Company Logo"
+    className="h-16 w-auto"
+  />
+  <div>
+    <h1 className="text-2xl font-bold" style={{ fontFamily: "Fraunces", color: "#87A878" }}>Good Company</h1>
+    <p className="text-xs tracking-widest" style={{ color: "#87A878", opacity: 0.6 }}>SENIOR CONCIERGE SERVICES</p>
+  </div>
+</div>
           </a>
           <nav className="flex gap-8 items-center">
             <a href="/services" className="text-charcoal font-medium hover:underline">
