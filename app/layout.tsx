@@ -50,7 +50,7 @@ function Header() {
   />
   <div>
     <h1 className="text-2xl font-bold" style={{ fontFamily: "Fraunces", color: "#87A878" }}>Good Company</h1>
-    <p className="text-xs tracking-widest" style={{ color: "#000000", opacity: 0.6, paddingLeft: "8px" }}>SENIOR CONCIERGE SERVICES</p>
+    <p className="text-xs tracking-widest" style={{ color: "#000000", opacity: 0.6, paddingLeft: "4px" }}>SENIOR CONCIERGE SERVICES</p>
   </div>
 </div>
           </a>
