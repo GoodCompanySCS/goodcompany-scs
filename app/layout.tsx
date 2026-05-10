@@ -42,7 +42,7 @@ function Header() {
       <div className="container-max py-6">
         <div className="flex items-center justify-between">
           <a href="/" className="no-underline hover:no-underline">
-           <div className="flex items-center gap-4">
+           <div className="flex items-center gap-7">
   <img
     src="/logo.svg"
     alt="Good Company Logo"
