@@ -10,7 +10,7 @@ The services below are some of the most common ways we help. If there’s someth
           </p>
 
           {/* Companion Services */}
-          <div id="companion" className="mb-16 pb-16 border-b border-gray-200">
+          <div id="companion" className="mb-8 pb-8 border-b border-gray-200">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Companion Services</h2>
             <p className="text-lg mb-6">
               Our signature service, because many things feel easier with someone alongside you.
@@ -79,7 +79,7 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
                 <span><strong>Surface Cleaning:</strong> Keeping kitchens and bathrooms fresh, tidy, and hygienic through routine upkeep.</span>
               </li>
             </ul>
-            <p className="text-sm text-gray-600 bold">Please Note: We provide light housekeeping and routine upkeep services. We do not handle deep cleaning, biohazard situations, or hoarding scenarios.</p>
+            <p className="text-sm text-gray-600 italic">Please Note: We provide light housekeeping and routine upkeep services. We do not handle deep cleaning, biohazard situations, or hoarding scenarios.</p>
           </div>
 
           {/* Errands */}
