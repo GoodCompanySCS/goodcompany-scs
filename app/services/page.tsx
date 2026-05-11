@@ -79,7 +79,7 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
                 <span><strong>Surface Cleaning:</strong> Keeping kitchens and bathrooms fresh, tidy, and hygienic through routine upkeep.</span>
               </li>
             </ul>
-            <p className="text-sm text-gray-600 bold">Please Note: We provide light housekeeping and routine upkeep services. We do not handle deep cleaning, biohazard situations, or hoarding scenarios.</p>
+            <p className="text-sm text-gray-600 italic">Please Note: We provide light housekeeping and routine upkeep services. We do not handle deep cleaning, biohazard situations, or hoarding scenarios.</p>
           </div>
 
           {/* Errands */}
