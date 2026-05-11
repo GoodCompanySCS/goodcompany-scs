@@ -10,7 +10,7 @@ The services below are some of the most common ways we help. If there’s someth
           </p>
 
           {/* Companion Services */}
-          <div id="companion" className="mb-12 pb-12 border-b border-gray-200">
+          <div id="companion" className="mb-16 pb-16 border-b border-gray-200">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Companion Services</h2>
             <p className="text-lg mb-6">
               Our signature service, because many things feel easier with someone alongside you.
@@ -34,7 +34,7 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
           </div>
 
           {/* Pet Services */}
-          <div id="pet" className="mb-6 pb-6 border-b border-gray-200">
+          <div id="pet" className="mb-16 pb-16 border-b border-gray-200">
             <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Pet Services</h2>
             <p className="text-lg mb-6">
               Pets are family, and we help seniors continue enjoying the companionship and routine that pets bring.
@@ -56,7 +56,7 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
           </div>
 <style>{`#housekeeping { margin-top: -1.5rem !important; }`}</style>
           {/* Housekeeping */}
-         <div id="housekeeping" className="mb-6 pb-6 border-b border-gray-200" style={{ marginTop: "-1.5rem" }}>
+         <div id="housekeeping" className="mb-16 pb-16 border-b border-gray-200" style={{ marginTop: "-1.5rem" }}>
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Housekeeping & Meal Prep</h2>
             <p className="text-lg mb-6">
               A comfortable home makes everyday life easier. We help with routine upkeep so seniors can focus on enjoying their home, not struggling to maintain it.
