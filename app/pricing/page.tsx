@@ -11,7 +11,7 @@ export default function Pricing() {
           {/* À La Carte */}
           <div className="mb-16">
             <h2 style={{ color: 'var(--sage)' }} className="mb-4">À La Carte Services</h2>
-            <p className="text-lg mb-8">
+            <p className="text-lg mb-4">
               Pay as you go for individual services.
             </p>
 
@@ -125,7 +125,7 @@ export default function Pricing() {
           {/* All-Inclusive Bundles */}
           <div className="mb-16">
             <h2 style={{ color: 'var(--sage)' }} className="mb-4">All-Inclusive Bundles</h2>
-            <p className="text-lg mb-8">
+            <p className="text-lg mb-4">
               One monthly bill. Everything included. Perfect for seniors who want to simplify.
             </p>
 
