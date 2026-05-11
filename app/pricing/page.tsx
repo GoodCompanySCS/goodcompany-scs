@@ -134,7 +134,7 @@ export default function Pricing() {
                   Good for starting out
                 </div>
                 <h3 className="mb-2">Essentials Bundle</h3>
-                <p className="text-lg mb-4">Reliable support for the basics.</p>
+                <p className="text-lg mb-4 italic">Reliable support for the basics.</p>
                 <p style={{ color: 'var(--terracotta)', fontSize: '1.5rem' }} className="font-bold mb-6">$295/month</p>
                 <ul className="space-y-2 text-sm">
                   <li>✓ 1 companion walk per week</li>
@@ -149,6 +149,7 @@ export default function Pricing() {
                   Most popular
                 </div>
                 <h3 className="mb-2">Companion Bundle</h3>
+                <p className="text-lg mb-4 italic">Consistent weekly support and companionship.</p>
                 <p style={{ color: 'var(--sage)', fontSize: '1.5rem' }} className="font-bold mb-6">$425/month</p>
                 <ul className="space-y-2 text-sm">
                   <li>✓ 3 companion walks per week</li>
@@ -164,6 +165,7 @@ export default function Pricing() {
                   Comprehensive support
                 </div>
                 <h3 className="mb-2">Comprehensive Bundle</h3>
+                <p className="text-lg mb-4 italic">Ongoing support for everyday living.</p>
                 <p style={{ color: 'var(--terracotta)', fontSize: '1.5rem' }} className="font-bold mb-6">$695/month</p>
                 <ul className="space-y-2 text-sm">
                   <li>✓ 5 companion walks per week</li>
@@ -180,6 +182,7 @@ export default function Pricing() {
                   Full support
                 </div>
                 <h3 className="mb-2">Premier Bundle</h3>
+                <p className="text-lg mb-4 italic">Full weekly support for home and routine.</p>
                 <p style={{ color: 'var(--sage)', fontSize: '1.5rem' }} className="font-bold mb-6">$1095/month</p>
                 <ul className="space-y-2 text-sm">
                   <li>✓ 5 companion walks per week</li>
