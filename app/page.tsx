@@ -55,7 +55,7 @@ export default function Home() {
               Stay home. Stay independent. Stay yourself.
             </h1>
             <p className="text-lg mb-8">
-              Good Company helps seniors in Shelby Township, Washington Township, and Rochester Hills stay home longer—with trusted, dignified support for the things they'd rather not do alone.
+              Good Company helps seniors in Shelby Township and the surrounding area stay home longer with trusted, dignified support for the things they'd rather not do alone.
             </p>
             <a href="#schedule" className="btn-primary inline-block">
               Schedule a Free Visit
