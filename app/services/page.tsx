@@ -54,7 +54,7 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
               </li>
             </ul>
           </div>
-<style>{`#housekeeping { margin-top: -4rem !important; }`}</style>
+<style>{`#housekeeping { margin-top: -2rem !important; }`}</style>
           {/* Housekeeping */}
          <div id="housekeeping" className="mb-4 pb-4 border-b border-gray-200" style={{ marginTop: "-3rem" }}>
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Housekeeping & Meal Prep</h2>
