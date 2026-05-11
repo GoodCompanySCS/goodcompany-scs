@@ -12,12 +12,12 @@ export default function Services() {
           <div id="companion" className="mb-16 pb-16 border-b border-gray-200">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Companion Services</h2>
             <p className="text-lg mb-6">
-              Our flagship service. The reason a senior who can keep walking their dog with someone alongside them keeps their independence longer.
+              Our flagship service. With someone walking alongside them, a senior can keep their independence longer.
             </p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Companion Dog Walks:</strong> Walk alongside your loved one and their dog. Provides safety, connection, and exercise all at once.</span>
+                <span><strong>Companion Walks:</strong> Walk alongside your loved one. Provides safety, connection, and exercise all at once.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
@@ -43,7 +43,7 @@ export default function Services() {
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Dog Yard Cleanup:</strong> Weekly cleanup service keeps their yard tidy and safe.</span>
+                <span><strong>Dog Yard or Kitty Litter Cleanup:</strong> Weekly cleanup service keeps their yard tidy and safe.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
@@ -54,14 +54,14 @@ export default function Services() {
 
           {/* Housekeeping */}
           <div id="housekeeping" className="mb-16 pb-16 border-b border-gray-200">
-            <h2 style={{ color: 'var(--sage)' }} className="mb-6">Light Housekeeping & Meal Prep</h2>
+            <h2 style={{ color: 'var(--sage)' }} className="mb-6">Housekeeping & Meal Prep</h2>
             <p className="text-lg mb-6">
               Keeping their home comfortable and functional so they can focus on living.
             </p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>General Tidying:</strong> Light dusting, straightening, keeping common areas organized.</span>
+                <span><strong>General Tidying:</strong> Dusting, straightening, keeping common areas organized.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
@@ -69,14 +69,14 @@ export default function Services() {
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Light Meal Preparation:</strong> Simple, nutritious meal prep to make eating well easier.</span>
+                <span><strong>Meal Preparation:</strong> Simple, nutritious meal prep to make eating well easier. Includes services such as vegetable and fruit washing, cutting and storing; meat preparation and pre-cooking; other meal prep services. </span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
                 <span><strong>Surface Cleaning:</strong> Keeping kitchens and bathrooms fresh and hygienic.</span>
               </li>
             </ul>
-            <p className="text-sm text-gray-600 italic">Note: We focus on light tidying and routine upkeep. We don't handle deep cleans, biohazard situations, or hoarding scenarios.</p>
+            <p className="text-sm text-gray-600 italic">Note: We focus on tidying and routine upkeep. We don't handle biohazard situations or hoarding scenarios.</p>
           </div>
 
           {/* Errands */}
@@ -122,7 +122,7 @@ export default function Services() {
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Driveway Power Washing:</strong> Keeps driveways safe and looking fresh.</span>
+                <span><strong>Driveway and Sidewalk Power Washing:</strong> Keeps driveways safe and looking fresh.</span>
               </li>
             </ul>
           </div>
