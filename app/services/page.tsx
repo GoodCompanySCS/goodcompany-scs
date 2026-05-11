@@ -12,7 +12,7 @@ export default function Services() {
           <div id="companion" className="mb-16 pb-16 border-b border-gray-200">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Companion Services</h2>
             <p className="text-lg mb-6">
-              Our flagship service. With someone walking alongside them, a senior can keep their independence longer.
+              Our flagship service. With someone walking alongside, a senior can keep their independence longer.
             </p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
