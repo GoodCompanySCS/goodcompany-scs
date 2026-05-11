@@ -10,7 +10,7 @@ The services below are some of the most common ways we help. If there’s someth
           </p>
 
           {/* Companion Services */}
-          <div id="companion" className="mb-16 pb-16 border-b border-gray-200">
+          <div id="companion" className="mb-8 pb-8 border-b border-gray-200">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Companion Services</h2>
             <p className="text-lg mb-6">
               Our signature service, because many things feel easier with someone alongside you.
@@ -34,7 +34,7 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
           </div>
 
           {/* Pet Services */}
-          <div id="pet" className="mb-16 pb-16 border-b border-gray-200">
+          <div id="pet" className="mb-8 pb-8 border-b border-gray-200">
             <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Pet Services</h2>
             <p className="text-lg mb-6">
               Pets are family, and we help seniors continue enjoying the companionship and routine that pets bring.
@@ -56,7 +56,7 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
           </div>
 
           {/* Housekeeping */}
-         <div id="housekeeping" className="mb-16 pb-16 border-b border-gray-200">
+         <div id="housekeeping" className="mb-8 pb-8 border-b border-gray-200">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Housekeeping & Meal Prep</h2>
             <p className="text-lg mb-6">
               A comfortable home makes everyday life easier. We help with routine upkeep so seniors can focus on enjoying their home, not struggling to maintain it.
@@ -83,7 +83,7 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
           </div>
 
           {/* Errands */}
-          <div id="errands" className="mb-16 pb-16 border-b border-gray-200">
+          <div id="errands" className="mb-8 pb-8 border-b border-gray-200">
             <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Errand Services</h2>
             <p className="text-lg mb-6">
               Reliable help with the everyday tasks that are easier with an extra set of hands.
@@ -105,7 +105,7 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
           </div>
 
           {/* Yard Work */}
-          <div id="yard" className="mb-16">
+          <div id="yard" className="mb-8">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Seasonal Yard Work</h2>
             <p className="text-lg mb-6">
              Helping keep outdoor spaces neat, accessible, and welcoming throughout the year.
