@@ -71,7 +71,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div style={{ borderLeftColor: 'var(--sage)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--sage)' }} className="mb-3">Companion Services</h3>
-              <p>Walking outdoors alongside your loved one and their dog if they own one. Accompany them to appointments, pharmacy, grocery, or other errands. Regular wellness check-ins to keep them connected.</p>
+              <p>These services can include walking outdoors alongside your loved one. Accompanying them to appointments, pharmacy, grocery, or other errands. Regular wellness check-ins to keep them connected.</p>
             </div>
             <div style={{ borderLeftColor: 'var(--terracotta)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--terracotta)' }} className="mb-3">Pet Services</h3>
