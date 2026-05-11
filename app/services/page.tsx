@@ -61,7 +61,7 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
             <p className="text-lg mb-6">
               A comfortable home makes everyday life easier. We help with routine upkeep so seniors can focus on enjoying their home, not struggling to maintain it.
             </p>
-            <ul className="space-y-3 mb-6">
+            <ul className="space-y-3 mb-4">
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
                 <span><strong>General Tidying:</strong> Organizing, dusting, straightening, and keeping common areas comfortable and functional.</span>
