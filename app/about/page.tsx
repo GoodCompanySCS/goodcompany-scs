@@ -48,7 +48,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="mb-10 pb-10 border-b border-gray-200">
+            <div className="mb-12 pb-12 border-b border-gray-200">
               <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Our Standards</h2>
               <ul className="space-y-6">
                 <li>
