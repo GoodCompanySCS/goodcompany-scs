@@ -134,12 +134,12 @@ export default function Pricing() {
                   Good for starting out
                 </div>
                 <h3 className="mb-2">Essentials Bundle</h3>
-                <p style={{ color: 'var(--terracotta)', fontSize: '1.5rem' }} className="font-bold mb-6">$250/month</p>
+                <p style={{ color: 'var(--terracotta)', fontSize: '1.5rem' }} className="font-bold mb-6">$295/month</p>
                 <ul className="space-y-2 text-sm">
-                  <li>✓ 2 companion dog walks per week</li>
-                  <li>✓ 2 grocery/errand runs per month</li>
+                  <li>✓ 1 companion walks per week</li>
+                  <li>✓ 2 errand or grocery runs per month</li>
                   <li>✓ 1 wellness check-in per week</li>
-                  <li>✓ Flexible scheduling</li>
+                  <li>✓ Priority scheduling</li>
                 </ul>
               </div>
 
@@ -148,12 +148,13 @@ export default function Pricing() {
                   Most popular
                 </div>
                 <h3 className="mb-2">Companion Bundle</h3>
-                <p style={{ color: 'var(--sage)', fontSize: '1.5rem' }} className="font-bold mb-6">$295/month</p>
+                <p style={{ color: 'var(--sage)', fontSize: '1.5rem' }} className="font-bold mb-6">$425/month</p>
                 <ul className="space-y-2 text-sm">
-                  <li>✓ 3 companion dog walks per week</li>
-                  <li>✓ 3 grocery/errand runs per month</li>
+                  <li>✓ 3 companion walks per week</li>
+                  <li>✓ 3 errand or grocery runs per month</li>
                   <li>✓ 2 wellness check-ins per week</li>
-                  <li>✓ Flexible scheduling</li>
+                  <li>✓ Priority scheduling</li>
+                  <li>✓ Flexible monthly service adjustments</li>
                 </ul>
               </div>
 
@@ -162,13 +163,14 @@ export default function Pricing() {
                   Comprehensive support
                 </div>
                 <h3 className="mb-2">Comprehensive Bundle</h3>
-                <p style={{ color: 'var(--terracotta)', fontSize: '1.5rem' }} className="font-bold mb-6">$525/month</p>
+                <p style={{ color: 'var(--terracotta)', fontSize: '1.5rem' }} className="font-bold mb-6">$695/month</p>
                 <ul className="space-y-2 text-sm">
-                  <li>✓ 5 companion dog walks per week</li>
-                  <li>✓ 4 grocery/errand runs per month</li>
+                  <li>✓ 5 companion walks per week</li>
+                  <li>✓ Weekly errand or grocery support</li>
                   <li>✓ 2 wellness check-ins per week</li>
                   <li>✓ Bi-weekly light housekeeping</li>
-                  <li>✓ Flexible scheduling</li>
+                  <li>✓ Priority scheduling</li>
+                  <li>✓ Flexible monthly service adjustments</li>
                 </ul>
               </div>
 
@@ -177,14 +179,16 @@ export default function Pricing() {
                   Full support
                 </div>
                 <h3 className="mb-2">Premier Bundle</h3>
-                <p style={{ color: 'var(--sage)', fontSize: '1.5rem' }} className="font-bold mb-6">$895/month</p>
+                <p style={{ color: 'var(--sage)', fontSize: '1.5rem' }} className="font-bold mb-6">$1095/month</p>
                 <ul className="space-y-2 text-sm">
-                  <li>✓ 5 companion dog walks per week</li>
-                  <li>✓ 6 grocery/errand runs per month</li>
+                  <li>✓ 5 companion walks per week</li>
+                  <li>✓ Weekly grocery and errand support</li>
                   <li>✓ 3 wellness check-ins per week</li>
                   <li>✓ Weekly light housekeeping</li>
                   <li>✓ Weekly yard maintenance</li>
-                  <li>✓ Flexible scheduling</li>
+                  <li>✓ Priority scheduling</li>
+                  <li>✓ Flexible monthly service adjustments</li>
+                  <li>✓ Dedicated recurring visit schedule</li>
                 </ul>
               </div>
             </div>
