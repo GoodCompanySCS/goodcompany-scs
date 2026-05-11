@@ -72,7 +72,7 @@ export default function Pricing() {
 
           {/* Monthly Packages */}
           <div className="mb-16">
-            <h2 style={{ color: 'var(--terracotta)' }} className="mb-8">Monthly Packages</h2>
+            <h2 style={{ color: 'var(--terracotta)' }} className="mb-4">Monthly Packages</h2>
             <p className="text-lg mb-4">
               Save money with regular service. Lock in predictable costs.
             </p>
