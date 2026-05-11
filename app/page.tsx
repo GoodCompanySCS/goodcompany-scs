@@ -75,15 +75,15 @@ export default function Home() {
             </div>
             <div style={{ borderLeftColor: 'var(--terracotta)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--terracotta)' }} className="mb-3">Pet Services</h3>
-              <p>Solo or companion dog walks, yard cleanup, other pet cleanup, and feeding check-ins. Keeps their bond with their pet strong while they're away.</p>
+              <p>Solo or companion dog walks, yard cleanup, other pet cleanup, and feeding check-ins. Keepin their bond with their pet strong while they're away.</p>
             </div>
             <div style={{ borderLeftColor: 'var(--sage)', borderLeftWidth: '4px' }} className="pl-6">
-              <h3 style={{ color: 'var(--sage)' }} className="mb-3">Light Housekeeping & Meal Prep</h3>
+              <h3 style={{ color: 'var(--sage)' }} className="mb-3">Housekeeping & Meal Prep</h3>
               <p>General tidying, dishes, laundry, light meal preparation. Keeping their home comfortable and functional.</p>
             </div>
             <div style={{ borderLeftColor: 'var(--terracotta)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--terracotta)' }} className="mb-3">Seasonal Yard Work</h3>
-              <p>Spring/fall cleanups, weeding assistance, and power washing. Everything done with care.</p>
+              <p>Examples of these services include spring/fall cleanups, weed assistance, and power washing. Everything done with care.</p>
             </div>
           </div>
           <div className="mt-12 text-center">
