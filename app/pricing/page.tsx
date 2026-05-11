@@ -11,7 +11,7 @@ export default function Pricing() {
           {/* À La Carte */}
           <div className="mb-16">
             <h2 style={{ color: 'var(--sage)' }} className="mb-8">À La Carte Services</h2>
-            <p className="text-lg mb-10">
+            <p className="text-lg mb-8">
               Pay as you go for individual services.
             </p>
 
