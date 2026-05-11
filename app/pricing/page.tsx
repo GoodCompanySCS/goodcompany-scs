@@ -5,7 +5,7 @@ export default function Pricing() {
         <div className="container-max">
           <h1 className="mb-4">Pricing</h1>
           <p className="text-lg mb-12 max-w-2xl">
-            Every visit comes with the peace of mind of working with a bonded, insured, and background-checked local business
+            Every visit comes with the peace of mind of working with a bonded, insured, and background-checked local business.
           </p>
 
           {/* À La Carte */}
