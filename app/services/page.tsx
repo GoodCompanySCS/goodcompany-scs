@@ -17,11 +17,11 @@ export default function Services() {
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Companion Walks:</strong> Walk alongside your loved one. Provides safety, connection, and exercise all at once.</span>
+                <span><strong>Companion Walks:</strong> Walking alongside you or your senior loved one, which provides safety, connection, and exercise all at once.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Companion Errand Runs:</strong> Accompany them to the pharmacy, grocery store, appointments, or anywhere else. No need to go alone.</span>
+                <span><strong>Companion Errand Runs:</strong> Accompanying you or your senior loved one to the pharmacy, grocery store, appointments, or anywhere else. No need to go alone.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
@@ -34,7 +34,7 @@ export default function Services() {
           <div id="pet" className="mb-16 pb-16 border-b border-gray-200">
             <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Pet Services</h2>
             <p className="text-lg mb-6">
-              Keeps their bond with their pet strong, even when they can't do it all themselves.
+              Keeps the senior's bond with their pet strong, even when they can't do it all themselves.
             </p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
@@ -43,11 +43,11 @@ export default function Services() {
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Dog Yard or Kitty Litter Cleanup:</strong> Weekly cleanup service keeps their yard tidy and safe.</span>
+                <span><strong>Dog Yard or Kitty Litter Cleanup:</strong> Weekly cleanup service keeps your or your senior loved one's yard tidy and safe.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Pet Feeding & Check-Ins:</strong> We feed and check on their pets while they're at appointments or away.</span>
+                <span><strong>Pet Feeding & Check-Ins:</strong> We feed and check on pets while you or your senior loved one are away.</span>
               </li>
             </ul>
           </div>
@@ -56,7 +56,7 @@ export default function Services() {
           <div id="housekeeping" className="mb-16 pb-16 border-b border-gray-200">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Housekeeping & Meal Prep</h2>
             <p className="text-lg mb-6">
-              Keeping their home comfortable and functional so they can focus on living.
+              Keeping the home comfortable and functional so you or your senior loved one can focus on living.
             </p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
@@ -65,7 +65,7 @@ export default function Services() {
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Dishes & Laundry:</strong> Help with everyday chores that add up.</span>
+                <span><strong>Dishes & Laundry:</strong> Help with everyday chores that take time and energy that may not be available to your or your senior loved one.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
@@ -76,7 +76,7 @@ export default function Services() {
                 <span><strong>Surface Cleaning:</strong> Keeping kitchens and bathrooms fresh and hygienic.</span>
               </li>
             </ul>
-            <p className="text-sm text-gray-600 italic">Note: We focus on tidying and routine upkeep. We don't handle biohazard situations or hoarding scenarios.</p>
+            <p className="text-sm text-gray-600 italic">Please Note: We focus on tidying and routine upkeep. We don't handle biohazard situations or hoarding scenarios.</p>
           </div>
 
           {/* Errands */}
@@ -88,7 +88,7 @@ export default function Services() {
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Grocery Shopping:</strong> We shop from their list and deliver groceries home (within 3-mile radius).</span>
+                <span><strong>Grocery Shopping:</strong> We shop from a individually-tailored list and deliver groceries home (within 3-mile radius).</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
@@ -105,7 +105,7 @@ export default function Services() {
           <div id="yard" className="mb-16">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Seasonal Yard Work</h2>
             <p className="text-lg mb-6">
-              Keep their outdoor space neat, safe, and accessible throughout the year.
+              Keep your or your senior loved one's outdoor space neat, safe, and accessible throughout the year.
             </p>
             <ul className="space-y-3">
               <li className="flex items-start">
@@ -114,7 +114,7 @@ export default function Services() {
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Leaf Removal:</strong> We handle fall cleanup so they don't have to.</span>
+                <span><strong>Leaf Removal:</strong> We handle fall cleanup so you or your senior loved one doesn't have to.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
