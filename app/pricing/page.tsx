@@ -144,7 +144,7 @@ export default function Pricing() {
                 </ul>
               </div>
 
-              <div style={{ borderColor: 'var(--sage)', borderWidth: '2px' }} className="p-8 rounded-lg transform scale-110">
+              <div style={{ borderColor: 'var(--sage)', borderWidth: '2px' }} className="p-8 rounded-lg transform scale-105">
                 <div style={{ backgroundColor: 'var(--sage)', color: 'white' }} className="inline-block px-4 py-2 rounded mb-6 text-sm font-semibold">
                   Most popular
                 </div>
