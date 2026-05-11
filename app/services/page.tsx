@@ -13,22 +13,22 @@ The services below are some of the most common ways we help. If there’s someth
           <div id="companion" className="mb-16 pb-16 border-b border-gray-200">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Companion Services</h2>
             <p className="text-lg mb-6">
-              Our signature service -- because many things feel easier with someone alongside you.
+              Our signature service, because many things feel easier with someone alongside you.
 <div className="h-6"></div>
 Whether it’s a walk around the neighborhood, a trip to the store, or simply a regular check-in, companion services provide support, conversation, and peace of mind while helping seniors maintain their routines and independence.
             </p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Companion Walks:</strong> We will walk alongside you or your senior loved one, which provides safety, connection, and exercise all at once.</span>
+                <span><strong>Companion Walks:</strong> We walk alongside seniors for safe, comfortable walks that encourage movement, confidence, fresh air, and connection.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Companion Errand Runs:</strong> Accompanying you or your senior loved one to the pharmacy, grocery store, appointments, or anywhere else. No need to go alone.</span>
+                <span><strong>Companion Errand Runs:</strong> Trips to the grocery store, pharmacy, appointments, or other errands are easier when you don’t have to go alone.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Wellness Check-Ins:</strong> Regular visits to chat, check in, and make sure everything's okay.</span>
+                <span><strong>Wellness Check-Ins:</strong> Friendly visits to chat, check in, and make sure everything is going smoothly at home.</span>
               </li>
             </ul>
           </div>
@@ -37,20 +37,20 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
           <div id="pet" className="mb-16 pb-16 border-b border-gray-200">
             <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Pet Services</h2>
             <p className="text-lg mb-6">
-              Keeps the senior's bond with their pet strong, even when they can't do it all themselves.
+              Pets are family, and we help seniors continue enjoying the companionship and routine that pets bring.
             </p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Solo Dog Walks:</strong> We walk small to medium dogs (up to 60 lbs) so they get their exercise and outdoor time.</span>
+                <span><strong>Solo Dog Walks:</strong> We walk small to medium dogs (up to 60 lbs) to help keep pets active, exercised, and happy.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Dog Yard or Kitty Litter Cleanup:</strong> Weekly cleanup service keeps your or your senior loved one's yard tidy and safe.</span>
+                <span><strong>Dog Yard or Kitty Litter Cleanup:</strong> Routine cleanup services help keep outdoor spaces and litter areas tidy, clean, and manageable.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Pet Feeding & Check-Ins:</strong> We feed and check on pets while you or your senior loved one are away.</span>
+                <span><strong>Reliable feeding and check-in visits while clients are away at appointments, traveling, or simply needing an extra hand.</span>
               </li>
             </ul>
           </div>
@@ -59,47 +59,47 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
           <div id="housekeeping" className="mb-16 pb-16 border-b border-gray-200">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Housekeeping & Meal Prep</h2>
             <p className="text-lg mb-6">
-              Keeping the home comfortable and functional so you or your senior loved one can focus on living.
+              A comfortable home makes everyday life easier. We help with routine upkeep so seniors can focus on enjoying their home, not struggling to maintain it.
             </p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>General Tidying:</strong> Dusting, straightening, keeping common areas organized.</span>
+                <span><strong>General Tidying:</strong> Organizing, dusting, straightening, and keeping common areas comfortable and functional.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Dishes & Laundry:</strong> Help with everyday chores that take time and energy that may not be available to your or your senior loved one.</span>
+                <span><strong>Dishes & Laundry:</strong> Help with everyday household tasks that can become tiring or time-consuming.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Meal Preparation:</strong> Simple, nutritious meal prep to make eating well easier. Includes services such as vegetable and fruit washing, cutting and storing; meat preparation and pre-cooking; other meal prep services. </span>
+                <span><strong>Meal Preparation:</strong> Simple, thoughtful meal prep that makes eating well easier. Services may include washing and preparing fruits and vegetables, pre-cooking meats, portioning meals, and basic kitchen prep. </span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Surface Cleaning:</strong> Keeping kitchens and bathrooms fresh and hygienic.</span>
+                <span><strong>Surface Cleaning:</strong> Keeping kitchens and bathrooms fresh, tidy, and hygienic through routine upkeep.</span>
               </li>
             </ul>
-            <p className="text-sm text-gray-600 italic">Please Note: We focus on tidying and routine upkeep. We don't handle biohazard situations or hoarding scenarios.</p>
+            <p className="text-sm text-gray-600 bold">Please Note: We provide light housekeeping and routine upkeep services. We do not handle deep cleaning, biohazard situations, or hoarding scenarios.</p>
           </div>
 
           {/* Errands */}
           <div id="errands" className="mb-16 pb-16 border-b border-gray-200">
             <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Errand Services</h2>
             <p className="text-lg mb-6">
-              Take care of the things that are harder to do alone.
+              Reliable help with the everyday tasks that are easier with an extra set of hands.
             </p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Grocery Shopping:</strong> We shop from a individually-tailored list and deliver groceries home (within 3-mile radius).</span>
+                <span><strong>Grocery Shopping:</strong> Personalized grocery shopping and delivery based on individual preferences and lists (within a 3-mile radius).</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Prescription Pickup:</strong> Fast, reliable pharmacy runs.</span>
+                <span><strong>Prescription Pickup:</strong> Reliable pharmacy pickup services to help avoid extra trips and stress.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Local Errands:</strong> Post office, dry cleaning, banks, and more within our service area.</span>
+                <span><strong>Local Errands:</strong> Help with trips to the post office, bank, dry cleaner, and other nearby errands within our service area.</span>
               </li>
             </ul>
           </div>
@@ -108,24 +108,24 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
           <div id="yard" className="mb-16">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Seasonal Yard Work</h2>
             <p className="text-lg mb-6">
-              Keep your or your senior loved one's outdoor space neat, safe, and accessible throughout the year.
+             Helping keep outdoor spaces neat, accessible, and welcoming throughout the year.
             </p>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Spring & Fall Cleanups:</strong> Seasonal tidying to keep the property in good shape.</span>
+                <span><strong>Spring & Fall Cleanups:</strong> Seasonal yard tidying to help keep properties safe, manageable, and looking their best.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Leaf Removal:</strong> We handle fall cleanup so you or your senior loved one doesn't have to.</span>
+                <span><strong>Leaf Removal:</strong> Fall cleanup services so leaves and debris don’t become a burden or safety concern.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Light Bush Trimming & Lawn Mowing:</strong> Keep the yard accessible and tidy.</span>
+                <span><strong>Light Bush Trimming & Lawn Mowing:</strong> Routine outdoor upkeep to help maintain a tidy and accessible yard.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Driveway and Sidewalk Power Washing:</strong> Keeps driveways safe and looking fresh.</span>
+                <span><strong>Driveway and Sidewalk Power Washing:</strong> Refreshing outdoor surfaces while helping improve appearance and safety.</span>
               </li>
             </ul>
           </div>
