@@ -5,7 +5,8 @@ export default function Services() {
         <div className="container-max">
           <h1 className="mb-8">Our Services</h1>
           <p className="text-lg mb-12 max-w-3xl">
-            We offer personalized services designed to help seniors stay home, stay independent, and stay themselves. Whether you need regular support or occasional help, we've got your covered. The services below are examples of what we do. If you need something that isn't listed, please ask. We'll build a plan around what actually suits your needs. 
+            We offer personalized support designed to help seniors stay home, stay independent, and stay themselves. Whether you’re looking for regular weekly help or occasional support, we’re here to make everyday life feel a little easier.
+The services below are some of the most common ways we help. If there’s something you need that isn’t listed, just ask. We’re happy to build a plan around what works best for you and your family.
           </p>
 
           {/* Companion Services */}
