@@ -40,7 +40,6 @@ export default function Pricing() {
         </li>         
         <li className="flex justify-between">
           <span>General Household Support*</span>
-          <span className="font-semibold">Includes light housekeeping, organizing, meal prep, companionship, and other routine support services.</span>
           <span className="font-semibold">$40/hour</span>
         </li>
         <li className="text-sm text-gray-600">1-hour minimum</li>
