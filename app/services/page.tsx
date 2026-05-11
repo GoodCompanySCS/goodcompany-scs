@@ -14,8 +14,8 @@ The services below are some of the most common ways we help. If there’s someth
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Companion Services</h2>
             <p className="text-lg mb-6">
               Our signature service -- because many things feel easier with someone alongside you.
-
-<br/><br/>Whether it’s a walk around the neighborhood, a trip to the store, or simply a regular check-in, companion services provide support, conversation, and peace of mind while helping seniors maintain their routines and independence.
+<div className="h-6"></div>
+Whether it’s a walk around the neighborhood, a trip to the store, or simply a regular check-in, companion services provide support, conversation, and peace of mind while helping seniors maintain their routines and independence.
             </p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
