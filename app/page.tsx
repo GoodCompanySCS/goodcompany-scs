@@ -71,19 +71,19 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div style={{ borderLeftColor: 'var(--sage)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--sage)' }} className="mb-3">Companion Services</h3>
-              <p>Walk alongside your loved one and their dog. Accompany them to appointments, pharmacy, or grocery. Regular wellness check-ins to keep them connected.</p>
+              <p>Walking outdoors alongside your loved one and their dog if they own one. Accompany them to appointments, pharmacy, grocery, or other errands. Regular wellness check-ins to keep them connected.</p>
             </div>
             <div style={{ borderLeftColor: 'var(--terracotta)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--terracotta)' }} className="mb-3">Pet Services</h3>
-              <p>Solo dog walks, yard cleanup, and feeding check-ins. Keeps their bond with their pet strong while they're away.</p>
+              <p>Solo dog walks, yard cleanup, other pet cleanup, and feeding check-ins. Keeps their bond with their pet strong while they're away.</p>
             </div>
             <div style={{ borderLeftColor: 'var(--sage)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--sage)' }} className="mb-3">Light Housekeeping & Meal Prep</h3>
               <p>General tidying, dishes, laundry, light meal preparation. Keeping their home comfortable and functional.</p>
             </div>
             <div style={{ borderLeftColor: 'var(--terracotta)', borderLeftWidth: '4px' }} className="pl-6">
-              <h3 style={{ color: 'var(--terracotta)' }} className="mb-3">Errands & Seasonal Yard Work</h3>
-              <p>Grocery shopping, prescription pickup, spring/fall cleanups, power washing. Everything done with care.</p>
+              <h3 style={{ color: 'var(--terracotta)' }} className="mb-3">Seasonal Yard Work</h3>
+              <p>Spring/fall cleanups, weeding assistance, and power washing. Everything done with care.</p>
             </div>
           </div>
           <div className="mt-12 text-center">
