@@ -17,7 +17,7 @@ export default function Services() {
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Companion Walks:</strong> Walking alongside you or your senior loved one, which provides safety, connection, and exercise all at once.</span>
+                <span><strong>Companion Walks:</strong> We will walk alongside you or your senior loved one, which provides safety, connection, and exercise all at once.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
