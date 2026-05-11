@@ -36,7 +36,7 @@ export default function Pricing() {
           <span className="font-semibold">$25</span>
         </li>
         <li className="pt-4 mt-4 border-t border-gray-200">
-          <h4 className="font-semibold mb-3">General Services</h4>
+          <h4 className="text-lg font-semibold mb-3">General Services</h4>
         </li>
         <li className="flex justify-between">
           <span>Hourly work (general)</span>
