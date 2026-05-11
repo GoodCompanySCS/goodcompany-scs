@@ -5,7 +5,7 @@ export default function Pricing() {
         <div className="container-max">
           <h1 className="mb-4">Pricing</h1>
           <p className="text-lg mb-12 max-w-2xl">
-            Transparent pricing you can trust. Pay for what you need, exactly when you need it. All prices include the peace of mind that comes with bonded, insured, background-checked care.
+            Every visit comes with the peace of mind of working with a bonded, insured, and background-checked local business
           </p>
 
           {/* À La Carte */}
@@ -38,8 +38,9 @@ export default function Pricing() {
         <li className="pt-4 mt-4 border-t border-gray-200">
           <h4 className="text-4xl font-semibold mb-3">General Services</h4>
         </li>
+        <li className="font-semibold">Includes light housekeeping, organizing, meal prep, companionship, and other routine support services.</li>span></li>          
         <li className="flex justify-between">
-          <span>Hourly work (general)</span>
+          <span>General Household Support*</span>
           <span className="font-semibold">$40/hour</span>
         </li>
         <li className="text-sm text-gray-600">1-hour minimum</li>
