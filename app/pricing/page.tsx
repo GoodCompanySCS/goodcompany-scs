@@ -126,7 +126,7 @@ export default function Pricing() {
           <div className="mb-16">
             <h2 style={{ color: 'var(--sage)' }} className="mb-4">All-Inclusive Bundles</h2>
             <p className="text-lg mb-4">
-              One monthly bill. Everything included. Perfect for seniors who want to simplify.
+              One monthly bill. Everything included. Perfect for seniors who want to simplify. <br>Every household is different. Bundle services can be adjusted to fit individual routines and needs.</br>
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
