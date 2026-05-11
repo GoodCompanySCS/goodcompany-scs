@@ -23,28 +23,19 @@ export default function About() {
             <div className="mb-12 pb-12 border-b border-gray-200">
               <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Meet Natalie</h2>
 
-<p className="text-lg mb-6">Good Company is owned and operated by Natalie, a former U.S. Army Contract Specialist with a background in federal procurement and contract management.</p>
-
-<p className="text-lg mb-6">For years, Natalie worked in roles that required professionalism, reliability, attention to detail, and strong communication. Those same values now shape every part of Good Company.</p>
-
-<p className="text-lg mb-6">The idea for Good Company came from something much more personal though. For the past two years, Natalie and her husband Chris have spent countless evenings walking the neighborhoods of Shelby Township for exercise. During those walks, they found themselves naturally stopping to help senior neighbors with everyday things that had quietly become difficult.</p>
-
-<p className="text-lg mb-6">Sometimes it was bringing trash cans back up to the garage after pickup day. Other times it meant helping someone who had fallen while walking their dog, getting the dog's harness back on, and helping them safely back onto their feet. One evening, Natalie and Chris came across a woman standing outside alone in the cold who appeared confused and disoriented. They stayed with her, helped contact medical assistance, and made sure she was safe.</p>
-
-<p className="text-lg mb-6">Those moments stuck with Natalie.</p>
-
-<p className="text-lg mb-6">She realized that many seniors are doing their best to remain independent, but sometimes an extra set of hands, a familiar face, or a little support can make a big difference. Not because they are incapable, but because everyday life is simply easier when someone dependable is alongside you.</p>
-
-<p className="text-lg mb-6">That realization became the foundation for Good Company.</p>
-
-<p className="text-lg mb-6">Natalie believes the best service is personal. It means showing up consistently, communicating clearly, and treating people the way you would want your own family treated.</p>
-
-<p className="text-lg mb-6">From scheduling and client communication to day-to-day visits, Natalie personally manages every aspect of the business. When you call Good Company, you are speaking directly with the person providing the service.</p>
-
-<p className="text-lg mb-6">You are never treated like a number. You are treated like a neighbor.</p>
+            <p className="text-lg mb-6">Good Company is owned and operated by Natalie, a former U.S. Army Contract Specialist with a background in federal procurement and contract management.</p>
+            <p className="text-lg mb-6">For years, Natalie worked in roles that required professionalism, reliability, attention to detail, and strong communication. Those same values now shape every part of Good Company.</p>
+            <p className="text-lg mb-6">The idea for Good Company came from something much more personal though. For the past two years, Natalie and her husband Chris have spent countless evenings walking the neighborhoods of Shelby Township for exercise. During those walks, they found themselves naturally stopping to help senior neighbors with everyday things that had quietly become difficult.</p>
+            <p className="text-lg mb-6">Sometimes it was bringing trash cans back up to the garage after pickup day. Other times it meant helping someone who had fallen while walking their dog, getting the dog's harness back on, and helping them safely back onto their feet. One evening, Natalie and Chris came across a woman standing outside alone in the cold who appeared confused and disoriented. They stayed with her, helped contact medical assistance, and made sure she was safe.</p>
+            <p className="text-lg mb-6">Those moments stuck with Natalie.</p>
+            <p className="text-lg mb-6">She realized that many seniors are doing their best to remain independent, but sometimes an extra set of hands, a familiar face, or a little support can make a big difference. Not because they are incapable, but because everyday life is simply easier when someone dependable is alongside you.</p>
+            <p className="text-lg mb-6">That realization became the foundation for Good Company.</p>
+            <p className="text-lg mb-6">Natalie believes the best service is personal. It means showing up consistently, communicating clearly, and treating people the way you would want your own family treated.</p>
+            <p className="text-lg mb-6">From scheduling and client communication to day-to-day visits, Natalie personally manages every aspect of the business. When you call Good Company, you are speaking directly with the person providing the service.</p>
+            <p className="text-lg mb-6">You are never treated like a number. You are treated like a neighbor.</p>
             </div>
 
-            <div className="mb-12">
+            <div className="mb12">
               <h2 style={{ color: 'var(--sage)' }} className="mb-6">Why We Do This</h2>
               <p className="text-lg mb-6">
                 Aging well means more than staying healthy—it means staying connected, staying active, and staying in control of your own life. Too many seniors face a choice: either struggle to manage everything themselves, or give up their independence.
@@ -57,7 +48,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="mb-12 pb-12 border-b border-gray-200">
+            <div className="mb-8 pb-8 border-b border-gray-200">
               <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Our Standards</h2>
               <ul className="space-y-6">
                 <li>
