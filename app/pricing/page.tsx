@@ -17,29 +17,32 @@ export default function Pricing() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-8 rounded-lg">
-                <h3 className="mb-6">General Services</h3>
+                <h3 className="mb-6">Flat-Rate Services</h3>
                 <ul className="space-y-3">
                   <li className="flex justify-between">
-                    <span>Hourly work (general)</span>
-                    <span className="font-semibold">$40/hour</span>
-                  </li>
-                  <li className="text-sm text-gray-600">1-hour minimum</li>
-                  <li className="flex justify-between mt-4">
-                    <span>Solo dog walk (30 min)</span>
-                    <span className="font-semibold">$25</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Companion dog walk (45 min)</span>
-                    <span className="font-semibold">$30</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Weekly dog yard cleanup</span>
-                    <span className="font-semibold">$20</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Wellness check-in (30 min)</span>
-                    <span className="font-semibold">$25</span>
-                  </li>
+          <span>Solo dog walk (30 min)</span>
+          <span className="font-semibold">$25</span>
+        </li>
+        <li className="flex justify-between">
+          <span>Companion dog walk (45 min)</span>
+          <span className="font-semibold">$30</span>
+        </li>
+        <li className="flex justify-between">
+          <span>Weekly dog yard cleanup</span>
+          <span className="font-semibold">$20</span>
+        </li>
+        <li className="flex justify-between">
+          <span>Wellness check-in (30 min)</span>
+          <span className="font-semibold">$25</span>
+        </li>
+        <li className="pt-4 mt-4 border-t border-gray-200">
+          <h4 className="font-semibold mb-3">General Services</h4>
+        </li>
+        <li className="flex justify-between">
+          <span>Hourly work (general)</span>
+          <span className="font-semibold">$40/hour</span>
+        </li>
+        <li className="text-sm text-gray-600">1-hour minimum</li>
                 </ul>
               </div>
 
