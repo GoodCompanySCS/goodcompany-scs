@@ -14,6 +14,7 @@ export default function About() {
               <p className="text-lg">
                We believe aging in place looks different for everyone. For some, it means keeping a familiar routine. For others, it means staying connected to their neighborhood, their pets, or the home they love. More than anything, it means having the freedom to continue living life on your own terms.
               </p>
+              <div className="h-4"></div>
               <p className="text-lg">
                That’s why Good Company was built around practical support, dependable service, and treating every client with dignity and respect.
               </p>
