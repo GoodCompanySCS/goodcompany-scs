@@ -56,7 +56,7 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
           </div>
 
           {/* Housekeeping */}
-          <div id="housekeeping" className="mb-8 pb-8 border-b border-gray-200">
+          <div id="housekeeping" className="mb-4 pb-4 border-b border-gray-200">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Housekeeping & Meal Prep</h2>
             <p className="text-lg mb-6">
               A comfortable home makes everyday life easier. We help with routine upkeep so seniors can focus on enjoying their home, not struggling to maintain it.
