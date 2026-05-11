@@ -8,10 +8,9 @@ export default function About() {
           <div className="max-w-3xl">
             <div className="mb-12">
               <h2 style={{ color: 'var(--sage)' }} className="mb-6">Our Mission</h2>
-              <p className="text-lg mb-6">
+              <p className="text-lg mb-4">
                 Good Company helps seniors stay home, stay independent, and stay themselves by being the trusted neighbor who shows up for the things they’d rather not do alone.
               </p>
-              <div className="h-4"></div>
               <p className="text-lg">
                We believe aging in place looks different for everyone. For some, it means keeping a familiar routine. For others, it means staying connected to their neighborhood, their pets, or the home they love. More than anything, it means having the freedom to continue living life on your own terms.
               </p>
