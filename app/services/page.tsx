@@ -10,7 +10,7 @@ The services below are some of the most common ways we help. If there’s someth
           </p>
 
           {/* Companion Services */}
-          <div id="companion" className="mb-8 pb-8 border-b border-gray-200">
+          <div id="companion" className="mb-12 pb-12 border-b border-gray-200">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">Companion Services</h2>
             <p className="text-lg mb-6">
               Our signature service, because many things feel easier with someone alongside you.
