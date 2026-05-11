@@ -34,7 +34,7 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
           </div>
 
           {/* Pet Services */}
-          <div id="pet" className="mb-16 pb-16 border-b border-gray-200">
+          <div id="pet" className="mb-4 pb-4 border-b border-gray-200">
             <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Pet Services</h2>
             <p className="text-lg mb-6">
               Pets are family, and we help seniors continue enjoying the companionship and routine that pets bring.
