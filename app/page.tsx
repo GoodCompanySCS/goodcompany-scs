@@ -71,11 +71,11 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div style={{ borderLeftColor: 'var(--sage)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--sage)' }} className="mb-3">Companion Services</h3>
-              <p>These services can include walking outdoors alongside your loved one. Accompanying them to appointments, pharmacy, grocery, or other errands. Regular wellness check-ins to keep them connected.</p>
+              <p>Examples of these services include walking outdoors alongside your loved one. Accompanying them to appointments, pharmacy, grocery, or other errands. Regular wellness check-ins to keep them connected.</p>
             </div>
             <div style={{ borderLeftColor: 'var(--terracotta)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--terracotta)' }} className="mb-3">Pet Services</h3>
-              <p>Solo dog walks, yard cleanup, other pet cleanup, and feeding check-ins. Keeps their bond with their pet strong while they're away.</p>
+              <p>Solo or companion dog walks, yard cleanup, other pet cleanup, and feeding check-ins. Keeps their bond with their pet strong while they're away.</p>
             </div>
             <div style={{ borderLeftColor: 'var(--sage)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--sage)' }} className="mb-3">Light Housekeeping & Meal Prep</h3>
