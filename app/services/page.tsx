@@ -50,7 +50,7 @@ Whether it’s a walk around the neighborhood, a trip to the store, or simply a 
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Reliable feeding and check-in visits while clients are away at appointments, traveling, or simply needing an extra hand.</strong>strong></span>
+                <span><strong>Reliable feeding and check-in visits while clients are away at appointments, traveling, or simply needing an extra hand.</strong></span>
               </li>
             </ul>
           </div>
