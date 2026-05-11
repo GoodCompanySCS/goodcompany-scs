@@ -134,9 +134,10 @@ export default function Pricing() {
                   Good for starting out
                 </div>
                 <h3 className="mb-2">Essentials Bundle</h3>
+                <p className="text-lg mb-4">Reliable support for the basics.</p>
                 <p style={{ color: 'var(--terracotta)', fontSize: '1.5rem' }} className="font-bold mb-6">$295/month</p>
                 <ul className="space-y-2 text-sm">
-                  <li>✓ 1 companion walks per week</li>
+                  <li>✓ 1 companion walk per week</li>
                   <li>✓ 2 errand or grocery runs per month</li>
                   <li>✓ 1 wellness check-in per week</li>
                   <li>✓ Priority scheduling</li>
