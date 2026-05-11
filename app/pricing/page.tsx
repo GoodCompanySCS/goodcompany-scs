@@ -125,10 +125,9 @@ export default function Pricing() {
           {/* All-Inclusive Bundles */}
           <div className="mb-16">
             <h2 style={{ color: 'var(--sage)' }} className="mb-4">All-Inclusive Bundles</h2>
-            <p className="text-lg mb-4">
-              One monthly bill. Everything included. Perfect for seniors who want to simplify.
-            </p>
-
+           <p className="text-lg mb-4">One monthly bill. Everything included. Perfect for seniors who want to simplify.</p>
+<p className="text-lg mb-4">Every household is different. Bundle services can be adjusted to fit individual routines and needs.</p>
+            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div style={{ borderColor: 'var(--terracotta)', borderWidth: '2px' }} className="p-8 rounded-lg">
                 <div style={{ backgroundColor: 'var(--terracotta)', color: 'white' }} className="inline-block px-4 py-2 rounded mb-6 text-sm font-semibold">
