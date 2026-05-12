@@ -71,19 +71,19 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div style={{ borderLeftColor: 'var(--sage)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--sage)' }} className="mb-3">Companion Services</h3>
-              <p>Examples of these services include walking outdoors alongside your loved one. Accompanying them to appointments, pharmacy, grocery, or other errands. Regular wellness check-ins to keep them connected.</p>
+              <p>Companion walks, errands, appointments, and regular check-ins that help seniors stay active, connected, and independent. Sometimes everyday routines simply feel easier with someone alongside you.</p>
             </div>
             <div style={{ borderLeftColor: 'var(--terracotta)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--terracotta)' }} className="mb-3">Pet Services</h3>
-              <p>Solo or companion dog walks, yard cleanup, other pet cleanup, and feeding check-ins. Keepin their bond with their pet strong while they're away.</p>
+              <p>Solo or companion dog walks, pet feeding visits, and yard or litter cleanup to help seniors continue enjoying the comfort and companionship pets bring to everyday life.</p>
             </div>
             <div style={{ borderLeftColor: 'var(--sage)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--sage)' }} className="mb-3">Housekeeping & Meal Prep</h3>
-              <p>General tidying, dishes, laundry, light meal preparation. Keeping their home comfortable and functional.</p>
+              <p>Light housekeeping, laundry, dishes, tidying, and simple meal preparation to help keep the home comfortable, functional, and easier to manage day to day.</p>
             </div>
             <div style={{ borderLeftColor: 'var(--terracotta)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--terracotta)' }} className="mb-3">Seasonal Yard Work</h3>
-              <p>Examples of these services include spring/fall cleanups, weed assistance, and power washing. Everything done with care.</p>
+              <p>Seasonal cleanups, light yard maintenance, and power washing services that help keep outdoor spaces neat, accessible, and welcoming throughout the year.</p>
             </div>
           </div>
           <div className="mt-12 text-center">
