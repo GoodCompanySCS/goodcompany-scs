@@ -13,7 +13,7 @@ export default function Contact() {
               <div className="space-y-6">
                 <div>
                   <h3 className="font-semibold mb-2" style={{ color: 'var(--charcoal)' }}>Service Area</h3>
-                  <p className="text-base">
+                  <p className="list-disc pl-6 space-y-2">
                     Shelby Township<br />
                     Washington Township<br />
                     Rochester Hills, MI
