@@ -13,7 +13,7 @@ export default function Contact() {
               <div className="space-y-6">
                 <div>
                   <h3 className="font-semibold mb-2" style={{ color: 'var(--charcoal)' }}>Service Area</h3>
-                  <p className="list-disc pl-6 space-y-2">
+                  <p className="text-base">
                     Shelby Township<br />
                     Washington Township<br />
                     Rochester Hills, MI
@@ -51,13 +51,13 @@ export default function Contact() {
             <div>
               <h2 style={{ color: 'var(--terracotta)' }} className="text-2xl mb-8">Why Schedule a Visit?</h2>
               <p className="text-base mb-6">
-                The free first visit is where we get to know each other. We'll discuss your situation, answer your questions, and figure out what Good Company can do for you. No obligation. No pressure.
+                The free first visit is a chance for us to get to know each other, talk through your needs, and answer any questions you may have. We’ll discuss what kind of support would be most helpful and whether Good Company feels like the right fit for you or your family.
               </p>
               <p className="text-base mb-6">
-                This is also where Natalie will complete the full intake if you decide to move forward—getting all the details about your home, your preferences, your health and safety needs, and anything else we need to know to provide great service.
+                If you decide to move forward, Natalie will also walk through a simple intake process to learn more about your routines, preferences, household needs, and anything important for providing reliable, personalized support.
               </p>
               <p className="text-base">
-                It's a conversation, not a sales pitch.
+                There’s no pressure and no obligation. Just a comfortable conversation about how we may be able to help.
               </p>
             </div>
           </div>
