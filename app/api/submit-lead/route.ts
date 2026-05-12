@@ -1,5 +1,3 @@
-{/*
-OLD FORM - COMMENTED OUT FOR NOW
 import { NextRequest, NextResponse } from 'next/server';
 //import nodemailer from 'nodemailer';
 
@@ -91,18 +89,5 @@ export async function POST(req: NextRequest) {
     );
   }
 }
-*/}
 
-{/* GOOGLE FORM */}
-<div className="mt-8">
-  <iframe 
-    src="https://docs.google.com/forms/d/e/1FAIpQLSfxN6V81mxbMsTS4ebqGl1qRpGVkFCv2J7gtLF6ODmIkzaPxQ/viewform?embedded=true" 
-    width="100%" 
-    height="1238" 
-    frameBorder="0" 
-    marginHeight="0" 
-    marginWidth="0"
-  >
-    Loading…
-  </iframe>
-</div>
+
