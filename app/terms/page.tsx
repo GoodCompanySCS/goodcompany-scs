@@ -19,11 +19,11 @@ export default function Terms() {
               Permission is granted to temporarily download one copy of the materials (information or software) on the Good Company website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
             </p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Modifying or copying the materials</li>
-              <li>Using the materials for any commercial purpose or for any public display</li>
-              <li>Attempting to decompile or reverse engineer any software on the website</li>
-              <li>Removing any copyright or other proprietary notations from the materials</li>
-              <li>Transmitting the materials to anyone else or "mirroring" the materials on any other server</li>
+              <li>Modify or copy the materials</li>
+              <li>Use the materials for any commercial purpose or for any public display</li>
+              <li>Attempt to decompile or reverse engineer any software on the website</li>
+              <li>Remove any copyright or other proprietary notations from the materials</li>
+              <li>Transmit the materials to anyone else or "mirror" the materials on any other server</li>
             </ul>
           </div>
 
