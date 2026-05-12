@@ -118,7 +118,7 @@ export async function POST(req: NextRequest) {
     // Send email to Natalie using Resend
     await resend.emails.send({
       from: 'onboarding@resend.dev',
-      to: 'harleywal1980@gmail.com',
+      to: 'hello@goodcompanyscs.com',
       subject: `New Lead: ${name}`,
       html: `<h2>New Schedule Request</h2><p><strong>Name:</strong> ${name}</p><p><strong>Phone:</strong> ${phone}</p><p><strong>Email:</strong> ${email}</p><p><strong>ZIP Code:</strong> ${zipCode}</p><p><strong>Preferred Contact:</strong> ${preferredContact}</p><p><strong>Message:</strong></p><p>${message || 'No message provided'}</p>`,
     });
