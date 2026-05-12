@@ -20,7 +20,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="mb-8 pb-8 border-b border-gray-200">
+            <div className="mb-12">
               <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Meet Natalie</h2>
 
             <p className="text-lg mb-6">Good Company is owned and operated by Natalie, a former U.S. Army Contract Specialist with a background in federal procurement and contract management.</p>
