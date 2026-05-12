@@ -71,7 +71,7 @@ export default function About() {
               </ul>
             </div>
 
-            <div>
+            <div className="mb-8 pb-8 border-b border-gray-200">
               <h2 style={{ color: 'var(--sage)' }} className="mb-6">Service Area</h2>
               <p className="text-lg mb-4">
                 Good Company currently serves seniors in:
