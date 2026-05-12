@@ -33,6 +33,7 @@ export async function POST(req: NextRequest) {
       }
     }
 
+    /*
     // Setup email transporter
     // Using Gmail SMTP - Natalie will need to use an app password if 2FA is enabled
     const transporter = nodemailer.createTransport({
@@ -75,6 +76,7 @@ export async function POST(req: NextRequest) {
         <p>You're in good company,<br />Natalie & Team</p>
       `,
     });
+    */
     
 
     return NextResponse.json(
