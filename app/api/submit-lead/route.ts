@@ -79,20 +79,7 @@ export async function POST(req: NextRequest) {
     */
     
 
-    return NextResponse.json(
-      { success: true, message: 'Form submitted successfully' },
-      { status: 200 }
-    );
-  } catch (error) {
-    console.error('Form submission error:', error);
-    return NextResponse.json(
-      { error: 'Error processing request' },
-      { status: 500 }
-    );
-  }
-}
-*/
-import { NextRequest, NextResponse } from 'next/server';
+   import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -118,7 +105,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Service area validation
-    const serviceZips = ['48316', '48371', '48309']; // Shelby, Washington, Rochester Hills
+    const serviceZips = ['48316', '48371', '48309'];
     if (!serviceZips.includes(zipCode)) {
       if (!zipCode.match(/^48\d{3}$/)) {
         return NextResponse.json(
@@ -130,33 +117,18 @@ export async function POST(req: NextRequest) {
 
     // Send email to Natalie using Resend
     await resend.emails.send({
-      from: 'Good Company <onboarding@resend.dev>',
+      from: 'onboarding@resend.dev',
       to: 'harleywal1980@gmail.com',
       subject: `New Lead: ${name}`,
-      html: `
-        <h2>New Schedule Request</h2>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Phone:</strong> ${phone}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>ZIP Code:</strong> ${zipCode}</p>
-        <p><strong>Preferred Contact:</strong> ${preferredContact}</p>
-        <p><strong>Message:</strong></p>
-        <p>${message || 'No message provided'}</p>
-      `,
+      html: `<h2>New Schedule Request</h2><p><strong>Name:</strong> ${name}</p><p><strong>Phone:</strong> ${phone}</p><p><strong>Email:</strong> ${email}</p><p><strong>ZIP Code:</strong> ${zipCode}</p><p><strong>Preferred Contact:</strong> ${preferredContact}</p><p><strong>Message:</strong></p><p>${message || 'No message provided'}</p>`,
     });
 
     // Send confirmation email to lead
     await resend.emails.send({
-      from: 'Good Company <onboarding@resend.dev>',
+      from: 'onboarding@resend.dev',
       to: email,
       subject: 'We\'ll be in touch soon',
-      html: `
-        <h2>Thank you for reaching out to Good Company!</h2>
-        <p>Hi ${name},</p>
-        <p>We received your request to schedule a free visit. We'll be in touch shortly to confirm a time that works for you.</p>
-        <p>If you have any questions in the meantime, feel free to reach out.</p>
-        <p>You're in good company,<br />Natalie & Team</p>
-      `,
+      html: `<h2>Thank you for reaching out to Good Company!</h2><p>Hi ${name},</p><p>We received your request to schedule a free visit. We'll be in touch shortly to confirm a time that works for you.</p><p>If you have any questions in the meantime, feel free to reach out.</p><p>You're in good company,<br />Natalie & Team</p>`,
     });
 
     return NextResponse.json(
@@ -171,4 +143,3 @@ export async function POST(req: NextRequest) {
     );
   }
 }
-
