@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
+//import nodemailer from 'nodemailer';
 
 export async function POST(req: NextRequest) {
   if (req.method !== 'POST') {
@@ -35,16 +35,17 @@ export async function POST(req: NextRequest) {
 
     // Setup email transporter
     // Using Gmail SMTP - Natalie will need to use an app password if 2FA is enabled
-    const transporter = nodemailer.createTransport({
+    /*const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASSWORD,
       },
     });
+    */
 
     // Email to Natalie
-    await transporter.sendMail({
+    /*await transporter.sendMail({
       from: process.env.EMAIL_USER,
       to: 'harleywal1980@gmail.com',
       subject: `New Lead: ${name}`,
@@ -59,9 +60,10 @@ export async function POST(req: NextRequest) {
         <p>${message || 'No message provided'}</p>
       `,
     });
+    */
 
     // Confirmation email to lead
-    await transporter.sendMail({
+    /*await transporter.sendMail({
       from: process.env.EMAIL_USER,
       to: email,
       subject: 'We\'ll be in touch soon',
@@ -73,6 +75,7 @@ export async function POST(req: NextRequest) {
         <p>You're in good company,<br />Natalie & Team</p>
       `,
     });
+    */
 
     return NextResponse.json(
       { success: true, message: 'Form submitted successfully' },
