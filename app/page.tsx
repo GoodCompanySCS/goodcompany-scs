@@ -282,17 +282,17 @@ export default function Home() {
       Let's talk about how Good Company can help. No obligation, no pressure.
     </p>
     
-    <iframe 
-      src="https://docs.google.com/forms/d/e/1FAIpQLSfxN6V81mxbMsTS4ebqGl1qRpGVkFCv2J7gtLF6ODmIkzaPxQ/viewform?embedded=true" 
-      width="100%" 
-      height="1238" 
-      frameBorder="0" 
-      marginHeight="0" 
-      marginWidth="0"
-      style={{ display: 'block' }}
-    >
-      Loading…
-    </iframe>
+   <iframe 
+  src="https://docs.google.com/forms/d/e/1FAIpQLSfxN6V81mxbMsTS4ebqGl1qRpGVkFCv2J7gtLF6ODmIkzaPxQ/viewform?embedded=true" 
+  width="100%" 
+  height={1238} 
+  frameBorder="0" 
+  marginHeight={0} 
+  marginWidth={0}
+  style={{ display: 'block' }}
+>
+  Loading…
+</iframe>
   </div>
 </section>
     </>
