@@ -20,7 +20,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="mb-12 pb-12 border-b border-gray-200">
+            <div className="mb-8 pb-8 border-b border-gray-200">
               <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Meet Natalie</h2>
 
             <p className="text-lg mb-6">Good Company is owned and operated by Natalie, a former U.S. Army Contract Specialist with a background in federal procurement and contract management.</p>
@@ -45,7 +45,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="mb-12 pb-12 border-b border-gray-200">
+            <div className="mb-8 pb-8 border-b border-gray-200">
               <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Our Standards</h2>
               <ul className="space-y-6">
                 <li>
@@ -74,12 +74,12 @@ export default function About() {
             <div>
               <h2 style={{ color: 'var(--sage)' }} className="mb-6">Service Area</h2>
               <p className="text-lg mb-4">
-                Good Company serves seniors in:
+                Good Company currently serves seniors in:
               </p>
               <ul className="space-y-2 text-lg">
-                <li>Shelby Township</li>
-                <li>Washington Township</li>
-                <li>Rochester Hills, Michigan</li>
+                <li>- Shelby Township</li>
+                <li>- Washington Township</li>
+                <li>- Rochester Hills, Michigan</li>
               </ul>
             </div>
           </div>
