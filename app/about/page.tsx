@@ -50,23 +50,23 @@ export default function About() {
               <ul className="space-y-6">
                 <li>
                   <h3 style={{ color: 'var(--charcoal)' }} className="font-semibold mb-2">Bonded & Insured</h3>
-                  <p className="text-base">Full bonding and comprehensive liability insurance. Your peace of mind is non-negotiable.</p>
+                  <p className="text-base">Good Company is fully bonded and insured so families can feel confident and comfortable welcoming us into their home.</p>
                 </li>
                 <li>
                   <h3 style={{ color: 'var(--charcoal)' }} className="font-semibold mb-2">Background Checked</h3>
-                  <p className="text-base">Thorough screening and vetting. We wouldn't let anyone into our own family's home without it.</p>
+                  <p className="text-base">Trust matters. Every client deserves to feel safe knowing the person showing up at their door has been thoroughly screened and vetted.</p>
                 </li>
                 <li>
                   <h3 style={{ color: 'var(--charcoal)' }} className="font-semibold mb-2">Owned & Operated Locally</h3>
-                  <p className="text-base">This is Natalie's business, in her community. She knows the neighborhoods. She shows up personally.</p>
+                  <p className="text-base">Good Company is owned and operated right here in the community we serve. We know the neighborhoods, value personal relationships, and believe local businesses should feel personal.</p>
                 </li>
                 <li>
                   <h3 style={{ color: 'var(--charcoal)' }} className="font-semibold mb-2">Respect & Dignity</h3>
-                  <p className="text-base">We never infantilize, never patronize, never make assumptions. Seniors are capable adults, and we treat them that way.</p>
+                  <p className="text-base">We believe support should always feel respectful and empowering. Seniors are capable adults, and we treat every client with patience, kindness, and dignity.</p>
                 </li>
                 <li>
                   <h3 style={{ color: 'var(--charcoal)' }} className="font-semibold mb-2">Reliability</h3>
-                  <p className="text-base">We show up when we say we will. We do what we commit to. We're consistent, predictable, and dependable.</p>
+                  <p className="text-base">We show up when we say we will, communicate clearly, and provide dependable service families can count on.</p>
                 </li>
               </ul>
             </div>
