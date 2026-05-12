@@ -38,13 +38,10 @@ export default function About() {
             <div className="mb12">
               <h2 style={{ color: 'var(--sage)' }} className="mb-6">Why We Do This</h2>
               <p className="text-lg mb-6">
-                Aging well means more than staying healthy—it means staying connected, staying active, and staying in control of your own life. Too many seniors face a choice: either struggle to manage everything themselves, or give up their independence.
+                Many seniors do not need medical care or major assistance. They simply need reliable support, practical help, and someone dependable alongside them for the things that feel harder alone.
               </p>
               <p className="text-lg mb-6">
-                We exist to offer a third way. We're not a replacement for family or medical care. We're the trusted help that lets someone keep doing the things that matter—walking the dog, getting to the store, keeping the house the way they like it—without having to do it all alone.
-              </p>
-              <p className="text-lg">
-                A senior who can keep walking their dog with someone alongside them keeps their independence longer. That's what we're about.
+                That is what Good Company is here to provide.
               </p>
             </div>
 
