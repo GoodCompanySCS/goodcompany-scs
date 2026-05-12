@@ -117,7 +117,7 @@ export async function POST(req: NextRequest) {
 
     // Send email to Natalie using Resend
     await resend.emails.send({
-      from: 'onboarding@resend.dev',
+      from: 'Good Company <hello@goodcompanyscs.com>',
       to: 'hello@goodcompanyscs.com',
       subject: `New Lead: ${name}`,
       html: `<h2>New Schedule Request</h2><p><strong>Name:</strong> ${name}</p><p><strong>Phone:</strong> ${phone}</p><p><strong>Email:</strong> ${email}</p><p><strong>ZIP Code:</strong> ${zipCode}</p><p><strong>Preferred Contact:</strong> ${preferredContact}</p><p><strong>Message:</strong></p><p>${message || 'No message provided'}</p>`,
@@ -125,7 +125,7 @@ export async function POST(req: NextRequest) {
 
     // Send confirmation email to lead
     await resend.emails.send({
-      from: 'onboarding@resend.dev',
+      from: 'Good Company <hello@goodcompanyscs.com>',
       to: email,
       subject: 'We\'ll be in touch soon',
       html: `<h2>Thank you for reaching out to Good Company!</h2><p>Hi ${name},</p><p>We received your request to schedule a free visit. We'll be in touch shortly to confirm a time that works for you.</p><p>If you have any questions in the meantime, feel free to reach out.</p><p>You're in good company,<br />Natalie & Team</p>`,
