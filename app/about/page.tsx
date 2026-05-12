@@ -35,7 +35,7 @@ export default function About() {
             <p className="text-lg mb-6">You are never treated like a number. You are treated like a neighbor.</p>
             </div>
 
-            <div className="mb-8 pb-8 border-b-gray-200">
+            <div className="mb-12">
               <h2 style={{ color: 'var(--sage)' }} className="mb-6">Why We Do This</h2>
               <p className="text-lg mb-6">
                 Many seniors do not need medical care or major assistance. They simply need reliable support, practical help, and someone dependable alongside them for the things that feel harder alone.
