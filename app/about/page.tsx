@@ -76,7 +76,7 @@ export default function About() {
               <p className="text-lg mb-4">
                 Good Company currently serves seniors in:
               </p>
-              <ul className="space-y-1 text-lg">
+              <ul className="list-disc pl-6 space-y-2">
                 <li>Shelby Township</li>
                 <li>Washington Township</li>
                 <li>Rochester Hills, Michigan</li>
