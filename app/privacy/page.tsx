@@ -9,20 +9,22 @@ export default function Privacy() {
           <div>
             <h2 style={{ color: 'var(--sage)' }}>Introduction</h2>
             <p>
-              Good Company Senior Concierge Services LLC ("Good Company," "we," "us," or "our") operates the goodcompanyscs.com website. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services.
+              Good Company Senior Concierge Services LLC ("Good Company," "we," "us," or "our") operates the goodcompanyscs.com website. This Privacy Policy explains how we collect, use, and protect the information you provide when using our website or contacting us about services.
             </p>
           </div>
 
           <div>
             <h2 style={{ color: 'var(--sage)' }}>Information We Collect</h2>
             <p className="mb-4">
-              We collect information you provide directly to us, such as:
+              We may collect information you provide directly to us, including:
             </p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Name, email address, and phone number</li>
+              <li>Name</li>
+              <li>Email address</li>
+              <li>Phone number</li>
               <li>ZIP code and service area information</li>
               <li>Messages and inquiries you submit through our website</li>
-              <li>Your preferred contact method</li>
+              <li>Preferred contact method</li>
             </ul>
           </div>
 
@@ -32,9 +34,9 @@ export default function Privacy() {
               We use the information we collect to:
             </p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Respond to your inquiries and schedule free visits</li>
-              <li>Provide our services to you</li>
-              <li>Send confirmations and service-related communications</li>
+              <li>Respond to inquiries and schedule visits</li>
+              <li>Communicate about our services and appointments</li>
+              <li>Provide customer support</li>
               <li>Improve our website and services</li>
             </ul>
           </div>
@@ -42,14 +44,14 @@ export default function Privacy() {
           <div>
             <h2 style={{ color: 'var(--sage)' }}>Information Sharing</h2>
             <p>
-              We do not sell, trade, or rent your personal information. We may share information only when necessary to provide our services or when required by law.
+              We do not sell, trade, or rent your personal information. Information may be shared only when necessary to operate our business, provide requested services, or comply with legal obligations.
             </p>
           </div>
 
           <div>
             <h2 style={{ color: 'var(--sage)' }}>Security</h2>
             <p>
-              We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, or destruction.
+              We take reasonable measures to help protect the personal information submitted through our website and communication forms.
             </p>
           </div>
 
