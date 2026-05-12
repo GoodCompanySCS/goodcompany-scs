@@ -55,7 +55,7 @@ export default function Home() {
               Stay home. Stay independent. Stay yourself.
             </h1>
             <p className="text-lg mb-8">
-              Good Company helps seniors in Shelby Township and the surrounding area stay home longer with trusted, dignified support for the things they'd rather not do alone.
+              Good Company helps seniors in Shelby Township and the surrounding area stay independent at home with reliable support, practical help, and someone trustworthy alongside them.
             </p>
             <a href="#schedule" className="btn-primary inline-block">
               Schedule a Free Visit
