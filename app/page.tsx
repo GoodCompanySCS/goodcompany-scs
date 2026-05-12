@@ -123,8 +123,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Lead Capture Form - COMMENT OUT, USING GOOGLE FORM INSTEAD*/}
-      {/*
+      {/* Lead Capture Form*/}
+      
       <section id="schedule" className="section-padding" style={{ backgroundColor: 'var(--cream)' }}>
         <div className="container-max max-w-2xl">
           <h2 className="text-center mb-4">Schedule Your Free First Visit</h2>
@@ -273,28 +273,6 @@ export default function Home() {
           </form>
         </div>
       </section>
-      */}
-      {/* GOOGLE FORM */}
-<section id="schedule" className="section-padding" style={{ backgroundColor: 'var(--cream)' }}>
-  <div className="container-max max-w-2xl">
-    <h2 className="text-center mb-8">Schedule Your Free First Visit</h2>
-    <p className="text-center mb-8 text-lg">
-      Let's talk about how Good Company can help. No obligation, no pressure.
-    </p>
-    
-   <iframe 
-  src="https://docs.google.com/forms/d/e/1FAIpQLSfxN6V81mxbMsTS4ebqGl1qRpGVkFCv2J7gtLF6ODmIkzaPxQ/viewform?embedded=true" 
-  width="100%" 
-  height={1238} 
-  frameBorder="0" 
-  marginHeight={0} 
-  marginWidth={0}
-  style={{ display: 'block' }}
->
-  Loading…
-</iframe>
-  </div>
-</section>
     </>
   );
 }
