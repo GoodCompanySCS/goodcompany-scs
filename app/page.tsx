@@ -97,27 +97,27 @@ export default function Home() {
       {/* Trust Signals */}
       <section className="section-padding" style={{ backgroundColor: 'var(--sage)', color: 'white' }}>
         <div className="container-max">
-          <h2 className="text-center mb-12" style={{ color: 'white' }}>You Can Trust Us</h2>
+          <h2 className="text-center mb-12" style={{ color: 'white' }}>Why Families Trust Good Company</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold mb-2">✓</div>
               <h3 style={{ color: 'white' }} className="mb-2">Bonded</h3>
-              <p>Fully bonded for your peace of mind.</p>
+              <p>Fully bonded so families can feel confident and comfortable welcoming us into their home.</p>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">✓</div>
               <h3 style={{ color: 'white' }} className="mb-2">Insured</h3>
-              <p>Comprehensive liability coverage.</p>
+              <p>Comprehensive liability insurance for added peace of mind and protection.</p>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">✓</div>
               <h3 style={{ color: 'white' }} className="mb-2">Background Checked</h3>
-              <p>Thorough screening for safety.</p>
+              <p>Carefully screened and vetted because trust and safety matter.</p>
             </div>
             <div>
               <div className="text-4xl font-bold mb-2">✓</div>
               <h3 style={{ color: 'white' }} className="mb-2">Locally Owned</h3>
-              <p>Owned and operated right here.</p>
+              <p>Owned and operated right here in the community we proudly serve.</p>
             </div>
           </div>
         </div>
