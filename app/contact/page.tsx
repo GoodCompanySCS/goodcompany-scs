@@ -8,7 +8,7 @@ export default function Contact() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
             {/* Contact Info */}
             <div>
-              <h2 style={{ color: 'var(--sage)' }} className="text-2xl mb-8">Contact Good Company</h2>
+              <h2 style={{ color: 'var(--sage)' }} className="text-2xl mb-6">Contact Good Company</h2>
               
               <div className="space-y-6">
                 <div>
@@ -49,7 +49,7 @@ export default function Contact() {
 
             {/* Quick Info */}
             <div>
-              <h2 style={{ color: 'var(--terracotta)' }} className="text-2xl mb-8">Why Schedule a Visit?</h2>
+              <h2 style={{ color: 'var(--terracotta)' }} className="text-2xl mb-6">Why Schedule a Visit?</h2>
               <p className="text-base mb-6">
                 The free first visit is a chance for us to get to know each other, talk through your needs, and answer any questions you may have. We’ll discuss what kind of support would be most helpful and whether Good Company feels like the right fit for you or your family.
               </p>
