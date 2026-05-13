@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "In-home senior support you can trust. Companion services, pet care, housekeeping, and errands.",
     images: [
       {
-        url: "https://goodcompanyscs.com/GC-Logo-Vector-Color-Just-the-Logo.png",
+        url: "https://goodcompanyscs.com/Logo.png",
         width: 400,
         height: 400,
         alt: "Good Company Logo",
