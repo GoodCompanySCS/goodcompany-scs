@@ -58,10 +58,10 @@ function Header() {
             <a href="/services" style={{ color: '#000000' }} className="font-medium hover:opacity-70">
               Services
             </a>
-            <a href="/pricing" className="text-charcoal font-medium hover:underline">
+            <a href="/pricing" style={{ color: '#000000' }} className="font-medium hover:opacity-70">
               Pricing
             </a>
-            <a href="/about" className="text-charcoal font-medium hover:underline">
+            <a href="/about" style={{ color: '#000000' }} className="font-medium hover:opacity-70">
               About
             </a>
             <a href="/contact" className="btn-primary">
