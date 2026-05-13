@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "In-home senior support you can trust. Companion services, pet care, housekeeping, and errands.",
     images: [
       {
-        url: "https://goodcompanyscs.com/Logo.png",
+        url: "https://goodcompanyscs.com/logo.png",
         width: 400,
         height: 400,
         alt: "Good Company Logo",
@@ -44,7 +44,7 @@ function Header() {
           <a href="/" className="no-underline hover:no-underline">
            <div className="flex items-center gap-7">
   <img
-    src="/logo.svg"
+    src="/logo.pnc"
     alt="Good Company Logo"
     className="h-16 md:h-24 w-auto" 
   />
