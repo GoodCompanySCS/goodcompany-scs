@@ -122,13 +122,14 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-cream py-16 md:py-20">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-            <p className="font-serif italic text-3xl md:text-4xl text-sage tracking-wide">
+     
+      <section className="bg-cream pt-20 md:pt-28 pb-4 md:pb-6">
+        <div className="max-w-5xl mx-auto px-6 text-center">
+            <p className="font-serif italic text-5xl md:text-7xl text-sage tracking-wide">
             You're in good company.
             </p>
-      </div>
-    </section>
+        </div>
+     </section>
 
       {/* Lead Capture Form*/}
       
