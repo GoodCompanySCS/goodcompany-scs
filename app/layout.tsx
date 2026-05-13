@@ -55,7 +55,7 @@ function Header() {
 </div>
           </a>
           <nav className="flex gap-2 md:gap-8 items-center flex-wrap md:flex-nowrap justify-center md:justify-start w-full md:w-auto mt-3 md:mt-0">
-            <a href="/services" className="text-charcoal font-medium hover:underline">
+            <a href="/services" style={{ color: '#000000' }} className="font-medium hover:opacity-70">
               Services
             </a>
             <a href="/pricing" className="text-charcoal font-medium hover:underline">
