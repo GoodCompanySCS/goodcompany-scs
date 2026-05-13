@@ -22,14 +22,14 @@ export default function Contact() {
             <div>
               <h3 className="font-semibold mb-3" style={{ color: 'var(--charcoal)' }}>Phone</h3>
               <p className="text-base mb-6">
-                <a href="tel:2488209111" className="hover:underline" style={{ color: 'var(--sage)' }}>
+                <a href="tel:2488209111" className="hover:underline" style={{ color: 'var(--charcoal)' }}>
                   (248) 820-9111
                 </a>
               </p>
 
               <h3 className="font-semibold mb-3" style={{ color: 'var(--charcoal)' }}>Email</h3>
               <p className="text-base mb-6">
-                <a href="mailto:hello@goodcompanyscs.com" className="hover:underline" style={{ color: 'var(--sage)' }}>
+                <a href="mailto:hello@goodcompanyscs.com" className="hover:underline" style={{ color: 'var(--charcoal)' }}>
                   hello@goodcompanyscs.com
                 </a>
               </p>
