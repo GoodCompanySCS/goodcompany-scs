@@ -37,9 +37,10 @@ export default function Pricing() {
         </li>
         <li className="pt-4 mt-4 border-t border-gray-200">
           <h4 className="text-4xl font-semibold mb-3">General Services</h4>
-        </li>         
+              <p className="text-sm text-gray-600 mb-4">For services not listed in our flat-rate options above.</p>
+        </li>
         <li className="flex justify-between">
-          <span>General Household Support*</span>
+          <span>General Household Support</span>
           <span className="font-semibold">$40/hour</span>
         </li>
         <li className="text-sm text-gray-600">1-hour minimum</li>
