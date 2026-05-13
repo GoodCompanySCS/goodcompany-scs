@@ -4,15 +4,16 @@ export default function Contact() {
       <section style={{ backgroundColor: 'var(--cream)' }} className="section-padding">
         <div className="container-max max-w-4xl">
           
-         {/* Header + Warm Intro */}
-          <div className="mb-16">
-            <h1 className="text-center mb-6 pb-6" style={{ borderBottom: '1px solid var(--sage)' }}>
-              Get In Touch
-            </h1>
-          <p className="text-lg max-w-2xl ml-auto text-left" style={{ color: 'var(--charcoal)' }}>
-            The free first visit is a chance for us to get to know each other, talk through your needs, and answer any questions you may have. We’ll discuss what kind of support would be most helpful and whether Good Company feels like the right fit for you or your family. No pressure, no obligation.
-          </p>
-          </div>
+        {/* Header + Warm Intro */}
+<div className="mb-16">
+  <h1 className="text-center mb-4">Get In Touch</h1>
+  <div className="flex justify-center mb-8">
+    <div style={{ backgroundColor: 'var(--terracotta)', height: '2px', width: '180px' }}></div>
+  </div>
+  <p className="text-lg" style={{ color: 'var(--charcoal)' }}>
+    The free first visit is a chance for us to get to know each other, talk through your needs, and answer any questions you may have. We'll discuss what kind of support would be most helpful and whether Good Company feels like the right fit for you or your family. No pressure, no obligation.
+  </p>
+</div>
           
           {/* Contact Details — Two Columns */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
