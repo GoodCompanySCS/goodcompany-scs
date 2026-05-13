@@ -2,62 +2,50 @@ export default function Contact() {
   return (
     <>
       <section style={{ backgroundColor: 'var(--cream)' }} className="section-padding">
-        <div className="container-max max-w-2xl">
-          <h1 className="mb-8">Get In Touch</h1>
+        <div className="container-max max-w-4xl">
+          
+          {/* Header + Warm Intro */}
+          <div className="text-center mb-16">
+            <h1 className="mb-6">Get In Touch</h1>
+            <p className="text-lg max-w-2xl mx-auto" style={{ color: 'var(--charcoal)' }}>
+              The free first visit is a chance for us to get to know each other, talk through your needs, and answer any questions you may have. No pressure, no obligation — just a comfortable conversation about how we may be able to help.
+            </p>
+          </div>
 
+          {/* Contact Details — Two Columns */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
-            {/* Contact Info */}
+            
+            {/* Left Column: Contact Info */}
             <div>
-              <h2 style={{ color: 'var(--sage)' }} className="text-2xl mb-6">Contact Good Company</h2>
-              
-              <div className="space-y-6">
-                <div>
-                  <h3 className="font-semibold mb-2" style={{ color: 'var(--charcoal)' }}>Service Area</h3>
-                  <p className="text-base">
-                    Shelby Township<br />
-                    Washington Township<br />
-                    Rochester Hills, MI
-                  </p>
-                </div>
+              <h3 className="font-semibold mb-3" style={{ color: 'var(--charcoal)' }}>Phone</h3>
+              <p className="text-base mb-6">
+                <a href="tel:2488209111" className="hover:underline" style={{ color: 'var(--sage)' }}>
+                  (248) 820-9111
+                </a>
+              </p>
 
-                <div>
-                  <h3 className="font-semibold mb-2" style={{ color: 'var(--charcoal)' }}>Email</h3>
-                  <p className="text-base">
-                    <a href="mailto:harleywal1980@gmail.com" className="text-sage hover:underline">
-                      harleywal1980@gmail.com
-                    </a>
-                  </p>
-                </div>
+              <h3 className="font-semibold mb-3" style={{ color: 'var(--charcoal)' }}>Email</h3>
+              <p className="text-base mb-6">
+                <a href="mailto:hello@goodcompanyscs.com" className="hover:underline" style={{ color: 'var(--sage)' }}>
+                  hello@goodcompanyscs.com
+                </a>
+              </p>
 
-                <div>
-                  <h3 className="font-semibold mb-2" style={{ color: 'var(--charcoal)' }}>Business Hours</h3>
-                  <p className="text-base">
-                    Monday–Friday: 8:00 AM – 5:00 PM<br />
-                    Saturday: By appointment<br />
-                    Sunday: Closed
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="font-semibold mb-2" style={{ color: 'var(--charcoal)' }}>Message</h3>
-                  <p className="text-base">
-                    Can't reach us by phone? Fill out the form on this page and we'll get back to you.
-                  </p>
-                </div>
-              </div>
+              <h3 className="font-semibold mb-3" style={{ color: 'var(--charcoal)' }}>Service Area</h3>
+              <p className="text-base">
+                Shelby Township<br />
+                Washington Township<br />
+                Rochester Hills, MI
+              </p>
             </div>
 
-            {/* Quick Info */}
+            {/* Right Column: Hours */}
             <div>
-              <h2 style={{ color: 'var(--terracotta)' }} className="text-2xl mb-6">Why Schedule a Visit?</h2>
-              <p className="text-base mb-6">
-                The free first visit is a chance for us to get to know each other, talk through your needs, and answer any questions you may have. We’ll discuss what kind of support would be most helpful and whether Good Company feels like the right fit for you or your family.
-              </p>
-              <p className="text-base mb-6">
-                If you decide to move forward, Natalie will also walk through a simple intake process to learn more about your routines, preferences, household needs, and anything important for providing reliable, personalized support.
-              </p>
+              <h3 className="font-semibold mb-3" style={{ color: 'var(--charcoal)' }}>Business Hours</h3>
               <p className="text-base">
-                There’s no pressure and no obligation. Just a comfortable conversation about how we may be able to help.
+                Monday–Friday: 8:00 AM – 5:00 PM<br />
+                Saturday: By appointment<br />
+                Sunday: Closed
               </p>
             </div>
           </div>
