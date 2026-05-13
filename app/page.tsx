@@ -128,8 +128,8 @@ export default function Home() {
             <p 
               className="font-serif italic tracking-wide leading-tight"
               style={{ 
-              color: 'var(--sage)', 
-              fontSize: '8rem',
+              color: '#000000', 
+              fontSize: '4rem',
               fontStyle: 'italic'
               }}
             >
