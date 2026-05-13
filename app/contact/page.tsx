@@ -8,7 +8,7 @@ export default function Contact() {
 <div className="mb-16">
   <h1 className="text-center mb-4">Get In Touch</h1>
   <div className="flex justify-center mb-8">
-    <div style={{ backgroundColor: 'var(--sage)', height: '2px', width: '180px' }}></div>
+    <div style={{ backgroundColor: 'var(--terracotta)', height: '2px', width: '180px' }}></div>
   </div>
   <p className="text-lg" style={{ color: 'var(--charcoal)' }}>
     The free first visit is a chance for us to get to know each other, talk through your needs, and answer any questions you may have. We'll discuss what kind of support would be most helpful and whether Good Company feels like the right fit for you or your family. No pressure, no obligation.
