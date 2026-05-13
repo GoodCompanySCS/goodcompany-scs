@@ -47,27 +47,44 @@ export default function Pricing() {
                 </ul>
               </div>
 
-              <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-8 rounded-lg">
-                <h3 className="mb-6">Errands & Yard Work</h3>
-                <ul className="space-y-3">
-                  <li className="flex justify-between">
-                    <span>Grocery run</span>
-                    <span className="font-semibold">$35 + receipt</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Prescription pickup</span>
-                    <span className="font-semibold">$20 + receipt</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Driveway power wash</span>
-                    <span className="font-semibold">$90</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Seasonal yard cleanup (small)</span>
-                    <span className="font-semibold">$90</span>
-                  </li>
-                </ul>
-              </div>
+             <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-8 rounded-lg">
+  <h3 className="mb-6">Errands, Transporation & Yard Work</h3>
+  <ul className="space-y-3">
+    <li className="flex justify-between">
+      <span>Grocery run</span>
+      <span className="font-semibold">$35 + receipt</span>
+    </li>
+    <li className="flex justify-between">
+      <span>Prescription pickup</span>
+      <span className="font-semibold">$20 + receipt</span>
+    </li>
+    <li className="flex justify-between">
+      <span>Local ride (drop-off only)</span>
+      <span className="font-semibold">$25</span>
+    </li>
+    <li className="flex justify-between">
+      <span>Ride with wait (up to 1 hour)</span>
+      <span className="font-semibold">$40</span>
+    </li>
+    <li className="flex justify-between">
+      <span>Ride with wait (1–2 hours)</span>
+      <span className="font-semibold">$55</span>
+    </li>
+    <li className="flex justify-between">
+      <span>Extended ride (10–25 miles)</span>
+      <span className="font-semibold">$50 + $1/mile over 10</span>
+    </li>
+    <li className="flex justify-between">
+      <span>Driveway power wash</span>
+      <span className="font-semibold">$90</span>
+    </li>
+    <li className="flex justify-between">
+      <span>Seasonal yard cleanup (small)</span>
+      <span className="font-semibold">$90</span>
+    </li>
+    <li className="text-xs text-gray-500 italic mt-2">Rides include companionship throughout the appointment.</li>
+  </ul>
+</div>
             </div>
           </div>
 
