@@ -125,9 +125,16 @@ export default function Home() {
      
       <section className="bg-cream pt-20 md:pt-28 pb-4 md:pb-6">
         <div className="max-w-6xl mx-auto px-6 text-center">
-            <p className="font-serif italic text-14xl md:text-18xl text-sage tracking-wide leading-tight">
+            <p 
+              className="font-serif italic tracking-wide leading-tight"
+              style={{ 
+              color: 'var(--sage)', 
+              fontSize: '8rem',
+              fontStyle: 'italic'
+              }}
+            >
             You're in good company.
-            </p>
+          </p>
         </div>
      </section>
 
