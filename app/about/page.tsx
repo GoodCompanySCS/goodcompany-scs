@@ -3,7 +3,10 @@ export default function About() {
     <>
       <section style={{ backgroundColor: 'var(--cream)' }} className="section-padding">
         <div className="container-max">
-          <h1 className="mb-8">About Good Company</h1>
+          <h1 className="text-center mb-4">About Good Company</h1>
+           <div className="flex justify-center mb-12">
+          <div style={{ backgroundColor: 'var(--terracotta)', height: '2px', width: '220px' }}></div>
+          </div>
 
           <div className="max-w-3xl">
             <div className="mb-12">
