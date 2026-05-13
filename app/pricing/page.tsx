@@ -55,16 +55,16 @@ export default function Pricing() {
             <span className="font-semibold">$35 + receipt</span>
         </li>
         <li className="flex justify-between">
-                  <span>Prescription pickup</span>
-                  <span className="font-semibold">$20 + receipt</span>
+             <span>Prescription pickup</span>
+            <span className="font-semibold">$20 + receipt</span>
        </li>
        <li className="flex justify-between">
-                  <span>Driveway power wash</span>
-                  <span className="font-semibold">$90</span>
+             <span>Driveway power wash</span>
+             <span className="font-semibold">$90</span>
        </li>
        <li className="flex justify-between">
-                  <span>Seasonal yard cleanup (small)</span>
-                  <span className="font-semibold">$90</span>
+             <span>Seasonal yard cleanup (small)</span>
+             <span className="font-semibold">$90</span>
        </li>
        <li className="pt-4 mt-4 border-t border-gray-200">
                       <h4 className="text-4xl font-semibold mb-3">Transportation</h4>
@@ -73,19 +73,19 @@ export default function Pricing() {
                   <span>Local ride (drop-off only)</span>
                   <span className="font-semibold">$25</span>
       </li>
-                <li className="flex justify-between">
-                    <span>Ride with wait (up to 1 hour)</span>
-                    <span className="font-semibold">$40</span>
-                </li>
-                <li className="flex justify-between">
-                    <span>Ride with wait (1–2 hours)</span>
-                    <span className="font-semibold">$55</span>
-                </li>
-                <li className="flex justify-between">
-                    <span>Extended ride (10–25 miles)</span>
-                    <span className="font-semibold">$50 + $1/mile over 10</span>
-                </li>
-                <li className="text-xs text-gray-500 italic mt-2">Rides include companionship throughout the appointment.</li>
+      <li className="flex justify-between">
+                <span>Ride with wait (up to 1 hour)</span>
+                <span className="font-semibold">$40</span>
+      </li>
+      <li className="flex justify-between">
+                 <span>Ride with wait (1–2 hours)</span>
+                 <span className="font-semibold">$55</span>
+       </li>
+       <li className="flex justify-between">
+                  <span>Extended ride (10–25 miles)</span>
+                  <span className="font-semibold">$50 + $1/mile over 10</span>
+        </li>
+       <li className="text-xs text-gray-500 italic mt-2">Rides include companionship throughout the appointment.</li>
             </ul>
           </div>
             </div>
