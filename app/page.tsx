@@ -47,8 +47,8 @@ export default function Home() {
 
   return (
     <>
-      {/* Hero Section */}
-      <section style={{ backgroundColor: 'var(--cream)' }} className="section-padding">
+     {/* Hero Section */}
+      <section style={{ backgroundColor: 'var(--cream)' }} className="pt-16 md:pt-24 pb-4 md:pb-8">
         <div className="container-max">
           <div className="max-w-3xl">
             <h1 className="mb-6" style={{ color: 'var(--sage)' }}>
