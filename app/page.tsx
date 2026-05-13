@@ -129,7 +129,7 @@ export default function Home() {
               className="font-serif italic tracking-wide leading-tight"
               style={{ 
               color: '#000000', 
-              fontSize: '4rem',
+              fontSize: '2rem',
               fontStyle: 'italic'
               }}
             >
