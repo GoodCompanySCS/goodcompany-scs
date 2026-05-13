@@ -64,10 +64,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Overview */}
-      <section className="section-padding" style={{ backgroundColor: 'var(--cream)' }}>
-        <div className="container-max">
-          <h2 className="mb-12 text-center">What We Offer</h2>
+     {/* Services Overview */}
+      <section className="pt-4 md:pt-8 pb-16 md:pb-24" style={{ backgroundColor: 'var(--cream)' }}>
+          <div className="container-max">
+            <h2 className="mb-12 text-center">What We Offer</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div style={{ borderLeftColor: 'var(--sage)', borderLeftWidth: '4px' }} className="pl-6">
               <h3 style={{ color: 'var(--sage)' }} className="mb-3">Companion Services</h3>
