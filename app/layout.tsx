@@ -44,7 +44,7 @@ function Header() {
           <a href="/" className="no-underline hover:no-underline">
            <div className="flex items-center gap-7">
   <img
-    src="/logo.pnc"
+    src="/logo.png"
     alt="Good Company Logo"
     className="h-16 md:h-24 w-auto" 
   />
