@@ -123,9 +123,9 @@ export default function Home() {
         </div>
       </section>
      
-      <section className="bg-cream pt-20 md:pt-28 pb-4 md:pb-6">
-        <div className="max-w-5xl mx-auto px-6 text-center">
-            <p className="font-serif italic text-5xl md:text-7xl text-sage tracking-wide">
+      <section className="bg-cream pt-20 md:pt-28 pb-4 md:pb-0">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+            <p className="font-serif italic text-7xl md:text-9xl text-sage tracking-wide leading-tight">
             You're in good company.
             </p>
         </div>
