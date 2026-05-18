@@ -27,11 +27,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LSC35890EF"></script>
-        <script dangerouslySetInnerHTML={{ __html: "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-LSC35890EF');" }} />
-      </head>
-      <body>
+     <body>
+       <Header />
+       <main>{children}</main>
+      <Footer />
+     </body>body>
     </html>
   );
 }
