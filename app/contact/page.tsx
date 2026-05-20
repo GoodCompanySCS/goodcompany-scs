@@ -23,7 +23,7 @@ export default function Contact() {
               <h3 className="font-semibold mb-3" style={{ color: 'var(--charcoal)' }}>Phone</h3>
               <p className="text-base mb-6">
                 <a href="tel:5862172898" className="hover:underline" style={{ color: 'var(--charcoal)' }}>
-                  (248) 820-9111
+                  (586) 217-2898
                 </a>
               </p>
 
