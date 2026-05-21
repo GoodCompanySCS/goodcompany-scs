@@ -26,7 +26,7 @@ export default function Pricing() {
           <span className="font-semibold">$25</span>
         </li>
         <li className="flex justify-between">
-          <span>Companion dog walk (45 min)</span>
+          <span>Companion walk (45 min)</span>
           <span className="font-semibold">$30</span>
         </li>
         <li className="flex justify-between">
