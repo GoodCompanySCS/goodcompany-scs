@@ -224,7 +224,7 @@ export default function Pricing() {
       </section>
 
       {/* CTA */}
-      <section style={{ backgroundColor: 'var(--terracotta)', color: 'white' }} className="section-padding">
+      <section style={{ backgroundColor: 'var(--sage)', color: 'white' }} className="section-padding">
         <div className="container-max text-center">
           <h2 style={{ color: 'white' }} className="mb-6">Not sure where to start? That's okay.</h2>
           <p className="text-lg mb-8">
