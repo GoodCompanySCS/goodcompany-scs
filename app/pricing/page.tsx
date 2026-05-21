@@ -226,7 +226,7 @@ export default function Pricing() {
       {/* CTA */}
       <section style={{ backgroundColor: 'var(--terracotta)', color: 'white' }} className="section-padding">
         <div className="container-max text-center">
-          <h2 style={{ color: 'white' }} className="mb-6">Not where to start? That's okay</h2>
+          <h2 style={{ color: 'white' }} className="mb-6">Not sure where to start? That's okay.</h2>
           <p className="text-lg mb-8">
             The services listed on our website are just examples of the ways we help. If you're facing a unique situation or aren't sure what kind of 
             support would be most helpful, give us a call or schedule your first free visit. We'll walk you through it together and find the right solution.
