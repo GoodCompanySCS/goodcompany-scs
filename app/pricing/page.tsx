@@ -5,7 +5,9 @@ export default function Pricing() {
         <div className="container-max">
           <h1 className="mb-4">Pricing</h1>
           <p className="text-lg mb-12 max-w-2xl">
-            Every visit comes with the peace of mind of working with a bonded, insured, and background-checked local business.
+            Every visit is backed by a bonded, insured, and background-checked local business you can trust. The services listed here are simply examples 
+            of how we help. Whether you're looking for ongoing weekly support or a little extra help while recovering from surgery, we'll take the time 
+            to understand your needs and create a plan that works for you. Give us a call and let's talk.
           </p>
 
           {/* À La Carte */}
