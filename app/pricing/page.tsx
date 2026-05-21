@@ -220,44 +220,6 @@ export default function Pricing() {
               </div>
             </div>
           </div>
-
-          {/* How It Works */}
-          <div style={{ backgroundColor: 'var(--cream)' }} className="mb-16 p-8 rounded-lg border border-gray-200">
-            <h3 className="mb-4">How pricing works</h3>
-            <ul className="space-y-3">
-              <li className="flex items-start">
-                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>À la carte:</strong> One-time services, billed after completion.</span>
-              </li>
-              <li className="flex items-start">
-                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Monthly packages & bundles:</strong> Billed monthly. Cancel anytime with 7 days' notice.</span>
-              </li>
-              <li className="flex items-start">
-                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Payment:</strong> Check, Venmo, Zelle, or cash. We keep it simple.</span>
-              </li>
-              <li className="flex items-start">
-                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>No hidden fees:</strong> What you see is what you pay.</span>
-              </li>
-            </ul>
-          </div>
-          
-          {/* Not Sure Section */}
-          <div style={{ backgroundColor: 'var(--sage)', color: 'white' }} className="p-10 rounded-lg text-center">
-            <h3 style={{ color: 'white' }} className="mb-4">Not sure what you need? That's okay.</h3>
-            <p className="text-lg mb-4">
-              Life doesn't always fit neatly into a list. Maybe you're recovering from a procedure. Maybe your regular caregiver is on vacation. Maybe you just want some company on a Tuesday.
-            </p>
-            <p className="text-lg mb-8">
-              Whatever the situation, give us a call and we'll figure it out together.
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4 text-lg font-semibold">
-              <a href="tel:5862172898" style={{ color: 'white' }} className="underline">586-217-2898</a>
-              <span className="hidden sm:inline">|</span>
-              <a href="mailto:hello@goodcompanyscs.com" style={{ color: 'white' }} className="underline">hello@goodcompanyscs.com</a>
-            </div>
           </div>
         </div>
       </section>
@@ -265,9 +227,10 @@ export default function Pricing() {
       {/* CTA */}
       <section style={{ backgroundColor: 'var(--terracotta)', color: 'white' }} className="section-padding">
         <div className="container-max text-center">
-          <h2 style={{ color: 'white' }} className="mb-6">Not sure which option is right?</h2>
+          <h2 style={{ color: 'white' }} className="mb-6">Not where to start? That's okay</h2>
           <p className="text-lg mb-8">
-            Schedule a free visit. We'll talk through what makes sense for your situation.
+            The services listed on our website are just examples of the ways we help. If you're facing a unique situation or aren't sure what kind of 
+            support would be most helpful, give us a call or schedule your first free visit. We'll walk you through it together and find the right solution.
           </p>
           <a href="/#schedule" className="btn-primary">
             Schedule Free Visit
