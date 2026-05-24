@@ -55,7 +55,7 @@ const serviceCategories = [
     name: 'Technology & Paperwork',
     color: 'sage',
     services: [
-      { id: 'tech', name: 'Technology Assistance', note: 'per hour', price: 40, unit: 'per hour' },
+      { id: 'tech', name: 'Technology Assistance', note: 'per hour', price: 25, unit: 'per visit' },
       { id: 'paperwork', name: 'Mail & Paperwork Help', note: 'per hour', price: 40, unit: 'per hour' },
       { id: 'fraud', name: 'Scam & Fraud Check-In', note: 'per visit', price: 25, unit: 'per visit' },
     ],
