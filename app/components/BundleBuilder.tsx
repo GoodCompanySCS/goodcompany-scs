@@ -89,7 +89,7 @@ export default function BundleBuilder() {
 
   return (
     <div style={{ fontFamily: 'inherit' }}>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 340px', gap: '2rem', alignItems: 'start' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', alignItems: 'start' }}>
 
         {/* Left — Service Selector */}
         <div>
