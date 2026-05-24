@@ -102,7 +102,6 @@ function Footer() {
               <li><a href="/services#companion" className="text-cream hover:text-honey">Companionship & Check-Ins</a></li>
               <li><a href="/services#errands" className="text-cream hover:text-honey">Errands & Transportation</a></li>
               <li><a href="/services#home" className="text-cream hover:text-honey">Home & Yard Services</a></li>
-              <li><a href="/services#vehicle" className="text-cream hover:text-honey">Vehicle Support</a></li>
               <li><a href="/services#pet" className="text-cream hover:text-honey">Pet Care</a></li>
               <li><a href="/services#paperwork" className="text-cream hover:text-honey">Paperwork & Safety Support</a></li>
               <li><a href="/services#caregiver" className="text-cream hover:text-honey">Family Caregiver Relief</a></li>
