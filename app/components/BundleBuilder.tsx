@@ -43,14 +43,7 @@ const serviceCategories = [
       { id: 'pet_care', name: 'General Pet Care', note: 'per hour', price: 35, unit: 'per hour' },
     ],
   },
-  {
-    name: 'Vehicle Support',
-    color: 'terracotta',
-    services: [
-      { id: 'car_wash', name: 'Car Wash Run', note: '+ cost of wash', price: 20, unit: 'per run' },
-      { id: 'fuel', name: 'Fuel Run', note: 'flat rate', price: 20, unit: 'per run' },
-    ],
-  },
+ 
   {
     name: 'Technology & Paperwork',
     color: 'sage',
