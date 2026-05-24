@@ -219,16 +219,7 @@ export default function BundleBuilder() {
               <p style={{ fontSize: '0.75rem', color: '#999', fontStyle: 'italic', marginBottom: '0.75rem', lineHeight: '1.4' }}>
                 This is an estimate based on your selections. Your actual bundle price will be confirmed when we build your plan together.
               </p>
-              <a
-                href="tel:5862172898"
-                style={{
-                  display: 'block', textAlign: 'center', background: terra, color: 'white',
-                  padding: '0.75rem', borderRadius: '8px', fontWeight: '600', fontSize: '0.9rem',
-                  textDecoration: 'none',
-                }}
-              >
-                Call to Build Your Bundle
-              </a>
+             
               <a
                 href="/contact"
                 style={{
@@ -237,7 +228,7 @@ export default function BundleBuilder() {
                   textDecoration: 'none', marginTop: '0.5rem', border: `1px solid ${sage}`,
                 }}
               >
-                Or Schedule a Free Visit
+                Schedule a Free Visit
               </a>
             </div>
 
