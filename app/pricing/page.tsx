@@ -1,8 +1,6 @@
 import BundleBuilder from '../components/BundleBuilder';
 
 export default function Pricing() {
-
-export default function Pricing() {
   return (
     <>
       <section style={{ backgroundColor: 'var(--cream)' }} className="section-padding">
