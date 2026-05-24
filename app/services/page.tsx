@@ -5,135 +5,230 @@ export default function Services() {
         <div className="container-max">
           <h1 className="mb-8">Our Services</h1>
           <p className="text-lg mb-12 max-w-3xl">
-            We offer personalized support designed to help seniors stay home, stay independent, and stay themselves. Whether you’re looking for regular weekly help or occasional support, we’re here to make everyday life feel a little easier.
-The services below are some of the most common ways we help. If there’s something you need that isn’t listed, just ask. We’re happy to build a plan around what works best for you and your family.
+            Every client is different, and the services below are just some of the ways we help. If you don't see exactly what you're looking for, just ask. We'll work with you to find the right support for your situation.
           </p>
 
-          {/* Companion Services */}
+          {/* Technology Assistance */}
+          <div id="technology" className="mb-8 pb-8 border-b border-gray-200">
+            <h2 style={{ color: 'var(--sage)' }} className="mb-4">Technology Assistance</h2>
+            <p className="text-lg mb-6">Technology can be frustrating. We're here to help make it easier.</p>
+            <ul className="space-y-3 mb-6">
+              <li className="flex items-start">
+                <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
+                <span><strong>Device Setup & Support:</strong> Phone, tablet, and smart TV setup and support.</span>
+              </li>
+              <li className="flex items-start">
+                <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
+                <span><strong>Everyday Technology Help:</strong> Help with video calls, email, texting, and everyday technology questions.</span>
+              </li>
+              <li className="flex items-start">
+                <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
+                <span><strong>Specialist Coordination:</strong> If a problem requires a specialist, we'll help coordinate the right support and be there when they arrive.</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Meals & Nutrition */}
+          <div id="meals" className="mb-8 pb-8 border-b border-gray-200">
+            <h2 style={{ color: 'var(--terracotta)' }} className="mb-4">Meals & Nutrition</h2>
+            <p className="text-lg mb-6">Good food should be simple, satisfying, and easy to enjoy.</p>
+            <ul className="space-y-3 mb-6">
+              <li className="flex items-start">
+                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
+                <span><strong>Meal Preparation:</strong> Washing, cutting, portioning, and batch cooking to make eating well easier.</span>
+              </li>
+              <li className="flex items-start">
+                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
+                <span><strong>Nutrition Guidance:</strong> Help understanding dietary needs and meal options that fit your preferences and lifestyle.</span>
+              </li>
+              <li className="flex items-start">
+                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
+                <span><strong>Grocery List Planning & Shopping:</strong> Building thoughtful grocery lists and shopping with or without you.</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Companionship & Check-Ins */}
           <div id="companion" className="mb-8 pb-8 border-b border-gray-200">
-            <h2 style={{ color: 'var(--sage)' }} className="mb-6">Companion Services</h2>
-            <p className="text-lg mb-6">
-              Our signature service, because many things feel easier with someone alongside you.
-<div className="h-6"></div>
-Whether it’s a walk around the neighborhood, a trip to the store, or simply a regular check-in, companion services provide support, conversation, and peace of mind while helping seniors maintain their routines and independence.
-            </p>
+            <h2 style={{ color: 'var(--sage)' }} className="mb-4">Companionship & Check-Ins</h2>
+            <p className="text-lg mb-6">Sometimes the best support is simply having someone alongside you.</p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Companion Walks:</strong> We walk alongside seniors for safe, comfortable walks that encourage movement, confidence, fresh air, and connection.</span>
+                <span><strong>Companion Visits:</strong> Friendly, familiar visits at home for conversation, connection, and peace of mind.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Companion Errand Runs:</strong> Trips to the grocery store, pharmacy, appointments, or other errands are easier when you don’t have to go alone.</span>
+                <span><strong>Companion Walks:</strong> Walking together for conversation, exercise, and fresh air.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Wellness Check-Ins:</strong> Friendly visits to chat, check in, and make sure everything is going smoothly at home.</span>
+                <span><strong>Wellness Check-Ins:</strong> Regular check-ins for added peace of mind for you and your family.</span>
+              </li>
+              <li className="flex items-start">
+                <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
+                <span><strong>Appointment Accompaniment:</strong> Transportation, waiting room support, and an extra set of ears during appointments.</span>
               </li>
             </ul>
           </div>
 
-          {/* Pet Services */}
-          <div id="pet" className="mb-8 pb-8 border-b border-gray-200">
-            <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Pet Services</h2>
-            <p className="text-lg mb-6">
-              Pets are family, and we help seniors continue enjoying the companionship and routine that pets bring.
-            </p>
+          {/* Errands & Transportation */}
+          <div id="errands" className="mb-8 pb-8 border-b border-gray-200">
+            <h2 style={{ color: 'var(--terracotta)' }} className="mb-4">Errands & Transportation</h2>
+            <p className="text-lg mb-6">Reliable help getting where you need to go and taking care of everyday tasks.</p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Solo Dog Walks:</strong> We walk small to medium dogs (up to 60 lbs) to help keep pets active, exercised, and happy.</span>
+                <span><strong>Grocery Shopping & Delivery:</strong> Personalized shopping based on your list and preferences, delivered right to you.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Dog Yard or Kitty Litter Cleanup:</strong> Routine cleanup services help keep outdoor spaces and litter areas tidy, clean, and manageable.</span>
+                <span><strong>Prescription Pickup:</strong> Reliable pharmacy runs so you never have to worry about running out.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Reliable feeding and check-in visits while clients are away at appointments, traveling, or simply needing an extra hand.</strong></span>
+                <span><strong>Local Transportation:</strong> Rides to appointments, errands, and activities close to home.</span>
+              </li>
+              <li className="flex items-start">
+                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
+                <span><strong>Extended Transportation:</strong> Reliable rides for destinations a little farther from home.</span>
               </li>
             </ul>
           </div>
 
-          {/* Housekeeping */}
-         <div id="housekeeping" className="mb-8 pb-8 border-b border-gray-200">
-            <h2 style={{ color: 'var(--sage)' }} className="mb-6">Housekeeping & Meal Prep</h2>
-            <p className="text-lg mb-6">
-              A comfortable home makes everyday life easier. We help with routine upkeep so seniors can focus on enjoying their home, not struggling to maintain it.
-            </p>
+          {/* Home & Yard */}
+          <div id="home" className="mb-8 pb-8 border-b border-gray-200">
+            <h2 style={{ color: 'var(--sage)' }} className="mb-4">Home & Yard Services</h2>
+            <p className="text-lg mb-6">Helping keep your home comfortable, organized, and well cared for.</p>
             <ul className="space-y-3 mb-4">
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>General Tidying:</strong> Organizing, dusting, straightening, and keeping common areas comfortable and functional.</span>
+                <span><strong>Light Housekeeping:</strong> General tidying, dusting, and keeping common areas comfortable and functional.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Dishes & Laundry:</strong> Help with everyday household tasks that can become tiring or time-consuming.</span>
+                <span><strong>Laundry & Dishes:</strong> Help with everyday household tasks that can become tiring or time-consuming.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Meal Preparation:</strong> Simple, thoughtful meal prep that makes eating well easier. Services may include washing and preparing fruits and vegetables, pre-cooking meats, portioning meals, and basic kitchen prep. </span>
+                <span><strong>Plant & Garden Care:</strong> Watering, tending, and keeping your plants and garden looking their best.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Surface Cleaning:</strong> Keeping kitchens and bathrooms fresh, tidy, and hygienic through routine upkeep.</span>
+                <span><strong>Seasonal Yard Cleanup:</strong> Light outdoor maintenance to keep your yard neat, safe, and accessible throughout the year.</span>
               </li>
             </ul>
-            <p className="text-sm text-gray-600 italic">Please Note: We provide light housekeeping and routine upkeep services. We do not handle deep cleaning, biohazard situations, or hoarding scenarios.</p>
+            <p className="text-sm text-gray-600 italic">Please note: We provide light housekeeping and routine upkeep. We do not handle deep cleaning, biohazard situations, or hoarding scenarios.</p>
           </div>
 
-          {/* Errands */}
-          <div id="errands" className="mb-8 pb-8 border-b border-gray-200">
-            <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Errand Services</h2>
-            <p className="text-lg mb-6">
-              Reliable help with the everyday tasks that are easier with an extra set of hands.
-            </p>
+          {/* Vehicle Support */}
+          <div id="vehicle" className="mb-8 pb-8 border-b border-gray-200">
+            <h2 style={{ color: 'var(--terracotta)' }} className="mb-4">Vehicle Support</h2>
+            <p className="text-lg mb-6">A little help keeping your vehicle clean, fueled, and ready to go.</p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Grocery Shopping:</strong> Personalized grocery shopping and delivery based on individual preferences and lists (within a 3-mile radius).</span>
+                <span><strong>Car Washing & Light Detailing:</strong> Keeping your vehicle clean and well maintained.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Prescription Pickup:</strong> Reliable pharmacy pickup services to help avoid extra trips and stress.</span>
+                <span><strong>Fuel Runs:</strong> We'll take your car and fill it up so you don't have to.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Local Errands:</strong> Help with trips to the post office, bank, dry cleaner, and other nearby errands within our service area.</span>
+                <span><strong>Service Appointment Coordination:</strong> Help scheduling and coordinating routine maintenance, plus transportation to and from the shop when needed.</span>
               </li>
             </ul>
           </div>
 
-          {/* Yard Work */}
-          <div id="yard" className="mb-8">
-            <h2 style={{ color: 'var(--sage)' }} className="mb-6">Seasonal Yard Work</h2>
-            <p className="text-lg mb-6">
-             Helping keep outdoor spaces neat, accessible, and welcoming throughout the year.
-            </p>
-            <ul className="space-y-3">
+          {/* Pet Care */}
+          <div id="pet" className="mb-8 pb-8 border-b border-gray-200">
+            <h2 style={{ color: 'var(--sage)' }} className="mb-4">Pet Care</h2>
+            <p className="text-lg mb-6">Helping you care for the pets that mean so much.</p>
+            <ul className="space-y-3 mb-6">
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Spring & Fall Cleanups:</strong> Seasonal yard tidying to help keep properties safe, manageable, and looking their best.</span>
+                <span><strong>Dog Walks:</strong> Solo or companion dog walks to keep your pet active, exercised, and happy.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Leaf Removal:</strong> Fall cleanup services so leaves and debris don’t become a burden or safety concern.</span>
+                <span><strong>General Pet Care:</strong> Feeding, fresh water, and everyday care for common household pets.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Light Bush Trimming & Lawn Mowing:</strong> Routine outdoor upkeep to help maintain a tidy and accessible yard.</span>
+                <span><strong>Pet Check-Ins:</strong> Visits to care for your pets while you're away or temporarily out of town.</span>
               </li>
               <li className="flex items-start">
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Driveway and Sidewalk Power Washing:</strong> Refreshing outdoor surfaces while helping improve appearance and safety.</span>
+                <span><strong>Pet Area Cleanup:</strong> Dog yard cleanup and pet area maintenance to keep spaces tidy and manageable.</span>
               </li>
             </ul>
           </div>
+
+          {/* Paperwork & Safety Support */}
+          <div id="paperwork" className="mb-8 pb-8 border-b border-gray-200">
+            <h2 style={{ color: 'var(--terracotta)' }} className="mb-4">Paperwork & Safety Support</h2>
+            <p className="text-lg mb-6">Extra help with the details that can sometimes feel overwhelming.</p>
+            <ul className="space-y-3 mb-6">
+              <li className="flex items-start">
+                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
+                <span><strong>Mail & Paperwork Assistance:</strong> Sorting mail, organizing documents, and working through paperwork together.</span>
+              </li>
+              <li className="flex items-start">
+                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
+                <span><strong>Online Forms & Applications:</strong> Help completing online forms and applications that can be difficult to navigate alone.</span>
+              </li>
+              <li className="flex items-start">
+                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
+                <span><strong>Scam & Fraud Awareness:</strong> Check-ins to review suspicious mail, calls, or emails and help you stay protected.</span>
+              </li>
+              <li className="flex items-start">
+                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
+                <span><strong>Letter Writing & Correspondence:</strong> Help writing letters, greeting cards, and staying connected with the people who matter.</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Family Caregiver Relief */}
+          <div id="caregiver" className="mb-8">
+            <h2 style={{ color: 'var(--sage)' }} className="mb-4">Family Caregiver Relief</h2>
+            <p className="text-lg mb-6">Dependable support when family caregivers need time to rest, work, or recharge.</p>
+            <ul className="space-y-3 mb-6">
+              <li className="flex items-start">
+                <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
+                <span><strong>Trusted Coverage:</strong> Reliable support for your loved one while family members are away or need a break.</span>
+              </li>
+              <li className="flex items-start">
+                <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
+                <span><strong>Companionship & Practical Assistance:</strong> Meaningful visits that include conversation, support, and help with everyday needs.</span>
+              </li>
+              <li className="flex items-start">
+                <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
+                <span><strong>Flexible Scheduling:</strong> We work around your family's needs and adjust as things change.</span>
+              </li>
+              <li className="flex items-start">
+                <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
+                <span><strong>Someone You Know & Trust:</strong> Consistent, reliable help from a familiar face your loved one is comfortable with.</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Closing note */}
+          <div style={{ backgroundColor: 'var(--sage)', color: 'white' }} className="p-8 rounded-lg text-center">
+            <p className="text-lg font-semibold mb-2" style={{ color: 'white' }}>Don't see exactly what you need?</p>
+            <p className="text-lg" style={{ color: 'white' }}>Give us a call. We'd be happy to talk through your situation and see how we can help.</p>
+            <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4 text-lg font-semibold">
+              <a href="tel:5862172898" style={{ color: 'white' }} className="underline">586-217-2898</a>
+              <span className="hidden sm:inline" style={{ color: 'white' }}>|</span>
+              <a href="mailto:hello@goodcompanyscs.com" style={{ color: 'white' }} className="underline">hello@goodcompanyscs.com</a>
+            </div>
+          </div>
+
         </div>
       </section>
 
       {/* CTA */}
-      <section style={{ backgroundColor: 'var(--sage)', color: 'white' }} className="section-padding">
+      <section style={{ backgroundColor: 'var(--terracotta)', color: 'white' }} className="section-padding">
         <div className="container-max text-center">
           <h2 style={{ color: 'white' }} className="mb-6">Ready to get started?</h2>
           <p className="text-lg mb-8">
