@@ -32,8 +32,8 @@ export default function Pricing() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
               {/* Companionship & Wellness */}
-              <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-4 rounded-lg">
-                <h3 className="mb-6">Companionship & Wellness</h3>
+              <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-6 rounded-lg">
+                <h3 className="mb-4">Companionship & Wellness</h3>
                 <ul className="space-y-3">
                   <li className="flex justify-between">
                     <span>Companion walk <span className="text-sm text-gray-500">(45 min)</span></span>
@@ -125,6 +125,18 @@ export default function Pricing() {
                     <span className="font-semibold">$25</span>
                   </li>
                   <li className="text-xs text-gray-500 italic mt-2">Mail assistance, paperwork help, and letter writing are billed at the $35/hour general rate.</li>
+                </ul>
+              </div>
+
+              {/* Technology Assistance */}
+              <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
+                <h3 className="mb-4">Technology Assistance</h3>
+                <ul className="space-y-3">
+                  <li className="flex justify-between">
+                    <span>Tech visit <span className="text-sm text-gray-500">(quick fixes & questions)</span></span>
+                    <span className="font-semibold">$25</span>
+                  </li>
+                  <li className="text-xs text-gray-500 italic mt-2">Extended sessions over 1 hour billed at the $35/hour general rate.</li>
                 </ul>
               </div>
 
