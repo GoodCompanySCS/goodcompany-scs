@@ -71,7 +71,7 @@ export default function Home() {
         <div className="container-max">
           <h2 className="mb-4 text-center">What We Offer</h2>
           <p className="text-center text-lg mb-12 max-w-xl mx-auto" style={{ color: '#666' }}>
-            Practical support tailored to what you actually need. Not sure if we cover something? Just ask.
+            Practical support tailored to your needs. Not sure if we cover something? Just ask.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
             {[
