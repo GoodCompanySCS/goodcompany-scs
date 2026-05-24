@@ -133,7 +133,7 @@ export default function Pricing() {
           {/* Bundle Builder */}
           <div className="mb-16">
             <h2 style={{ color: 'var(--terracotta)' }} className="mb-2">Build Your Own Bundle</h2>
-            <p className="text-lg mb-8">Select the services you want and see your estimated monthly cost in real time.</p>
+            <p className="text-lg mb-8">Select the services you want and see your estimated weekly or monthly cost in real time.</p>
             <BundleBuilder />
           </div>
 
