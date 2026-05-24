@@ -51,8 +51,10 @@ export default function Home() {
       <section style={{ backgroundColor: 'var(--cream)' }} className="pt-16 md:pt-24 pb-4 md:pb-8">
         <div className="container-max">
           <div className="max-w-3xl">
-            <h1 className="mb-6" style={{ color: 'var(--sage)' }}>
-              Stay home. Stay independent. Stay yourself.
+           <h1 className="mb-6" style={{ color: 'var(--sage)' }}>
+              Stay home.<br />
+              Stay independent.<br />
+              Stay yourself.
             </h1>
             <p className="text-lg mb-8">
               Good Company helps seniors in Shelby Township and the surrounding area stay independent at home with reliable support, practical help, and someone trustworthy alongside them.
