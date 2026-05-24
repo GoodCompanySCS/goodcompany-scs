@@ -1,3 +1,7 @@
+import BundleBuilder from '../components/BundleBuilder';
+
+export default function Pricing() {
+
 export default function Pricing() {
   return (
     <>
@@ -126,6 +130,13 @@ export default function Pricing() {
               </div>
 
             </div>
+          </div>
+
+          {/* Bundle Builder */}
+          <div className="mb-16">
+            <h2 style={{ color: 'var(--terracotta)' }} className="mb-2">Build Your Own Bundle</h2>
+            <p className="text-lg mb-8">Select the services you want and see your estimated monthly cost in real time.</p>
+            <BundleBuilder />
           </div>
 
           {/* Bundle Examples */}
