@@ -52,32 +52,32 @@ export default function RootLayout({
 function Header() {
   return (
     <header style={{ borderBottomColor: "var(--terracotta)" }} className="border-b-4">
-      <div className="container-max py-6">
-      <div className="flex items-center justify-between w-full gap-4">
+      <div className="container-max py-4">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full gap-3">
           <a href="/" className="no-underline hover:no-underline">
-           <div className="flex items-center gap-7">
-  <img
-    src="/logo.png"
-    alt="Good Company Logo"
-    className="h-20 md:h-28 w-auto" 
-  />
-  <div>
-    <h1 className="text-2xl font-bold" style={{ fontFamily: "Fraunces", color: "#87A878" }}>Good Company</h1>
-    <p className="text-xs tracking-widest" style={{ color: "#000000", opacity: 0.6, paddingLeft: "4px" }}>SENIOR CONCIERGE SERVICES</p>
-  </div>
-</div>
+            <div className="flex items-center gap-4">
+              <img
+                src="/logo.png"
+                alt="Good Company Logo"
+                className="h-16 md:h-24 w-auto"
+              />
+              <div>
+                <h1 className="text-xl md:text-2xl font-bold" style={{ fontFamily: "Fraunces", color: "#87A878" }}>Good Company</h1>
+                <p className="text-xs tracking-widest" style={{ color: "#000000", opacity: 0.6, paddingLeft: "4px" }}>SENIOR CONCIERGE SERVICES</p>
+              </div>
+            </div>
           </a>
-          <nav className="flex gap-2 md:gap-8 items-center flex-wrap md:flex-nowrap justify-center md:justify-start w-full md:w-auto mt-3 md:mt-0">
-            <a href="/services" style={{ color: '#000000', opacity: 0.7 }} className="font-semibold hover:opacity-70">
+          <nav className="flex gap-4 md:gap-8 items-center">
+            <a href="/services" style={{ color: '#000000', opacity: 0.7 }} className="font-semibold hover:opacity-70 text-sm md:text-base">
               Services
             </a>
-            <a href="/pricing" style={{ color: '#000000', opacity: 0.7 }} className="font-semibold hover:opacity-70">
+            <a href="/pricing" style={{ color: '#000000', opacity: 0.7 }} className="font-semibold hover:opacity-70 text-sm md:text-base">
               Pricing
             </a>
-            <a href="/about" style={{ color: '#000000', opacity: 0.7 }} className="font-semibold hover:opacity-70">
+            <a href="/about" style={{ color: '#000000', opacity: 0.7 }} className="font-semibold hover:opacity-70 text-sm md:text-base">
               About
             </a>
-            <a href="/contact" className="btn-primary">
+            <a href="/contact" className="btn-primary text-sm md:text-base">
               Get Started
             </a>
           </nav>
