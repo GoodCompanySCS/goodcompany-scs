@@ -172,24 +172,6 @@ export default function Pricing() {
               ))}
             </div>
           </div>
-
-          {/* Not Sure Section */}
-          <div style={{ backgroundColor: 'var(--sage)', color: 'white' }} className="p-10 rounded-lg text-center">
-            <h3 style={{ color: 'white' }} className="mb-4">Not sure what you need? That's okay.</h3>
-            <p className="text-lg mb-4" style={{ color: 'white' }}>
-              Life doesn't always fit neatly into a list. Maybe you're recovering from a procedure. Maybe your regular caregiver is on vacation. Maybe you just want some company on a Tuesday.
-            </p>
-            <p className="text-lg mb-8" style={{ color: 'white' }}>
-              Whatever the situation, give us a call and we'll figure it out together.
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4 text-lg font-semibold">
-              <a href="tel:5862172898" style={{ color: 'white' }} className="underline">586-217-2898</a>
-              <span className="hidden sm:inline" style={{ color: 'white' }}>|</span>
-              <a href="mailto:hello@goodcompanyscs.com" style={{ color: 'white' }} className="underline">hello@goodcompanyscs.com</a>
-            </div>
-          </div>
-
-        </div>
       </section>
 
       {/* CTA */}
