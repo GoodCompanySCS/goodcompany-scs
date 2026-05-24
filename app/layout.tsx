@@ -97,10 +97,15 @@ function Footer() {
           <div>
             <h3 className="text-cream mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><a href="/services#companion" className="text-cream hover:text-honey">Companion Services</a></li>
-              <li><a href="/services#pet" className="text-cream hover:text-honey">Pet Services</a></li>
-              <li><a href="/services#housekeeping" className="text-cream hover:text-honey">Housekeeping</a></li>
-              <li><a href="/services#errands" className="text-cream hover:text-honey">Errands</a></li>
+              <li><a href="/services#technology" className="text-cream hover:text-honey">Technology Assistance</a></li>
+              <li><a href="/services#meals" className="text-cream hover:text-honey">Meals & Nutrition</a></li>
+              <li><a href="/services#companion" className="text-cream hover:text-honey">Companionship & Check-Ins</a></li>
+              <li><a href="/services#errands" className="text-cream hover:text-honey">Errands & Transportation</a></li>
+              <li><a href="/services#home" className="text-cream hover:text-honey">Home & Yard Services</a></li>
+              <li><a href="/services#vehicle" className="text-cream hover:text-honey">Vehicle Support</a></li>
+              <li><a href="/services#pet" className="text-cream hover:text-honey">Pet Care</a></li>
+              <li><a href="/services#paperwork" className="text-cream hover:text-honey">Paperwork & Safety Support</a></li>
+              <li><a href="/services#caregiver" className="text-cream hover:text-honey">Family Caregiver Relief</a></li>
             </ul>
           </div>
           <div>
