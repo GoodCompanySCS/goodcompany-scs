@@ -139,7 +139,7 @@ export default function Pricing() {
           </div>
 
           {/* How Pricing Works */}
-          <div className="mb-16">
+          <div className="mb-8">
             <h2 style={{ color: 'var(--sage)' }} className="mb-6">How pricing works</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
