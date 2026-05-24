@@ -29,7 +29,7 @@ export default function Pricing() {
 
             {/* Flat-Rate Categories */}
             <p className="font-semibold text-lg mb-4" style={{ color: 'var(--sage)' }}>Flat-rate services:</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
 
               {/* Companionship & Wellness */}
               <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-6 rounded-lg">
