@@ -75,7 +75,18 @@ export default function Pricing() {
                   </ul>
                 </div>
               </div>
-
+                 {/* Technology Assistance */}
+                <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
+                  <h3 className="mb-4">Technology Assistance</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between">
+                      <span>Tech visit <span className="text-sm text-gray-500">(quick fixes & questions)</span></span>
+                      <span className="font-semibold">$25</span>
+                    </li>
+                    <li className="text-xs text-gray-500 italic mt-2">Extended sessions over 1 hour billed at the $35/hour general rate.</li>
+                  </ul>
+                </div>
+              </div>
               <div className="flex flex-col gap-8">
                 {/* Errands & Transportation */}
                 <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
@@ -108,6 +119,7 @@ export default function Pricing() {
                     <li className="text-xs text-gray-500 italic mt-2">Rides include companionship throughout the appointment.</li>
                   </ul>
                 </div>
+                
                 {/* Vehicle Support */}
                 <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
                   <h3 className="mb-4">Vehicle Support</h3>
@@ -126,18 +138,6 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
-                {/* Technology Assistance */}
-                <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
-                  <h3 className="mb-4">Technology Assistance</h3>
-                  <ul className="space-y-3">
-                    <li className="flex justify-between">
-                      <span>Tech visit <span className="text-sm text-gray-500">(quick fixes & questions)</span></span>
-                      <span className="font-semibold">$25</span>
-                    </li>
-                    <li className="text-xs text-gray-500 italic mt-2">Extended sessions over 1 hour billed at the $35/hour general rate.</li>
-                  </ul>
-                </div>
-              </div>
            </div>
             </div>
 
