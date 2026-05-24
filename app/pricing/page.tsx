@@ -29,8 +29,11 @@ export default function Pricing() {
 
             {/* Flat-Rate Categories */}
             <p className="font-semibold text-lg mb-4" style={{ color: 'var(--sage)' }}>Flat-rate services:</p>
-           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+
+              {/* Left Column */}
               <div className="flex flex-col gap-8">
+
                 {/* Companionship & Wellness */}
                 <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-6 rounded-lg">
                   <h3 className="mb-4">Companionship & Wellness</h3>
@@ -45,6 +48,7 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
+
                 {/* Pet Care */}
                 <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-6 rounded-lg">
                   <h3 className="mb-4">Pet Care</h3>
@@ -63,6 +67,7 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
+
                 {/* Paperwork & Safety Support */}
                 <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-6 rounded-lg">
                   <h3 className="mb-4">Paperwork & Safety Support</h3>
@@ -74,8 +79,8 @@ export default function Pricing() {
                     <li className="text-xs text-gray-500 italic mt-2">Mail assistance, paperwork help, and letter writing are billed at the $35/hour general rate.</li>
                   </ul>
                 </div>
-              </div>
-                 {/* Technology Assistance */}
+
+                {/* Technology Assistance */}
                 <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
                   <h3 className="mb-4">Technology Assistance</h3>
                   <ul className="space-y-3">
@@ -86,8 +91,12 @@ export default function Pricing() {
                     <li className="text-xs text-gray-500 italic mt-2">Extended sessions over 1 hour billed at the $35/hour general rate.</li>
                   </ul>
                 </div>
+
               </div>
+
+              {/* Right Column */}
               <div className="flex flex-col gap-8">
+
                 {/* Errands & Transportation */}
                 <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
                   <h3 className="mb-4">Errands & Transportation</h3>
@@ -119,7 +128,7 @@ export default function Pricing() {
                     <li className="text-xs text-gray-500 italic mt-2">Rides include companionship throughout the appointment.</li>
                   </ul>
                 </div>
-                
+
                 {/* Vehicle Support */}
                 <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
                   <h3 className="mb-4">Vehicle Support</h3>
@@ -138,8 +147,10 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
-           </div>
+
+              </div>
             </div>
+          </div>
 
           {/* Bundle Builder */}
           <div className="mb-16">
