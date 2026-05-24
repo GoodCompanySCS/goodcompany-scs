@@ -32,7 +32,7 @@ export default function Pricing() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
               {/* Companionship & Wellness */}
-              <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-8 rounded-lg">
+              <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-4 rounded-lg">
                 <h3 className="mb-6">Companionship & Wellness</h3>
                 <ul className="space-y-3">
                   <li className="flex justify-between">
