@@ -40,10 +40,6 @@ export default function Pricing() {
                     <span className="font-semibold">$30</span>
                   </li>
                   <li className="flex justify-between">
-                    <span>Solo dog walk <span className="text-sm text-gray-500">(30 min)</span></span>
-                    <span className="font-semibold">$25</span>
-                  </li>
-                  <li className="flex justify-between">
                     <span>Wellness check-in <span className="text-sm text-gray-500">(30 min)</span></span>
                     <span className="font-semibold">$25</span>
                   </li>
@@ -86,6 +82,10 @@ export default function Pricing() {
               <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-8 rounded-lg">
                 <h3 className="mb-6">Pet Care</h3>
                 <ul className="space-y-3">
+                   <li className="flex justify-between">
+                    <span>Solo dog walk <span className="text-sm text-gray-500">(30 min)</span></span>
+                    <span className="font-semibold">$25</span>
+                  </li>
                   <li className="flex justify-between">
                     <span>Dog yard cleanup <span className="text-sm text-gray-500">(per visit)</span></span>
                     <span className="font-semibold">$20</span>
