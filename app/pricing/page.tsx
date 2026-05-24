@@ -19,7 +19,7 @@ export default function Pricing() {
             {/* Base Rate */}
             <div style={{ backgroundColor: 'white', borderColor: 'var(--sage)', borderWidth: '2px' }} className="p-5 rounded-lg mb-8">
               <div className="flex items-baseline gap-4 mb-4">
-                <span style={{ color: 'var(--sage)', fontSize: '3rem', fontWeight: '700', fontFamily: 'Fraunces' }}>$40</span>
+                <span style={{ color: 'var(--sage)', fontSize: '3rem', fontWeight: '700', fontFamily: 'Fraunces' }}>$35</span>
                 <span className="text-lg text-gray-600">/ hour &nbsp;·&nbsp; Standard rate for most services</span>
               </div>
               <p className="text-gray-600">
