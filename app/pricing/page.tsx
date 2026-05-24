@@ -172,7 +172,7 @@ export default function Pricing() {
               ))}
             </div>
           </div>
-      </section>
+      
 
       {/* CTA */}
       <section style={{ backgroundColor: 'var(--terracotta)', color: 'white' }} className="section-padding">
