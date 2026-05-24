@@ -209,10 +209,7 @@ export default function BundleBuilder() {
                     <span style={{ fontSize: '0.85rem', color: sage }}>10% bundle discount</span>
                     <span style={{ fontWeight: '700', color: sage }}>~${discounted10}/mo</span>
                   </div>
-                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <span style={{ fontSize: '0.85rem', color: terra }}>15% bundle discount</span>
-                    <span style={{ fontWeight: '700', color: terra }}>~${discounted15}/mo</span>
-                  </div>
+                  
                 </>
               )}
             </div>
