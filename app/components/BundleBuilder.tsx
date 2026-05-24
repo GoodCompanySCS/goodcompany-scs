@@ -10,7 +10,7 @@ const serviceCategories = [
       { id: 'companion_walk', name: 'Companion Walk', note: '45 min', price: 30, unit: 'per walk' },
       { id: 'dog_walk', name: 'Solo Dog Walk', note: '30 min', price: 25, unit: 'per walk' },
       { id: 'wellness_checkin', name: 'Wellness Check-In', note: '30 min', price: 25, unit: 'per visit' },
-      { id: 'appointment', name: 'Appointment Accompaniment', note: 'per hour', price: 40, unit: 'per hour' },
+      { id: 'appointment', name: 'Appointment Accompaniment', note: 'per hour', price: 35, unit: 'per hour' },
     ],
   },
   {
@@ -20,7 +20,7 @@ const serviceCategories = [
       { id: 'grocery', name: 'Grocery Run', note: '+ receipt', price: 35, unit: 'per run' },
       { id: 'prescription', name: 'Prescription Pickup', note: '+ receipt', price: 20, unit: 'per pickup' },
       { id: 'local_ride', name: 'Local Ride', note: 'drop-off only', price: 25, unit: 'per ride' },
-      { id: 'ride_wait_1', name: 'Ride with Wait', note: 'up to 1 hour', price: 40, unit: 'per ride' },
+      { id: 'ride_wait_1', name: 'Ride with Wait', note: 'up to 1 hour', price: 35, unit: 'per ride' },
       { id: 'ride_wait_2', name: 'Ride with Wait', note: '1–2 hours', price: 55, unit: 'per ride' },
     ],
   },
@@ -28,10 +28,10 @@ const serviceCategories = [
     name: 'Home & Yard',
     color: 'terracotta',
     services: [
-      { id: 'housekeeping', name: 'Light Housekeeping', note: 'per hour', price: 40, unit: 'per hour' },
-      { id: 'meal_prep', name: 'Meal Prep', note: 'per hour', price: 40, unit: 'per hour' },
-      { id: 'garden', name: 'Plant & Garden Care', note: 'per hour', price: 40, unit: 'per hour' },
-      { id: 'yard', name: 'Yard Cleanup', note: 'per hour', price: 40, unit: 'per hour' },
+      { id: 'housekeeping', name: 'Light Housekeeping', note: 'per hour', price: 35, unit: 'per hour' },
+      { id: 'meal_prep', name: 'Meal Prep', note: 'per hour', price: 35, unit: 'per hour' },
+      { id: 'garden', name: 'Plant & Garden Care', note: 'per hour', price: 35, unit: 'per hour' },
+      { id: 'yard', name: 'Yard Cleanup', note: 'per hour', price: 35, unit: 'per hour' },
     ],
   },
   {
@@ -40,7 +40,7 @@ const serviceCategories = [
     services: [
       { id: 'dog_yard', name: 'Dog Yard Cleanup', note: 'per visit', price: 20, unit: 'per visit' },
       { id: 'pet_checkin', name: 'Pet Check-In', note: 'while away', price: 25, unit: 'per visit' },
-      { id: 'pet_care', name: 'General Pet Care', note: 'per hour', price: 40, unit: 'per hour' },
+      { id: 'pet_care', name: 'General Pet Care', note: 'per hour', price: 35, unit: 'per hour' },
     ],
   },
   {
@@ -56,7 +56,7 @@ const serviceCategories = [
     color: 'sage',
     services: [
       { id: 'tech', name: 'Technology Assistance', note: 'per hour', price: 25, unit: 'per visit' },
-      { id: 'paperwork', name: 'Mail & Paperwork Help', note: 'per hour', price: 40, unit: 'per hour' },
+      { id: 'paperwork', name: 'Mail & Paperwork Help', note: 'per hour', price: 35, unit: 'per hour' },
       { id: 'fraud', name: 'Scam & Fraud Check-In', note: 'per visit', price: 25, unit: 'per visit' },
     ],
   },
