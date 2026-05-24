@@ -47,8 +47,8 @@ export default function Pricing() {
               </div>
 
               {/* Errands & Transportation */}
-              <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-8 rounded-lg">
-                <h3 className="mb-6">Errands & Transportation</h3>
+              <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
+                <h3 className="mb-4">Errands & Transportation</h3>
                 <ul className="space-y-3">
                   <li className="flex justify-between">
                     <span>Grocery run <span className="text-sm text-gray-500">(+ receipt)</span></span>
