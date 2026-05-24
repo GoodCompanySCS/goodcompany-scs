@@ -29,119 +29,116 @@ export default function Pricing() {
 
             {/* Flat-Rate Categories */}
             <p className="font-semibold text-lg mb-4" style={{ color: 'var(--sage)' }}>Flat-rate services:</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-
-              {/* Companionship & Wellness */}
-              <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-6 rounded-lg">
-                <h3 className="mb-4">Companionship & Wellness</h3>
-                <ul className="space-y-3">
-                  <li className="flex justify-between">
-                    <span>Companion walk <span className="text-sm text-gray-500">(45 min)</span></span>
-                    <span className="font-semibold">$30</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Wellness check-in <span className="text-sm text-gray-500">(30 min)</span></span>
-                    <span className="font-semibold">$25</span>
-                  </li>
-                </ul>
+           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+              <div className="flex flex-col gap-8">
+                {/* Companionship & Wellness */}
+                <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-6 rounded-lg">
+                  <h3 className="mb-4">Companionship & Wellness</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between">
+                      <span>Companion walk <span className="text-sm text-gray-500">(45 min)</span></span>
+                      <span className="font-semibold">$30</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Wellness check-in <span className="text-sm text-gray-500">(30 min)</span></span>
+                      <span className="font-semibold">$25</span>
+                    </li>
+                  </ul>
+                </div>
+                {/* Pet Care */}
+                <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-6 rounded-lg">
+                  <h3 className="mb-4">Pet Care</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between">
+                      <span>Solo dog walk <span className="text-sm text-gray-500">(30 min)</span></span>
+                      <span className="font-semibold">$25</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Dog yard cleanup <span className="text-sm text-gray-500">(per visit)</span></span>
+                      <span className="font-semibold">$20</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Pet check-in <span className="text-sm text-gray-500">(while away)</span></span>
+                      <span className="font-semibold">$25</span>
+                    </li>
+                  </ul>
+                </div>
+                {/* Paperwork & Safety Support */}
+                <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-6 rounded-lg">
+                  <h3 className="mb-4">Paperwork & Safety Support</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between">
+                      <span>Scam & fraud check-in <span className="text-sm text-gray-500">(per visit)</span></span>
+                      <span className="font-semibold">$25</span>
+                    </li>
+                    <li className="text-xs text-gray-500 italic mt-2">Mail assistance, paperwork help, and letter writing are billed at the $35/hour general rate.</li>
+                  </ul>
+                </div>
               </div>
 
-              {/* Errands & Transportation */}
-              <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
-                <h3 className="mb-4">Errands & Transportation</h3>
-                <ul className="space-y-3">
-                  <li className="flex justify-between">
-                    <span>Grocery run <span className="text-sm text-gray-500">(+ receipt)</span></span>
-                    <span className="font-semibold">$35</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Prescription pickup <span className="text-sm text-gray-500">(+ receipt)</span></span>
-                    <span className="font-semibold">$20</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Local ride <span className="text-sm text-gray-500">(drop-off only)</span></span>
-                    <span className="font-semibold">$25</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Ride with wait <span className="text-sm text-gray-500">(up to 1 hour)</span></span>
-                    <span className="font-semibold">$40</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Ride with wait <span className="text-sm text-gray-500">(1–2 hours)</span></span>
-                    <span className="font-semibold">$55</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Extended ride <span className="text-sm text-gray-500">(10–25 miles)</span></span>
-                    <span className="font-semibold">$50 + $1/mi over 10</span>
-                  </li>
-                  <li className="text-xs text-gray-500 italic mt-2">Rides include companionship throughout the appointment.</li>
-                </ul>
+              <div className="flex flex-col gap-8">
+                {/* Errands & Transportation */}
+                <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
+                  <h3 className="mb-4">Errands & Transportation</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between">
+                      <span>Grocery run <span className="text-sm text-gray-500">(+ receipt)</span></span>
+                      <span className="font-semibold">$35</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Prescription pickup <span className="text-sm text-gray-500">(+ receipt)</span></span>
+                      <span className="font-semibold">$20</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Local ride <span className="text-sm text-gray-500">(drop-off only)</span></span>
+                      <span className="font-semibold">$25</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Ride with wait <span className="text-sm text-gray-500">(up to 1 hour)</span></span>
+                      <span className="font-semibold">$40</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Ride with wait <span className="text-sm text-gray-500">(1–2 hours)</span></span>
+                      <span className="font-semibold">$55</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Extended ride <span className="text-sm text-gray-500">(10–25 miles)</span></span>
+                      <span className="font-semibold">$50 + $1/mi over 10</span>
+                    </li>
+                    <li className="text-xs text-gray-500 italic mt-2">Rides include companionship throughout the appointment.</li>
+                  </ul>
+                </div>
+                {/* Vehicle Support */}
+                <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
+                  <h3 className="mb-4">Vehicle Support</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between">
+                      <span>Car wash run <span className="text-sm text-gray-500">(+ cost of wash)</span></span>
+                      <span className="font-semibold">$20</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Fuel run <span className="text-sm text-gray-500">(flat rate)</span></span>
+                      <span className="font-semibold">$20</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Outdoor power wash <span className="text-sm text-gray-500">(quoted by job)</span></span>
+                      <span className="font-semibold">From $75</span>
+                    </li>
+                  </ul>
+                </div>
+                {/* Technology Assistance */}
+                <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
+                  <h3 className="mb-4">Technology Assistance</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between">
+                      <span>Tech visit <span className="text-sm text-gray-500">(quick fixes & questions)</span></span>
+                      <span className="font-semibold">$25</span>
+                    </li>
+                    <li className="text-xs text-gray-500 italic mt-2">Extended sessions over 1 hour billed at the $35/hour general rate.</li>
+                  </ul>
+                </div>
               </div>
-
-              {/* Pet Care */}
-              <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-8 rounded-lg">
-                <h3 className="mb-6">Pet Care</h3>
-                <ul className="space-y-3">
-                   <li className="flex justify-between">
-                    <span>Solo dog walk <span className="text-sm text-gray-500">(30 min)</span></span>
-                    <span className="font-semibold">$25</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Dog yard cleanup <span className="text-sm text-gray-500">(per visit)</span></span>
-                    <span className="font-semibold">$20</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Pet check-in <span className="text-sm text-gray-500">(while away)</span></span>
-                    <span className="font-semibold">$25</span>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Vehicle Support */}
-              <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-8 rounded-lg">
-                <h3 className="mb-6">Vehicle Support</h3>
-                <ul className="space-y-3">
-                  <li className="flex justify-between">
-                    <span>Car wash run <span className="text-sm text-gray-500">(+ cost of wash)</span></span>
-                    <span className="font-semibold">$20</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Fuel run <span className="text-sm text-gray-500">(flat rate)</span></span>
-                    <span className="font-semibold">$20</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Outdoor power wash <span className="text-sm text-gray-500">(quoted by job)</span></span>
-                    <span className="font-semibold">From $75</span>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Paperwork & Safety Support */}
-              <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-8 rounded-lg">
-                <h3 className="mb-6">Paperwork & Safety Support</h3>
-                <ul className="space-y-3">
-                  <li className="flex justify-between">
-                    <span>Scam & fraud check-in <span className="text-sm text-gray-500">(per visit)</span></span>
-                    <span className="font-semibold">$25</span>
-                  </li>
-                  <li className="text-xs text-gray-500 italic mt-2">Mail assistance, paperwork help, and letter writing are billed at the $35/hour general rate.</li>
-                </ul>
-              </div>
-
-              {/* Technology Assistance */}
-              <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
-                <h3 className="mb-4">Technology Assistance</h3>
-                <ul className="space-y-3">
-                  <li className="flex justify-between">
-                    <span>Tech visit <span className="text-sm text-gray-500">(quick fixes & questions)</span></span>
-                    <span className="font-semibold">$25</span>
-                  </li>
-                  <li className="text-xs text-gray-500 italic mt-2">Extended sessions over 1 hour billed at the $35/hour general rate.</li>
-                </ul>
-              </div>
-
             </div>
-          </div>
 
           {/* Bundle Builder */}
           <div className="mb-16">
