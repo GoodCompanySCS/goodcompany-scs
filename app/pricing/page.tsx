@@ -129,25 +129,6 @@ export default function Pricing() {
                   </ul>
                 </div>
 
-                {/* Vehicle Support */}
-                <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
-                  <h3 className="mb-4">Vehicle Support</h3>
-                  <ul className="space-y-3">
-                    <li className="flex justify-between">
-                      <span>Car wash run <span className="text-sm text-gray-500">(+ cost of wash)</span></span>
-                      <span className="font-semibold">$20</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Fuel run <span className="text-sm text-gray-500">(flat rate)</span></span>
-                      <span className="font-semibold">$20</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Outdoor power wash <span className="text-sm text-gray-500">(quoted by job)</span></span>
-                      <span className="font-semibold">From $75</span>
-                    </li>
-                  </ul>
-                </div>
-
               </div>
             </div>
           </div>
