@@ -38,7 +38,7 @@ const serviceCategories = [
     name: 'Pet Care',
     color: 'sage',
     services: [
-      { id: 'dog_yard', name: 'Dog Yard Cleanup', note: 'per visit', price: 20, unit: 'per visit' },
+      { id: 'dog_yard', name: 'Dog Yard Cleanup', note: 'per visit', price: 25, unit: 'per visit' },
       { id: 'pet_checkin', name: 'Pet Check-In', note: 'while away', price: 25, unit: 'per visit' },
       { id: 'pet_care', name: 'General Pet Care', note: 'per hour', price: 35, unit: 'per hour' },
     ],
