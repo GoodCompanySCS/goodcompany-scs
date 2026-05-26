@@ -124,7 +124,6 @@ export default function Pricing() {
                       <span>Tech visit* <span className="text-sm text-gray-500">(quick fixes & questions)</span></span>
                       <span className="font-semibold">$25</span>
                     </li>
-                    <li className="text-xs text-gray-500 italic mt-2">Extended sessions over 1 hour billed at the $35/hour general rate.</li>
                   </ul>
                 </div>
               </div>
