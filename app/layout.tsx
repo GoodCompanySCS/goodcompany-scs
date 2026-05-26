@@ -76,9 +76,9 @@ function Header() {
             </a>
             <a href="/about" style={{ color: '#000000', opacity: 0.7 }} className="font-semibold hover:opacity-70 text-sm md:text-base">
               About
-              <a href="/faq" style={{ color: '#000000', opacity: 0.7 }} className="font-semibold hover:opacity-70 text-sm md:text-base">
-              FAQ
             </a>
+            <a href="/faq" style={{ color: '#000000', opacity: 0.7 }} className="font-semibold hover:opacity-70 text-sm md:text-base">
+              FAQ
             </a>
             <a href="/contact" className="btn-primary text-sm md:text-base">
               Get Started
