@@ -59,7 +59,7 @@ export default function Pricing() {
                     </li>
                     <li className="flex justify-between">
                       <span>Dog yard cleanup <span className="text-sm text-gray-500">(per visit)</span></span>
-                      <span className="font-semibold">$20</span>
+                      <span className="font-semibold">$25</span>
                     </li>
                     <li className="flex justify-between">
                       <span>Pet check-in <span className="text-sm text-gray-500">(while away)</span></span>
