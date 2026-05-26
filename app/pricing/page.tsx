@@ -58,7 +58,7 @@ export default function Pricing() {
                       <span className="font-semibold">$25</span>
                     </li>
                     <li className="flex justify-between">
-                      <span>Dog yard cleanup <span className="text-sm text-gray-500">(per visit)</span></span>
+                      <span>Dog yard cleanup* <span className="text-sm text-gray-500">(per visit)</span></span>
                       <span className="font-semibold">$25</span>
                     </li>
                     <li className="flex justify-between">
@@ -121,17 +121,21 @@ export default function Pricing() {
                   <h3 className="mb-4">Technology Assistance</h3>
                   <ul className="space-y-3">
                     <li className="flex justify-between">
-                      <span>Tech visit <span className="text-sm text-gray-500">(quick fixes & questions)</span></span>
+                      <span>Tech visit* <span className="text-sm text-gray-500">(quick fixes & questions)</span></span>
                       <span className="font-semibold">$25</span>
                     </li>
                     <li className="text-xs text-gray-500 italic mt-2">Extended sessions over 1 hour billed at the $35/hour general rate.</li>
                   </ul>
                 </div>
-
               </div>
             </div>
+          
+            <p className="text-xs text-gray-500 italic mt-6">
+              *Starting rates only. Services marked with an asterisk may vary in price based on the scope of the project. Dog yard cleanup and tech visits start at $25 per visit. All other variable services are billed at $35/hour.
+            </p>
           </div>
 
+          {/* Bundle Builder */}
           {/* Bundle Builder */}
           <div className="mb-16">
             <h2 style={{ color: 'var(--terracotta)' }} className="mb-2">Build Your Own Bundle</h2>
