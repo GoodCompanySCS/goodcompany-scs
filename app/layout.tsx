@@ -115,6 +115,7 @@ function Footer() {
             <ul className="space-y-2">
               <li><a href="/about" className="text-cream hover:text-honey">About Us</a></li>
               <li><a href="/contact" className="text-cream hover:text-honey">Contact</a></li>
+              <li><a href="/faq" className="text-cream hover:text-honey">FAQ</a></li>
               <li><a href="/privacy" className="text-cream hover:text-honey">Privacy Policy</a></li>
               <li><a href="/terms" className="text-cream hover:text-honey">Terms of Service</a></li>
             </ul>
