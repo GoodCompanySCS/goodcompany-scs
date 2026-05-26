@@ -110,7 +110,7 @@ export default function FAQ() {
         <div className="container-max">
           <h1 className="mb-4">Frequently Asked Questions</h1>
           <p className="text-lg mb-12 max-w-2xl">
-            Have a question that isn't answered here? Give us a call at 586-217-2898 or email hello@goodcompanyscs.com — we're happy to help.
+            Have a question that's not covered below? Give us a call at 586-217-2898 or email hello@goodcompanyscs.com. We'll be happy to talk it through with you.
           </p>
 
           <div className="space-y-16">
