@@ -149,7 +149,7 @@ export default function Pricing() {
               {[
                 { label: 'À la carte', value: 'One-time services, billed after completion.' },
                 { label: 'Bundles', value: 'Billed monthly. Cancel anytime with 7 days\' notice.' },
-                { label: 'Payment', value: 'Check, Venmo, Zelle, Square, or cash. We keep it simple.' },
+                { label: 'Payment', value: 'Check, Venmo, Square, or cash. We keep it simple.' },
                 { label: 'No hidden fees', value: 'What you see is what you pay.' },
               ].map((row, i) => (
                 <div key={i} className="flex items-start gap-3 p-2">
