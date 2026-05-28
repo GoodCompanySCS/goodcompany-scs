@@ -87,7 +87,7 @@ export default function Pricing() {
 
                 {/* Errands */}
                 <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
-                  <h3 className="mb-4">Errands & Transportation</h3>
+                  <h3 className="mb-4">Errands</h3>
                   <ul className="space-y-3">
                     <li className="flex justify-between">
                       <span>Grocery run <span className="text-sm text-gray-500">(+ receipt)</span></span>
