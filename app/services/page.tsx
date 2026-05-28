@@ -70,7 +70,7 @@ export default function Services() {
 
           {/* Errands */}
           <div id="errands" className="mb-8 pb-8 border-b border-gray-200">
-            <h2 style={{ color: 'var(--terracotta)' }} className="mb-4">Errands & Transportation</h2>
+            <h2 style={{ color: 'var(--terracotta)' }} className="mb-4">Errands</h2>
             <p className="text-lg mb-6">Reliable help getting where you need to go and taking care of everyday tasks.</p>
             <ul className="space-y-3 mb-6">
               <li className="flex items-start">
@@ -107,26 +107,6 @@ export default function Services() {
               </li>
             </ul>
             <p className="text-sm text-gray-600 italic">Please note: We provide light housekeeping and routine upkeep. We do not handle deep cleaning, biohazard situations, or hoarding scenarios.</p>
-          </div>
-
-          {/* Vehicle Support */}
-          <div id="vehicle" className="mb-8 pb-8 border-b border-gray-200">
-            <h2 style={{ color: 'var(--terracotta)' }} className="mb-4">Vehicle Support</h2>
-            <p className="text-lg mb-6">A little help keeping your vehicle clean, fueled, and ready to go.</p>
-            <ul className="space-y-3 mb-6">
-              <li className="flex items-start">
-                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Car Washing & Light Detailing:</strong> Keeping your vehicle clean and well maintained.</span>
-              </li>
-              <li className="flex items-start">
-                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Fuel Runs:</strong> We'll take your car and fill it up so you don't have to.</span>
-              </li>
-              <li className="flex items-start">
-                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Service Appointment Coordination:</strong> Help scheduling and coordinating routine maintenance, plus transportation to and from the shop when needed.</span>
-              </li>
-            </ul>
           </div>
 
           {/* Pet Care */}
