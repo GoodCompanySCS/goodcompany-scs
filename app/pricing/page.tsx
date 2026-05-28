@@ -23,7 +23,7 @@ export default function Pricing() {
                 <span className="text-lg text-gray-600">/ hour &nbsp;·&nbsp; Standard rate for most services</span>
               </div>
               <p className="text-gray-600">
-                This rate covers services such as meal prep, nutrition guidance, light housekeeping, home & yard services, and family caregiver relief. 1-hour minimum applies.
+                This rate covers services such as companion visits, meal prep, nutrition guidance, light housekeeping, home & yard services, and family caregiver relief. 1-hour minimum applies.
               </p>
             </div>
 
