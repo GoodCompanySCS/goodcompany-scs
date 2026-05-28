@@ -85,7 +85,7 @@ export default function Pricing() {
               {/* Right Column */}
               <div className="flex flex-col gap-8">
 
-                {/* Errands & Transportation */}
+                {/* Errands */}
                 <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
                   <h3 className="mb-4">Errands & Transportation</h3>
                   <ul className="space-y-3">
@@ -97,23 +97,6 @@ export default function Pricing() {
                       <span>Prescription pickup <span className="text-sm text-gray-500">(+ receipt)</span></span>
                       <span className="font-semibold">$20</span>
                     </li>
-                    <li className="flex justify-between">
-                      <span>Local ride <span className="text-sm text-gray-500">(drop-off only)</span></span>
-                      <span className="font-semibold">$25</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Ride with wait <span className="text-sm text-gray-500">(up to 1 hour)</span></span>
-                      <span className="font-semibold">$40</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Ride with wait <span className="text-sm text-gray-500">(1–2 hours)</span></span>
-                      <span className="font-semibold">$55</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Extended ride <span className="text-sm text-gray-500">(10–25 miles)</span></span>
-                      <span className="font-semibold">$50 + $1/mi over 10</span>
-                    </li>
-                    <li className="text-xs text-gray-500 italic mt-2">Rides include companionship throughout the appointment.</li>
                   </ul>
                 </div>
                    {/* Technology Assistance */}
