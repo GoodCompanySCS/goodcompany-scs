@@ -18,7 +18,7 @@ export default function FAQ() {
         },
         {
           q: "How is this different from a home health aide?",
-          a: "Home health aides provide medical and personal care services. Good Company focuses on the practical support that helps make everyday life easier, including companionship, transportation, errands, housekeeping, pet care, meal preparation, and technology assistance. Families can use both services together, relying on a home health aide for medical needs and Good Company for everything else."
+          a: "Home health aides provide medical and personal care services. Good Company focuses on the practical support that helps make everyday life easier, including companionship, errands, housekeeping, pet care, meal preparation, and technology assistance. Families can use both services together, relying on a home health aide for medical needs and Good Company for everything else."
         },
       ]
     },
