@@ -15,7 +15,7 @@ const serviceCategories = [
     ],
   },
   {
-    name: 'Errands & Transportation',
+    name: 'Errands',
     color: 'sage',
     services: [
       { id: 'grocery', name: 'Grocery Run', note: '+ receipt', price: 35, unit: 'per run' },
