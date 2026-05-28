@@ -65,10 +65,6 @@ export default function Services() {
                 <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
                 <span><strong>Wellness Check-Ins:</strong> Regular check-ins for added peace of mind for you and your family.</span>
               </li>
-              <li className="flex items-start">
-                <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                <span><strong>Appointment Accompaniment:</strong> Transportation, waiting room support, and an extra set of ears during appointments.</span>
-              </li>
             </ul>
           </div>
 
