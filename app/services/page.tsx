@@ -85,14 +85,6 @@ export default function Services() {
                 <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
                 <span><strong>Prescription Pickup:</strong> Reliable pharmacy runs so you never have to worry about running out.</span>
               </li>
-              <li className="flex items-start">
-                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Local Transportation:</strong> Rides to appointments, errands, and activities close to home.</span>
-              </li>
-              <li className="flex items-start">
-                <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                <span><strong>Extended Transportation:</strong> Reliable rides for destinations a little farther from home.</span>
-              </li>
             </ul>
           </div>
 
