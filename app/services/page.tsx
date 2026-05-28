@@ -72,7 +72,7 @@ export default function Services() {
             </ul>
           </div>
 
-          {/* Errands & Transportation */}
+          {/* Errands */}
           <div id="errands" className="mb-8 pb-8 border-b border-gray-200">
             <h2 style={{ color: 'var(--terracotta)' }} className="mb-4">Errands & Transportation</h2>
             <p className="text-lg mb-6">Reliable help getting where you need to go and taking care of everyday tasks.</p>
