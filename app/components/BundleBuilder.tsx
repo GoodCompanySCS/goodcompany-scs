@@ -7,6 +7,7 @@ const serviceCategories = [
     name: 'Companionship & Wellness',
     color: 'terracotta',
     services: [
+      { id: 'companion_visit', name: 'Companion Visit', note: 'per hour', price: 35, unit: 'per visit' },
       { id: 'companion_walk', name: 'Companion Walk', note: '45 min', price: 30, unit: 'per walk' },
       { id: 'dog_walk', name: 'Solo Dog Walk', note: '30 min', price: 25, unit: 'per walk' },
       { id: 'wellness_checkin', name: 'Wellness Check-In', note: '30 min', price: 25, unit: 'per visit' },
