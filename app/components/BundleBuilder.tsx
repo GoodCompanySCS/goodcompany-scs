@@ -19,10 +19,7 @@ const serviceCategories = [
     color: 'sage',
     services: [
       { id: 'grocery', name: 'Grocery Run', note: '+ receipt', price: 35, unit: 'per run' },
-      { id: 'prescription', name: 'Prescription Pickup', note: '+ receipt', price: 20, unit: 'per pickup' },
-      { id: 'local_ride', name: 'Local Ride', note: 'drop-off only', price: 25, unit: 'per ride' },
-      { id: 'ride_wait_1', name: 'Ride with Wait', note: 'up to 1 hour', price: 40, unit: 'per ride' },
-      { id: 'ride_wait_2', name: 'Ride with Wait', note: '1–2 hours', price: 55, unit: 'per ride' },
+      { id: 'prescription', name: 'Prescription Pickup', note: '+ receipt', price: 20, unit: 'per pickup' }
     ],
   },
   {
