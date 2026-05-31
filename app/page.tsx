@@ -1,5 +1,5 @@
 'use client';
-
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Home() {
@@ -47,24 +47,40 @@ export default function Home() {
 
   return (
     <>
-     {/* Hero Section */}
-      <section style={{ backgroundColor: 'var(--cream)' }} className="pt-16 md:pt-24 pb-4 md:pb-8">
-        <div className="container-max">
-          <div className="max-w-3xl">
-           <h1 className="mb-6" style={{ color: 'var(--sage)' }}>
-              Stay home.<br />
-              Stay independent.<br />
-              Stay yourself.
-            </h1>
-            <p className="text-lg mb-8">
-              Good Company helps seniors in Shelby Township and the surrounding area stay independent at home with reliable support, practical help, and someone trustworthy alongside them.
-            </p>
-            <a href="#schedule" className="btn-primary inline-block">
-              Schedule a Free Visit
-            </a>
-          </div>
-        </div>
-      </section>
+    {/* Hero Section */}
+<section style={{ backgroundColor: 'var(--cream)' }} className="pt-16 md:pt-24 pb-4 md:pb-8">
+  <div className="container-max">
+    <div className="flex flex-col md:flex-row items-center gap-12">
+      <div className="max-w-xl">
+        <h1 className="mb-6" style={{ color: 'var(--sage)' }}>
+          Stay home.<br />
+          Stay independent.<br />
+          Stay yourself.
+        </h1>
+        <p className="text-lg mb-8">
+          Good Company helps seniors in Shelby Township and the surrounding area stay independent at home with reliable support, practical help, and someone trustworthy alongside them.
+        </p>
+        <a href="#schedule" className="btn-primary inline-block">
+          Schedule a Free Visit
+        </a>
+      </div>
+      <div className="flex-shrink-0 md:w-96 lg:w-[480px]">
+        <Image
+          src="/images/Senior_female_drinking_coffee.png"
+          alt="Senior woman relaxing at home with a warm cup of coffee"
+          width={480}
+          height={400}
+          className="w-full object-cover"
+          style={{
+            borderRadius: '2rem',
+            border: '4px solid var(--sage)',
+            boxShadow: '0 8px 32px rgba(78, 107, 81, 0.18)',
+          }}
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
    {/* Services Overview */}
       <section className="pt-4 md:pt-8 pb-16 md:pb-24" style={{ backgroundColor: 'var(--cream)' }}>
