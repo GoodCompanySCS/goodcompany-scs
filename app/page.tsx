@@ -98,7 +98,7 @@ export default function Home() {
               { label: 'Home & Yard ', color: 'var(--terracotta)' },
               { label: 'Vehicle Support', color: 'var(--sage)' },
               { label: 'Pet Care', color: 'var(--terracotta)' },
-              { label: 'Paperwork & Safety Support', color: 'var(--sage)' },
+              { label: 'Paperwork & Safety', color: 'var(--sage)' },
               { label: 'Family Caregiver Relief', color: 'var(--terracotta)' },
             ].map((item, i) => (
               <div key={i} style={{ backgroundColor: 'white', borderRadius: '10px' }} className="flex items-center gap-3 p-4">
