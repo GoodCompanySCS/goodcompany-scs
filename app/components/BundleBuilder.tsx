@@ -207,7 +207,7 @@ export default function BundleBuilder() {
                 This is an estimate based on your selections. Your actual bundle price will be confirmed when we build your plan together.
               </p>
               
-                href="/contact"
+               <a href="/contact"
                 style={{
                  display: 'block', textAlign: 'center', background: 'transparent', color: sage,
                  padding: '0.6rem', borderRadius: '8px', fontWeight: '600', fontSize: '0.85rem',
