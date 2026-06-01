@@ -99,19 +99,21 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
-                   {/* Technology Assistance */}
-                <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
-                  <h3 className="mb-4">Technology Assistance</h3>
-                  <ul className="space-y-3">
-                    <li className="flex justify-between">
-                      <span>Technology Assistance* <span className="text-sm text-gray-500">(quick fixes & questions)</span></span>
-                      <span className="font-semibold">$25</span>
-                      <li className="flex justify-between">
-                      <span>Scam & Fraud Check-ins <span className="text-sm text-gray-500"></span>
-                      <span className="font-semibold">$25</span>
-                    </li>
-                  </ul>
-                </div>
+                
+{/* Technology Assistance */}
+<div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
+  <h3 className="mb-4">Technology Assistance</h3>
+  <ul className="space-y-3">
+    <li className="flex justify-between">
+      <span>Technology assistance <span className="text-sm text-gray-500">(quick fixes & questions)</span></span>
+      <span className="font-semibold">$25</span>
+    </li>
+    <li className="flex justify-between">
+      <span>Scam & fraud check-ins <span className="text-sm text-gray-500">(per visit)</span></span>
+      <span className="font-semibold">$25</span>
+    </li>
+  </ul>
+</div>
               </div>
             </div>
           
