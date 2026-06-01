@@ -230,7 +230,7 @@ export default function Services() {
                   </li>
                   <li className="flex items-start">
                     <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                    <span><strong>Scam & Fraud Awareness:</strong> Check-ins to review suspicious mail, calls, or emails and help you stay protected.</span>
+                    <span><strong>Scam & Fraud check-ins:</strong> Check-ins to review suspicious mail, calls, or emails and help you stay protected.</span>
                   </li>
                   <li className="flex items-start">
                     <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
