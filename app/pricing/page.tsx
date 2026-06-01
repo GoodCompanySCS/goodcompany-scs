@@ -94,7 +94,7 @@ export default function Pricing() {
 
                 {/* Paperwork, Safety & Technology */}
                 <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
-                  <h3 className="mb-4">Paperwork & Technology</h3>
+                  <h3 className="mb-4">Paperwork, Safety & Technology</h3>
                   <ul className="space-y-3">
                     <li className="flex justify-between">
                       <span>Technology assistance* <span className="text-sm text-gray-500">(per visit)</span></span>
