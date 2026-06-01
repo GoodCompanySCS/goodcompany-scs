@@ -93,7 +93,7 @@ export default function Home() {
             {[
               { label: 'Technology Assistance', color: 'var(--sage)' },
               { label: 'Meals & Nutrition', color: 'var(--sage)' },
-              { label: 'Companionship & Check-Ins', color: 'var(--sage)' },
+              { label: 'Companionship & Wellness', color: 'var(--sage)' },
               { label: 'Errands', color: 'var(--terracotta)' },
               { label: 'Home & Yard Services', color: 'var(--terracotta)' },
               { label: 'Vehicle Support', color: 'var(--sage)' },
