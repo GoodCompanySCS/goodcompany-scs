@@ -110,7 +110,6 @@ export default function Pricing() {
                       <span>Scam & Fraud Check-ins <span className="text-sm text-gray-500"></span>
                       <span className="font-semibold">$25</span>
                     </li>
-                    </li>
                   </ul>
                 </div>
               </div>
