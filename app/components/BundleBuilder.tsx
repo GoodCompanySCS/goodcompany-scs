@@ -9,7 +9,6 @@ const serviceCategories = [
     services: [
       { id: 'companion_visit', name: 'Companion Visit', note: 'per hour', price: 35, unit: 'per visit' },
       { id: 'companion_walk', name: 'Companion Walk', note: '45 min', price: 25, unit: 'per walk' },
-      { id: 'dog_walk', name: 'Solo Dog Walk', note: '30 min', price: 25, unit: 'per walk' },
       { id: 'wellness_checkin', name: 'Wellness Check-In', note: '30 min', price: 25, unit: 'per visit' },
     ],
   },
@@ -35,7 +34,8 @@ const serviceCategories = [
     name: 'Pet Care',
     color: 'sage',
     services: [
-      { id: 'dog_yard', name: 'Dog Yard Cleanup', note: '$25/visit + $12.50 per add\'l 30 min', price: 25, unit: 'per visit' },
+      { id: 'dog_walk', name: 'Solo Dog Walk', note: '30 min', price: 25, unit: 'per walk' },
+      { id: 'dog_yard', name: 'Dog Yard Cleanup', note: "$25/visit + $12.50 per add'l 30 min", price: 25, unit: 'per visit' },
       { id: 'pet_checkin', name: 'Pet Check-In', note: 'while away', price: 25, unit: 'per visit' },
       { id: 'pet_care', name: 'General Pet Care', note: 'per hour', price: 35, unit: 'per hour' },
     ],
@@ -44,7 +44,7 @@ const serviceCategories = [
     name: 'Technology & Paperwork',
     color: 'sage',
     services: [
-      { id: 'tech', name: 'Technology Assistance', note: '$25/visit + $12.50 per add\'l 30 min', price: 25, unit: 'per visit' },
+      { id: 'tech', name: 'Technology Assistance', note: "$25/visit + $12.50 per add'l 30 min", price: 25, unit: 'per visit' },
       { id: 'paperwork', name: 'Mail & Paperwork Assistance', note: 'per hour', price: 35, unit: 'per hour' },
       { id: 'fraud', name: 'Scam & Fraud Check-In', note: 'per visit', price: 25, unit: 'per visit' },
     ],
