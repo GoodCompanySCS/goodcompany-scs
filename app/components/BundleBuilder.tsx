@@ -209,9 +209,9 @@ export default function BundleBuilder() {
               
                 href="/contact"
                 style={{
-                  display: 'block', textAlign: 'center', background: 'transparent', color: sage,
-                  padding: '0.6rem', borderRadius: '8px', fontWeight: '600', fontSize: '0.85rem',
-                  textDecoration: 'none', marginTop: '0.5rem', border: `1px solid ${sage}`,
+                 display: 'block', textAlign: 'center', background: 'transparent', color: sage,
+                 padding: '0.6rem', borderRadius: '8px', fontWeight: '600', fontSize: '0.85rem',
+                 textDecoration: 'none', marginTop: '0.5rem', border: '1px solid #4e6b51',
                 }}
               >
                 Schedule a Free Visit
