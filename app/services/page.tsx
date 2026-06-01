@@ -76,7 +76,7 @@ export default function Services() {
             </div>
           </div>
 
-          {/* Companionship & Check-Ins */}
+          {/* Companionship & Wellness */}
           <div id="companion" className="mb-8 pb-8 border-b border-gray-200">
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <div className="flex-1">
