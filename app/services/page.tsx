@@ -142,7 +142,7 @@ export default function Services() {
           <div id="home" className="mb-8 pb-8 border-b border-gray-200">
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <div className="flex-1">
-                <h2 style={{ color: 'var(--sage)' }} className="mb-4">Home & Yard Services </h2>
+                <h2 style={{ color: 'var(--sage)' }} className="mb-4">Home & Yard </h2>
                 <p className="text-lg mb-6">Helping keep your home comfortable, organized, and well cared for.</p>
                 <ul className="space-y-3 mb-4">
                   <li className="flex items-start">
