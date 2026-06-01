@@ -197,7 +197,7 @@ export default function Services() {
                   </li>
                   <li className="flex items-start">
                     <span style={{ color: 'var(--terracotta)' }} className="font-bold mr-3">•</span>
-                    <span><strong>Pet Area Cleanup:</strong> Dog yard cleanup and pet area maintenance to keep spaces tidy and manageable.</span>
+                    <span><strong>Dog Yard Cleanup:</strong> Dog yard cleanup to keep outdoor areas tidy and manageable.</span>
                   </li>
                 </ul>
               </div>
