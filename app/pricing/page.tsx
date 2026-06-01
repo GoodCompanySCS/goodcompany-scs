@@ -40,7 +40,7 @@ export default function Pricing() {
                   <ul className="space-y-3">
                     <li className="flex justify-between">
                       <span>Companion walk <span className="text-sm text-gray-500">(45 min)</span></span>
-                      <span className="font-semibold">$30</span>
+                      <span className="font-semibold">$25</span>
                     </li>
                     <li className="flex justify-between">
                       <span>Wellness check-in <span className="text-sm text-gray-500">(30 min)</span></span>
@@ -65,18 +65,10 @@ export default function Pricing() {
                       <span>Pet check-in <span className="text-sm text-gray-500">(while away)</span></span>
                       <span className="font-semibold">$25</span>
                     </li>
-                  </ul>
-                </div>
-
-                {/* Paperwork & Safety Support */}
-                <div style={{ borderColor: 'var(--terracotta)', borderWidth: '1px' }} className="p-6 rounded-lg">
-                  <h3 className="mb-4">Paperwork & Safety Support</h3>
-                  <ul className="space-y-3">
                     <li className="flex justify-between">
-                      <span>Scam & fraud check-in <span className="text-sm text-gray-500">(per visit)</span></span>
-                      <span className="font-semibold">$25</span>
+                      <span>General pet care <span className="text-sm text-gray-500">(per hour)</span></span>
+                      <span className="font-semibold">$35</span>
                     </li>
-                    <li className="text-xs text-gray-500 italic mt-2">Mail assistance, paperwork help, and letter writing are billed at the $35/hour general rate.</li>
                   </ul>
                 </div>
 
@@ -99,35 +91,38 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
-                
-{/* Technology Assistance */}
-<div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
-  <h3 className="mb-4">Technology Assistance</h3>
-  <ul className="space-y-3">
-    <li className="flex justify-between">
-      <span>Technology assistance <span className="text-sm text-gray-500">(quick fixes & questions)</span></span>
-      <span className="font-semibold">$25</span>
-    </li>
-    <li className="flex justify-between">
-      <span>Scam & fraud check-ins <span className="text-sm text-gray-500">(per visit)</span></span>
-      <span className="font-semibold">$25</span>
-    </li>
-  </ul>
-</div>
+
+                {/* Paperwork & Technology */}
+                <div style={{ borderColor: 'var(--sage)', borderWidth: '1px' }} className="p-6 rounded-lg">
+                  <h3 className="mb-4">Paperwork & Technology</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between">
+                      <span>Technology assistance* <span className="text-sm text-gray-500">(per visit)</span></span>
+                      <span className="font-semibold">$25</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Scam & fraud check-ins <span className="text-sm text-gray-500">(per visit)</span></span>
+                      <span className="font-semibold">$25</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Mail & paperwork assistance <span className="text-sm text-gray-500">(per hour)</span></span>
+                      <span className="font-semibold">$35</span>
+                    </li>
+                  </ul>
+                </div>
+
               </div>
             </div>
-          
+
             <p className="text-xs text-gray-500 italic mt-6">
-              **Dog yard cleanup and technology assistance start at $25 per visit. If a job runs a little longer, additional time
-                is billed in 30-minute increments at $12.50.
+              *Dog yard cleanup and technology assistance start at $25 per visit. If a job runs a little longer, additional time is billed in 30-minute increments at $12.50.
             </p>
           </div>
 
           {/* Bundle Builder */}
-          {/* Bundle Builder */}
           <div className="mb-16">
             <h2 style={{ color: 'var(--terracotta)' }} className="mb-2">Build Your Own Bundle</h2>
-            <p className="text-lg mb-8">Select the services you want and see your estimated weekly or monthly cost in real time.</p>
+            <p className="text-lg mb-8">Select the services you want and see your estimated monthly cost in real time.</p>
             <BundleBuilder />
           </div>
 
@@ -137,7 +132,7 @@ export default function Pricing() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
                 { label: 'À la carte', value: 'One-time services, billed after completion.' },
-                { label: 'Bundles', value: 'Billed monthly. Cancel anytime with 7 days\' notice.' },
+                { label: 'Bundles', value: "Billed monthly. Cancel anytime with 7 days' notice." },
                 { label: 'Payment', value: 'Check, Venmo, Square, or cash. We keep it simple.' },
                 { label: 'No hidden fees', value: 'What you see is what you pay.' },
               ].map((row, i) => (
