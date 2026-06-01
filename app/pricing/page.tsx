@@ -104,7 +104,7 @@ export default function Pricing() {
                   <h3 className="mb-4">Technology Assistance</h3>
                   <ul className="space-y-3">
                     <li className="flex justify-between">
-                      <span>Tech visit* <span className="text-sm text-gray-500">(quick fixes & questions)</span></span>
+                      <span>Technology visit* <span className="text-sm text-gray-500">(quick fixes & questions)</span></span>
                       <span className="font-semibold">$25</span>
                     </li>
                   </ul>
@@ -113,7 +113,8 @@ export default function Pricing() {
             </div>
           
             <p className="text-xs text-gray-500 italic mt-6">
-              *Starting rates only. Services marked with an asterisk may vary in price based on the scope of the project. Dog yard cleanup and tech visits start at $25 per visit. All other variable services are billed at $35/hour.
+              **Dog yard cleanup and technology assistance start at $25 per visit. If a job runs a little longer, additional time
+                is billed in 30-minute increments at $12.50.
             </p>
           </div>
 
