@@ -41,7 +41,7 @@ const serviceCategories = [
     ],
   },
   {
-    name: 'Technology & Paperwork',
+    name: 'Paperwork, Safety & Technology',
     color: 'sage',
     services: [
       { id: 'tech', name: 'Technology Assistance', note: "$25/visit + $12.50 per add'l 30 min", price: 25, unit: 'per visit' },
