@@ -8,10 +8,9 @@ const serviceCategories = [
     color: 'terracotta',
     services: [
       { id: 'companion_visit', name: 'Companion Visit', note: 'per hour', price: 35, unit: 'per visit' },
-      { id: 'companion_walk', name: 'Companion Walk', note: '45 min', price: 30, unit: 'per walk' },
+      { id: 'companion_walk', name: 'Companion Walk', note: '45 min', price: 25, unit: 'per walk' },
       { id: 'dog_walk', name: 'Solo Dog Walk', note: '30 min', price: 25, unit: 'per walk' },
       { id: 'wellness_checkin', name: 'Wellness Check-In', note: '30 min', price: 25, unit: 'per visit' },
-      { id: 'appointment', name: 'Appointment Accompaniment', note: 'per hour', price: 40, unit: 'per hour' },
     ],
   },
   {
@@ -19,7 +18,7 @@ const serviceCategories = [
     color: 'sage',
     services: [
       { id: 'grocery', name: 'Grocery Run', note: '+ receipt', price: 35, unit: 'per run' },
-      { id: 'prescription', name: 'Prescription Pickup', note: '+ receipt', price: 20, unit: 'per pickup' }
+      { id: 'prescription', name: 'Prescription Pickup', note: '+ receipt', price: 20, unit: 'per pickup' },
     ],
   },
   {
@@ -36,18 +35,17 @@ const serviceCategories = [
     name: 'Pet Care',
     color: 'sage',
     services: [
-      { id: 'dog_yard', name: 'Dog Yard Cleanup', note: 'per visit', price: 25, unit: 'per visit' },
+      { id: 'dog_yard', name: 'Dog Yard Cleanup', note: '$25/visit + $12.50 per add\'l 30 min', price: 25, unit: 'per visit' },
       { id: 'pet_checkin', name: 'Pet Check-In', note: 'while away', price: 25, unit: 'per visit' },
       { id: 'pet_care', name: 'General Pet Care', note: 'per hour', price: 35, unit: 'per hour' },
     ],
   },
- 
   {
     name: 'Technology & Paperwork',
     color: 'sage',
     services: [
-      { id: 'tech', name: 'Technology Assistance', note: 'per hour', price: 25, unit: 'per visit' },
-      { id: 'paperwork', name: 'Mail & Paperwork Help', note: 'per hour', price: 35, unit: 'per hour' },
+      { id: 'tech', name: 'Technology Assistance', note: '$25/visit + $12.50 per add\'l 30 min', price: 25, unit: 'per visit' },
+      { id: 'paperwork', name: 'Mail & Paperwork Assistance', note: 'per hour', price: 35, unit: 'per hour' },
       { id: 'fraud', name: 'Scam & Fraud Check-In', note: 'per visit', price: 25, unit: 'per visit' },
     ],
   },
@@ -71,7 +69,6 @@ export default function BundleBuilder() {
   const selectedServices = allServices.filter(s => (quantities[s.id] || 0) > 0);
   const total = selectedServices.reduce((sum, s) => sum + s.price * (quantities[s.id] || 0), 0);
   const discounted10 = Math.round(total * 0.9 / 10) * 10;
-  const discounted15 = Math.round(total * 0.85 / 10) * 10;
 
   const sage = '#4e6b51';
   const terra = '#C9785B';
@@ -200,7 +197,6 @@ export default function BundleBuilder() {
                     <span style={{ fontSize: '0.85rem', color: sage }}>10% bundle discount</span>
                     <span style={{ fontWeight: '700', color: sage }}>~${discounted10}/mo</span>
                   </div>
-                  
                 </>
               )}
             </div>
@@ -210,8 +206,7 @@ export default function BundleBuilder() {
               <p style={{ fontSize: '0.75rem', color: '#999', fontStyle: 'italic', marginBottom: '0.75rem', lineHeight: '1.4' }}>
                 This is an estimate based on your selections. Your actual bundle price will be confirmed when we build your plan together.
               </p>
-             
-              <a
+              
                 href="/contact"
                 style={{
                   display: 'block', textAlign: 'center', background: 'transparent', color: sage,
