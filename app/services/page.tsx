@@ -213,7 +213,7 @@ export default function Services() {
             </div>
           </div>
 
-          {/* Paperwork & Safety Support */}
+          {/* Paperwork & Safety */}
           <div id="paperwork" className="mb-8 pb-8 border-b border-gray-200">
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <div className="flex-1">
