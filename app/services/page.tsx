@@ -217,7 +217,7 @@ export default function Services() {
           <div id="paperwork" className="mb-8 pb-8 border-b border-gray-200">
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <div className="flex-1">
-                <h2 style={{ color: 'var(--terracotta)' }} className="mb-4">Paperwork & Safety Support</h2>
+                <h2 style={{ color: 'var(--terracotta)' }} className="mb-4">Paperwork & Safety</h2>
                 <p className="text-lg mb-6">Extra help with the details that can sometimes feel overwhelming.</p>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
