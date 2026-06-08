@@ -36,7 +36,7 @@ export default function FAQ() {
         },
         {
           q: "Are you licensed?",
-          a: "Good Company is a registered LLC in the state of Michigan. As a non-medical concierge service, we are not required to hold a medical or clinical license."
+          a: "Good Company is a registered LLC in the state of Michigan. As a non-medical concierge service, we are not required to hold a medical, clinical, or any other type of professional license."
         },
         {
           q: "How do I know I can trust someone coming into my home?",
@@ -72,7 +72,7 @@ export default function FAQ() {
         },
         {
           q: "What if I need to cancel or reschedule?",
-          a: "We understand that plans change. Just give us a call or send us a message as soon as possible and we'll work with you to reschedule."
+          a: "We understand that plans change. Just give us a call or send us a message as soon as possible and we'll work with you to reschedule (subject to our timeline and cancellation policy.)"
         },
         {
           q: "Can I get the same person every time?",
