@@ -281,8 +281,8 @@ export default function Services() {
               </div>
               <div className="md:w-72 lg:w-80 flex-shrink-0">
                 <Image
-                  src="/images/services/Couple_family_caregiver_relief.png"
-                  alt="A couple sitting together, one offering comfort and support to the other"
+                  src="/images/services/Daughter_with_mother.png"
+                  alt="A daughter and mother sitting on the couch holding hands while looking at each other."
                   width={320}
                   height={240}
                   className="rounded-lg object-cover w-full"
