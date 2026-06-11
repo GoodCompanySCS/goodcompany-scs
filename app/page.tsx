@@ -172,8 +172,8 @@ export default function Home() {
               style={{ 
               color: '#C9785B', 
               fontSize: '2rem',
-              fontStyle: 'italic'
-              fontWeight: '600'
+              fontStyle: 'italic',
+              fontWeight: '600',
               }}
             >
             You're in good company.
