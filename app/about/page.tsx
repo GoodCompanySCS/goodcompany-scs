@@ -29,8 +29,8 @@ export default function About() {
               <div className="flex flex-col md:flex-row items-start gap-8 mb-6">
                 <div className="flex-shrink-0">
                   <Image
-                    src="/images/Portrait_Looking_Straight_Ahead.jpg"
-                    alt="Natalie Perras, owner of Good Company Senior Concierge Services"
+                    src="/images/Benny_and_I.jpg"
+                    alt="Natalie Perras, owner of Good Company Senior Concierge Service and her dog, Benny."
                     width={280}
                     height={320}
                     className="w-full object-cover"
