@@ -66,8 +66,8 @@ export default function Home() {
       </div>
       <div className="flex-shrink-0 md:w-96 lg:w-[480px]">
         <Image
-          src="/images/Senior_female_drinking_coffee.png"
-          alt="Senior woman relaxing at home with a warm cup of coffee"
+          src="/images/Portrait_Realtor_Pose.jpg"
+          alt="Natalie Perras, owner of Good COmpany Senior Concierge Services"
           width={480}
           height={400}
           className="w-full object-cover"
