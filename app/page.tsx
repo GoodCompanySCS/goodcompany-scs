@@ -128,8 +128,8 @@ export default function Home() {
       </div>
       <div>
         <h2 className="mb-4" style={{ color: 'var(--sage)' }}>Meet Natalie</h2>
-        <p className="text-lg mb-4">Hi, I'm Natalie — the owner and sole operator of Good Company. I started this business because I believe seniors deserve reliable, trustworthy support that helps them stay home and stay themselves.</p>
-        <p className="text-lg mb-6">I live right here in Shelby Township, and every client I serve is a neighbor. This isn't a franchise or a call center. It's me, showing up for you.</p>
+        <p className="text-lg mb-4">Hi, I'm Natalie, the owner of Good Company. I started this business because I believe everyone deserves to stay home, stay independent, and stay themselves.</p>
+        <p className="text-lg mb-6">I live right here in Shelby Township, and every client I serve is a neighbor. We aren't a franchise and you aren't just a number. When you call on us, you're in good company.</p>
         <a href="/about" className="btn-primary inline-block">Learn More About Me</a>
       </div>
     </div>
