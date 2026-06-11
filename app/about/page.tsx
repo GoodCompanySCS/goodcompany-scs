@@ -60,7 +60,7 @@ export default function About() {
             </div>
             <p className="text-lg mb-6">She realized that many seniors are doing their best to remain independent, but sometimes an extra set of hands, a familiar face, or a little support can make a big difference. Not because they are incapable, but because everyday life is simply easier when someone dependable is alongside you.</p>
             <p className="text-lg mb-6">That realization became the foundation for Good Company.</p>
-            <p className="text-lg mb-6">Natalie believes the best service is personal. It means showing up consistently, communicating clearly, and treating people the way you would want your own family treated.</p>
+            <p className="text-lg mb-6">Natalie believes support should feel personal. It means showing up when you say you will, communicating clearly, and treating people with the same care and respect you would want for your own family.</p>
             <p className="text-lg mb-6">From scheduling and client communication to day-to-day visits, Natalie personally manages every aspect of the business. When you call Good Company, you are speaking directly with the person providing the service.</p>
             <p className="text-lg mb-6">You are never treated like a number. You are treated like a neighbor.</p>
             </div>
