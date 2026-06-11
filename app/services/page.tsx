@@ -56,7 +56,7 @@ export default function Services() {
                   </li>
                   <li className="flex items-start">
                     <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                    <span><strong>Pantry & Food Organization:</strong> Checking expiration dates, organizing food, and keeping the kitchen manageable.</span>
+                    <span><strong>Pantry & Food Organization:</strong> Organizing food items, checking expiration dates, and creating a kitchen that's easier to navigate and maintain.</span>
                   </li>
                   <li className="flex items-start">
                     <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
