@@ -21,8 +21,8 @@ export default function FAQ() {
           a: "Home health aides provide medical and personal care services. Good Company focuses on the practical support that helps make everyday life easier, including companionship, errands, housekeeping, pet care, meal preparation, and technology assistance. Families can use both services together, relying on a home health aide for medical needs and Good Company for everything else."
         },
          {
-          q: "Do you offer one-time or temporary help, or is this a long-term commitment?",
-          a: "Good Company is built around flexibility.\n\nSome clients may call us for a single visit, whether it's an errand, a companion visit, or help while family members are away. Others may need short-term support during a recovery period or while a caregiver is traveling. While others choose ongoing visits as part of a regular routine.\n\n There is no long-term commitment required. If you'd like recurring support, our monthly bundle plans provide a predictable schedule and a 10% discount off standard rates. Plans can be changed or canceled with just 7 days' notice.\n\nWe'll work with you to create a plan that fits your needs, whether that's one visit or ongoing support."
+          q: "Do you offer one-time or short-term help, or is this a long-term commitment?",
+          a: "Good Company is built around flexibility.\n\nSome clients may call us for a single visit, whether it's an errand, a companion visit, or help while family members are away. Others may need short-term support during a recovery period or while a caregiver is traveling. While others may choose ongoing visits as part of a regular routine.\n\n There is no long-term commitment required. If you'd like recurring support, our monthly bundle plans provide a predictable schedule and a 10% discount off standard rates. Plans can be changed or canceled with just 7 days' notice.\n\nWe'll work with you to create a plan that fits your needs, whether that's one visit or ongoing support."
         },
       ]
     },
