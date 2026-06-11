@@ -94,7 +94,7 @@ export default function FAQ() {
         },
         {
           q: "How do I pay for services?",
-          a: "À la carte services are billed after each visit, while bundle plans are billed monthly. We accept check, cash, Venmo, and Square, so you can choose whichever payment method is most convenient for you."
+          a: "À la carte services are billed after each visit, while bundle plans are billed monthly. We accept check, credit card, cash, Venmo, and Square, so you can choose whichever payment method is most convenient for you."
         },
         {
           q: "How do bundles work?",
