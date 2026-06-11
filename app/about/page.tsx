@@ -51,8 +51,8 @@ export default function About() {
               <Image
                 src="/images/Working_on_Laptop.jpg"
                 alt="Natalie working at her desk"
-                width={600}
-                height={400}
+                width={450}
+                height={300}
                 className="w-full object-cover"
                 style={{ borderRadius: '1rem', border: '4px solid var(--sage)' }}
               />
