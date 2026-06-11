@@ -23,7 +23,7 @@ export default function Pricing() {
                 <span className="text-lg text-gray-600">/ hour &nbsp;·&nbsp; Standard rate for most services</span>
               </div>
               <p className="text-gray-600">
-                This rate covers services such as companion visits, meal prep, pantry & fridge organization, light housekeeping, home & yard services, and family caregiver relief. 1-hour minimum applies.
+                This rate covers services such as companion visits, meal prep, light housekeeping, light yard services, family caregiver relief and more. 1-hour minimum applies.
               </p>
             </div>
 
@@ -65,13 +65,8 @@ export default function Pricing() {
                       <span>Pet check-in <span className="text-sm text-gray-500">(while away)</span></span>
                       <span className="font-semibold">$25</span>
                     </li>
-                    <li className="flex justify-between">
-                      <span>General pet care <span className="text-sm text-gray-500">(per hour)</span></span>
-                      <span className="font-semibold">$35</span>
-                    </li>
                   </ul>
                 </div>
-
               </div>
 
               {/* Right Column */}
@@ -103,10 +98,6 @@ export default function Pricing() {
                     <li className="flex justify-between">
                       <span>Scam & fraud check-ins <span className="text-sm text-gray-500">(per visit)</span></span>
                       <span className="font-semibold">$25</span>
-                    </li>
-                    <li className="flex justify-between">
-                      <span>Mail & paperwork assistance <span className="text-sm text-gray-500">(per hour)</span></span>
-                      <span className="font-semibold">$35</span>
                     </li>
                   </ul>
                 </div>
