@@ -69,7 +69,7 @@ export default function Home() {
           src="/images/Portrait_Realtor_Pose.jpg"
           alt="Natalie Perras, owner of Good COmpany Senior Concierge Services"
           width={480}
-          height={400}
+          height={320}
           className="w-full object-cover"
           style={{
             borderRadius: '2rem',
