@@ -112,6 +112,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Meet Natalie */}
+<section className="section-padding" style={{ backgroundColor: 'var(--cream)' }}>
+  <div className="container-max">
+    <div className="flex flex-col md:flex-row items-center gap-12">
+      <div className="flex-shrink-0">
+        <Image
+          src="/images/Benny_and_I.jpg"
+          alt="Natalie Perras with her dog Benny"
+          width={400}
+          height={400}
+          className="w-full object-cover"
+          style={{ borderRadius: '2rem', border: '4px solid var(--sage)', boxShadow: '0 8px 32px rgba(78, 107, 81, 0.18)' }}
+        />
+      </div>
+      <div>
+        <h2 className="mb-4" style={{ color: 'var(--sage)' }}>Meet Natalie</h2>
+        <p className="text-lg mb-4">Hi, I'm Natalie — the owner and sole operator of Good Company. I started this business because I believe seniors deserve reliable, trustworthy support that helps them stay home and stay themselves.</p>
+        <p className="text-lg mb-6">I live right here in Shelby Township, and every client I serve is a neighbor. This isn't a franchise or a call center. It's me, showing up for you.</p>
+        <a href="/about" className="btn-primary inline-block">Learn More About Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
       {/* Trust Signals */}
       <section className="section-padding" style={{ backgroundColor: 'var(--sage)', color: 'white' }}>
         <div className="container-max">
