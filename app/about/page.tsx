@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function About() {
   return (
     <>
@@ -12,25 +14,49 @@ export default function About() {
             <div className="mb-12">
               <h2 style={{ color: 'var(--sage)' }} className="mb-6">Our Mission</h2>
               <p className="text-lg mb-4">
-                Good Company helps seniors stay home, stay independent, and stay themselves by being the trusted neighbor who shows up for the things they’d rather not do alone.
+                Good Company helps seniors stay home, stay independent, and stay themselves by being the trusted neighbor who shows up for the things they'd rather not do alone.
               </p>
               <p className="text-lg">
                We believe aging in place looks different for everyone. For some, it means keeping a familiar routine. For others, it means staying connected to their neighborhood, their pets, or the home they love. More than anything, it means having the freedom to continue living life on your own terms.
               </p>
               <div className="h-4"></div>
               <p className="text-lg">
-               That’s why Good Company was built around practical support, dependable service, and treating every client with dignity and respect.
+               That's why Good Company was built around practical support, dependable service, and treating every client with dignity and respect.
               </p>
             </div>
 
             <div className="mb-12">
-              <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Meet Natalie</h2>
+              <div className="flex flex-col md:flex-row items-start gap-8 mb-6">
+                <div className="flex-shrink-0">
+                  <Image
+                    src="/images/Portrait_Looking_Straight_Ahead.jpg"
+                    alt="Natalie Perras, owner of Good Company Senior Concierge Services"
+                    width={280}
+                    height={320}
+                    className="w-full object-cover"
+                    style={{ borderRadius: '1rem', border: '4px solid var(--terracotta)' }}
+                  />
+                </div>
+                <div>
+                  <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Meet Natalie</h2>
+                  <p className="text-lg mb-6">Good Company is owned and operated by Natalie, a former U.S. Army Contract Specialist with a background in federal procurement and contract management.</p>
+                  <p className="text-lg mb-6">For years, Natalie worked in roles that required professionalism, reliability, attention to detail, and strong communication. Those same values now shape every part of Good Company.</p>
+                </div>
+              </div>
 
-            <p className="text-lg mb-6">Good Company is owned and operated by Natalie, a former U.S. Army Contract Specialist with a background in federal procurement and contract management.</p>
-            <p className="text-lg mb-6">For years, Natalie worked in roles that required professionalism, reliability, attention to detail, and strong communication. Those same values now shape every part of Good Company.</p>
             <p className="text-lg mb-6">The idea for Good Company came from something much more personal though. For the past two years, Natalie and her husband Chris have spent countless evenings walking the neighborhoods of Shelby Township for exercise. During those walks, they found themselves naturally stopping to help senior neighbors with everyday things that had quietly become difficult.</p>
             <p className="text-lg mb-6">Sometimes it was bringing trash cans back up to the garage after pickup day. Other times it meant helping someone who had fallen while walking their dog, getting the dog's harness back on, and helping them safely back onto their feet. One evening, Natalie and Chris came across a woman standing outside alone in the cold who appeared confused and disoriented. They stayed with her, helped contact medical assistance, and made sure she was safe.</p>
             <p className="text-lg mb-6">Those moments stuck with Natalie.</p>
+            <div className="flex justify-center my-8">
+              <Image
+                src="/images/Working_on_Laptop.jpg"
+                alt="Natalie working at her desk"
+                width={600}
+                height={400}
+                className="w-full object-cover"
+                style={{ borderRadius: '1rem', border: '4px solid var(--sage)' }}
+              />
+            </div>
             <p className="text-lg mb-6">She realized that many seniors are doing their best to remain independent, but sometimes an extra set of hands, a familiar face, or a little support can make a big difference. Not because they are incapable, but because everyday life is simply easier when someone dependable is alongside you.</p>
             <p className="text-lg mb-6">That realization became the foundation for Good Company.</p>
             <p className="text-lg mb-6">Natalie believes the best service is personal. It means showing up consistently, communicating clearly, and treating people the way you would want your own family treated.</p>
