@@ -170,9 +170,10 @@ export default function Home() {
             <p 
               className="font-serif italic tracking-wide leading-tight"
               style={{ 
-              color: '#000000', 
+              color: '#C9785B', 
               fontSize: '2rem',
               fontStyle: 'italic'
+              fontWeight: '600'
               }}
             >
             You're in good company.
