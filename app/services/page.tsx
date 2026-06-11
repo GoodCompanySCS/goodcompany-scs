@@ -124,6 +124,10 @@ export default function Services() {
                     <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
                     <span><strong>Prescription Pickup:</strong> Reliable pharmacy runs so you never have to worry about running out.</span>
                   </li>
+                   <li className="flex items-start">
+                    <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
+                    <span><strong>General Errand Running:</strong> Help with post office runs, package pickup, or other everyday errands that help keep your day running smoothly.</span>
+                  </li>
                 </ul>
               </div>
               <div className="md:w-72 lg:w-80 flex-shrink-0">
