@@ -22,7 +22,7 @@ export default function FAQ() {
         },
          {
           q: "Do you offer one-time or short-term help, or is this a long-term commitment?",
-          a: "Good Company is built around flexibility.\n\nSome clients may call us for a single visit, whether it's an errand, a companion visit, or help while family members are away. Others may need short-term support during a recovery period or while a caregiver is traveling. While others may choose ongoing visits as part of a regular routine.\n\n There is no long-term commitment required. If you'd like recurring support, our monthly bundle plans provide a predictable schedule and a 10% discount off standard rates. Plans can be changed or canceled with just 7 days' notice.\n\nWe'll work with you to create a plan that fits your needs, whether that's one visit or ongoing support."
+          a: "Good Company is built around flexibility.\n\nSome clients may call us for a single visit, whether it's an errand, a companion visit, or help while family members are away. Others may need short-term support during a recovery period or while a caregiver is traveling. While others may choose ongoing visits as part of a regular routine.\n\nThere is no long-term commitment required. If you'd like recurring support, our monthly bundle plans provide a predictable schedule and a 10% discount off standard rates. Plans can be changed or canceled with just 7 days' notice.\n\nWe'll work with you to create a plan that fits your needs, whether that's one visit or ongoing support."
         },
       ]
     },
