@@ -39,8 +39,8 @@ export default function About() {
                 </div>
                 <div>
                   <h2 style={{ color: 'var(--terracotta)' }} className="mb-6">Meet Natalie</h2>
-                  <p className="text-lg mb-6">Good Company is owned and operated by Natalie, a former U.S. Army Contract Specialist with a background in federal procurement and contract management.</p>
-                  <p className="text-lg mb-6">For years, Natalie worked in roles that required professionalism, reliability, attention to detail, and strong communication. Those same values now shape every part of Good Company.</p>
+                  <p className="text-lg mb-6">Good Company is owned and operated by Natalie Perras, a Shelby Township resident who is passionate about helping seniors remain independent and connected to the community they call home.</p>
+                  <p className="text-lg mb-6">After spending more than a decade in public service, Natalie built a reputation for reliability, professionalism, and attention to detail. Those same values now guide every client relationship at Good Company.</p>
                 </div>
               </div>
 
