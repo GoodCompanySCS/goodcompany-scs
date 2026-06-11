@@ -76,7 +76,7 @@ export default function FAQ() {
         },
         {
           q: "What if I need to cancel or reschedule?",
-          a: "We understand that plans change. Just give us a call or send us a message as soon as possible and we'll work with you to reschedule (subject to our timeline and cancellation policy.)"
+          a: "We understand that plans change. Just give us a call or send us a message as soon as possible and we'll work with you to reschedule (subject to our timeline and cancellation policy)."
         },
         {
           q: "Can I get the same person every time?",
