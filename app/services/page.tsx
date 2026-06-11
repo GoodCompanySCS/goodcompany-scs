@@ -43,11 +43,11 @@ export default function Services() {
             </div>
           </div>
 
-          {/* Meals & Nutrition */}
+          {/* Meals & Food Prep */}
           <div id="meals" className="mb-8 pb-8 border-b border-gray-200">
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <div className="flex-1">
-                <h2 style={{ color: 'var(--terracotta)' }} className="mb-4">Meals & Nutrition</h2>
+                <h2 style={{ color: 'var(--terracotta)' }} className="mb-4">Meals & Food Prep</h2>
                 <p className="text-lg mb-6">Good food should be simple, satisfying, and easy to enjoy.</p>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-start">
@@ -56,7 +56,7 @@ export default function Services() {
                   </li>
                   <li className="flex items-start">
                     <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
-                    <span><strong>Nutrition Guidance:</strong> Help understanding dietary needs and meal options that fit your preferences and lifestyle.</span>
+                    <span><strong>Pantry & Food Organization:</strong> Checking expiration dates, organizing food, and keeping the kitchen manageable.</span>
                   </li>
                   <li className="flex items-start">
                     <span style={{ color: 'var(--sage)' }} className="font-bold mr-3">•</span>
