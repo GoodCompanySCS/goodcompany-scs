@@ -33,17 +33,16 @@ export default function Home() {
         body: JSON.stringify(formData),
       });
 
-      if (response.ok) {
-        setSubmitted(true);
-        setFormData({ name: '', phone: '', email: '', zipCode: '', message: '', preferredContact: 'email' });
-        setTimeout(() => setSubmitted(false), 5000);
-      } else {
-        setError('Something went wrong. Please try again.');
-      }
-    } catch (err) {
-      setError('Error submitting form. Please try again.');
-    }
-  };
+     if (response.ok) {
+  setSubmitted(true);
+  setFormData({ name: '', phone: '', email: '', zipCode: '', message: '', preferredContact: 'email' });
+  setTimeout(() => setSubmitted(false), 5000);
+  if (typeof window !== 'undefined' && (window as any).gtag) {
+    (window as any).gtag('event', 'generate_lead', {
+      event_category: 'Contact Form',
+      event_label: 'Schedule Free Visit',
+    });
+  }
 
   return (
     <>
