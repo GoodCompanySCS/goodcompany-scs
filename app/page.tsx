@@ -43,6 +43,9 @@ export default function Home() {
       event_label: 'Schedule Free Visit',
     });
   }
+} else {
+  setError('Something went wrong. Please try again.');
+}
 
   return (
     <>
