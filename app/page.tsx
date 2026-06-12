@@ -45,7 +45,7 @@ export default function Home() {
   }
 } else {
   setError('Something went wrong. Please try again.');
-}
+};
 
   return (
     <>
