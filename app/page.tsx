@@ -33,19 +33,23 @@ export default function Home() {
         body: JSON.stringify(formData),
       });
 
-     if (response.ok) {
-  setSubmitted(true);
-  setFormData({ name: '', phone: '', email: '', zipCode: '', message: '', preferredContact: 'email' });
-  setTimeout(() => setSubmitted(false), 5000);
-  if (typeof window !== 'undefined' && (window as any).gtag) {
-    (window as any).gtag('event', 'generate_lead', {
-      event_category: 'Contact Form',
-      event_label: 'Schedule Free Visit',
-    });
-  }
-} else {
-  setError('Something went wrong. Please try again.');
-};
+      if (response.ok) {
+        setSubmitted(true);
+        setFormData({ name: '', phone: '', email: '', zipCode: '', message: '', preferredContact: 'email' });
+        setTimeout(() => setSubmitted(false), 5000);
+        if (typeof window !== 'undefined' && (window as any).gtag) {
+          (window as any).gtag('event', 'generate_lead', {
+            event_category: 'Contact Form',
+            event_label: 'Schedule Free Visit',
+          });
+        }
+      } else {
+        setError('Something went wrong. Please try again.');
+      }
+    } catch (err) {
+      setError('Error submitting form. Please try again.');
+    }
+  };
 
   return (
     <>
@@ -69,7 +73,7 @@ export default function Home() {
       <div className="flex-shrink-0 md:w-96 lg:w-[480px]">
         <Image
           src="/images/Portrait_Realtor_Pose.jpg"
-          alt="Natalie Perras, owner of Good COmpany Senior Concierge Services"
+          alt="Natalie Perras, owner of Good Company Senior Concierge Services"
           width={480}
           height={320}
           className="w-full object-cover"
