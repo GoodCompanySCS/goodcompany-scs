@@ -309,49 +309,60 @@ export default function Home() {
               </div>
             </div>
 
-            <div>
-              <label htmlFor="hearAboutUs" className="block font-semibold mb-2">
-                How did you hear about us?
-              </label>
-              <select
-                id="hearAboutUs"
-                name="hearAboutUs"
-                value={formData.hearAboutUs}
-                onChange={handleChange}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg"
-              >
-                <option value="">Select an option</option>
-                <option value="Google Search">Google Search</option>
-                <option value="Nextdoor">Nextdoor</option>
-                <option value="Door Hanger">Door Hanger</option>
-                <option value="Social Media">Social Media</option>
-                <option value="Referred by a friend or family member">Referred by a friend or family member</option>
-                <option value="Other">Other</option>
-              </select>
+           <div>
+  <label htmlFor="hearAboutUs" className="block font-semibold mb-2">
+    How did you hear about us?
+  </label>
+  <select
+    id="hearAboutUs"
+    name="hearAboutUs"
+    value={formData.hearAboutUs}
+    onChange={handleChange}
+    className="w-full px-4 py-3 border border-gray-300 rounded-lg"
+  >
+    <option value="">Select an option</option>
+    <option value="Google Search">Google Search</option>
+    <option value="Nextdoor">Nextdoor</option>
+    <option value="Door Hanger">Door Hanger</option>
+    <option value="Social Media">Social Media</option>
+    <option value="Referred by a friend or family member">Referred by a friend or family member</option>
+    <option value="Other">Other</option>
+  </select>
 
-              {formData.hearAboutUs === 'Social Media' && (
-                <div className="mt-3">
-                  <label htmlFor="socialMediaDetail" className="block font-semibold mb-2">
-                    Which platform?
-                  </label>
-                  <input
-                    type="text"
-                    id="socialMediaDetail"
-                    name="socialMediaDetail"
-                    value={formData.socialMediaDetail}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg"
-                    placeholder="e.g. Facebook, Instagram..."
-                  />
-                </div>
-              )}
-            </div>
+  {formData.hearAboutUs === 'Social Media' && (
+    <div className="mt-3">
+      <label htmlFor="socialMediaDetail" className="block font-semibold mb-2">
+        Which platform?
+      </label>
+      <input
+        type="text"
+        id="socialMediaDetail"
+        name="socialMediaDetail"
+        value={formData.socialMediaDetail}
+        onChange={handleChange}
+        className="w-full px-4 py-3 border border-gray-300 rounded-lg"
+        placeholder="e.g. Facebook, Instagram..."
+      />
+    </div>
+  )}
 
-            <button type="submit" className="btn-primary w-full py-4 text-lg">
-              Schedule Free Visit
-            </button>
-          </form>
-        </div>
+  {formData.hearAboutUs === 'Other' && (
+    <div className="mt-3">
+      <label htmlFor="socialMediaDetail" className="block font-semibold mb-2">
+        Please tell us more
+      </label>
+      <input
+        type="text"
+        id="socialMediaDetail"
+        name="socialMediaDetail"
+        value={formData.socialMediaDetail}
+        onChange={handleChange}
+        className="w-full px-4 py-3 border border-gray-300 rounded-lg"
+        placeholder="How did you find us?"
+      />
+    </div>
+  )}
+</div>
       </section>
     </>
   );
