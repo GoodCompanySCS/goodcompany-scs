@@ -55,42 +55,42 @@ export default function Home() {
 
   return (
     <>
-    {/* Hero Section */}
-<section style={{ backgroundColor: 'var(--cream)' }} className="pt-16 md:pt-24 pb-4 md:pb-8">
-  <div className="container-max">
-    <div className="flex flex-col md:flex-row items-center gap-12">
-      <div className="max-w-xl">
-        <h1 className="mb-6" style={{ color: 'var(--sage)' }}>
-          Stay home.<br />
-          Stay independent.<br />
-          Stay yourself.
-        </h1>
-        <p className="text-lg mb-8">
-          Good Company helps seniors in Shelby Township and the surrounding area stay independent at home with reliable support, practical help, and someone trustworthy alongside them.
-        </p>
-        <a href="#schedule" className="btn-primary inline-block">
-          Schedule a Free Visit
-        </a>
-      </div>
-      <div className="flex-shrink-0 md:w-96 lg:w-[480px]">
-        <Image
-          src="/images/Portrait_Realtor_Pose.jpg"
-          alt="Natalie Perras, owner of Good Company Senior Concierge Services"
-          width={480}
-          height={320}
-          className="w-full object-cover"
-          style={{
-            borderRadius: '2rem',
-            border: '4px solid var(--sage)',
-            boxShadow: '0 8px 32px rgba(78, 107, 81, 0.18)',
-          }}
-        />
-      </div>
-    </div>
-  </div>
-</section>
+      {/* Hero Section */}
+      <section style={{ backgroundColor: 'var(--cream)' }} className="pt-16 md:pt-24 pb-4 md:pb-8">
+        <div className="container-max">
+          <div className="flex flex-col md:flex-row items-center gap-12">
+            <div className="max-w-xl">
+              <h1 className="mb-6" style={{ color: 'var(--sage)' }}>
+                Stay home.<br />
+                Stay independent.<br />
+                Stay yourself.
+              </h1>
+              <p className="text-lg mb-8">
+                Good Company helps seniors in Shelby Township and the surrounding area stay independent at home with reliable support, practical help, and someone trustworthy alongside them.
+              </p>
+              <a href="#schedule" className="btn-primary inline-block">
+                Schedule a Free Visit
+              </a>
+            </div>
+            <div className="flex-shrink-0 md:w-96 lg:w-[480px]">
+              <Image
+                src="/images/Portrait_Realtor_Pose.jpg"
+                alt="Natalie Perras, owner of Good Company Senior Concierge Services"
+                width={480}
+                height={320}
+                className="w-full object-cover"
+                style={{
+                  borderRadius: '2rem',
+                  border: '4px solid var(--sage)',
+                  boxShadow: '0 8px 32px rgba(78, 107, 81, 0.18)',
+                }}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
-   {/* Services Overview */}
+      {/* Services Overview */}
       <section className="pt-4 md:pt-8 pb-16 md:pb-24" style={{ backgroundColor: 'var(--cream)' }}>
         <div className="container-max">
           <h2 className="mb-4 text-center">What We Offer</h2>
@@ -148,25 +148,24 @@ export default function Home() {
           </div>
         </div>
       </section>
-     
+
       <section className="bg-cream pt-20 md:pt-28 pb-4 md:pb-6">
         <div className="max-w-6xl mx-auto px-6 text-center">
-            <p 
-              className="font-serif italic tracking-wide leading-tight"
-              style={{ 
-              color: '#C9785B', 
+          <p
+            className="font-serif italic tracking-wide leading-tight"
+            style={{
+              color: '#C9785B',
               fontSize: '2rem',
               fontStyle: 'italic',
               fontWeight: '600',
-              }}
-            >
+            }}
+          >
             You're in good company.
           </p>
         </div>
-     </section>
+      </section>
 
-      {/* Lead Capture Form*/}
-      
+      {/* Lead Capture Form */}
       <section id="schedule" className="section-padding" style={{ backgroundColor: 'var(--cream)' }}>
         <div className="container-max max-w-2xl">
           <h2 className="text-center mb-4">Schedule Your Free First Visit</h2>
@@ -309,60 +308,66 @@ export default function Home() {
               </div>
             </div>
 
-           <div>
-  <label htmlFor="hearAboutUs" className="block font-semibold mb-2">
-    How did you hear about us?
-  </label>
-  <select
-    id="hearAboutUs"
-    name="hearAboutUs"
-    value={formData.hearAboutUs}
-    onChange={handleChange}
-    className="w-full px-4 py-3 border border-gray-300 rounded-lg"
-  >
-    <option value="">Select an option</option>
-    <option value="Google Search">Google Search</option>
-    <option value="Nextdoor">Nextdoor</option>
-    <option value="Door Hanger">Door Hanger</option>
-    <option value="Social Media">Social Media</option>
-    <option value="Referred by a friend or family member">Referred by a friend or family member</option>
-    <option value="Other">Other</option>
-  </select>
+            <div>
+              <label htmlFor="hearAboutUs" className="block font-semibold mb-2">
+                How did you hear about us?
+              </label>
+              <select
+                id="hearAboutUs"
+                name="hearAboutUs"
+                value={formData.hearAboutUs}
+                onChange={handleChange}
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg"
+              >
+                <option value="">Select an option</option>
+                <option value="Google Search">Google Search</option>
+                <option value="Nextdoor">Nextdoor</option>
+                <option value="Door Hanger">Door Hanger</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Referred by a friend or family member">Referred by a friend or family member</option>
+                <option value="Other">Other</option>
+              </select>
 
-  {formData.hearAboutUs === 'Social Media' && (
-    <div className="mt-3">
-      <label htmlFor="socialMediaDetail" className="block font-semibold mb-2">
-        Which platform?
-      </label>
-      <input
-        type="text"
-        id="socialMediaDetail"
-        name="socialMediaDetail"
-        value={formData.socialMediaDetail}
-        onChange={handleChange}
-        className="w-full px-4 py-3 border border-gray-300 rounded-lg"
-        placeholder="e.g. Facebook, Instagram..."
-      />
-    </div>
-  )}
+              {formData.hearAboutUs === 'Social Media' && (
+                <div className="mt-3">
+                  <label htmlFor="socialMediaDetail" className="block font-semibold mb-2">
+                    Which platform?
+                  </label>
+                  <input
+                    type="text"
+                    id="socialMediaDetail"
+                    name="socialMediaDetail"
+                    value={formData.socialMediaDetail}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg"
+                    placeholder="e.g. Facebook, Instagram..."
+                  />
+                </div>
+              )}
 
-  {formData.hearAboutUs === 'Other' && (
-    <div className="mt-3">
-      <label htmlFor="socialMediaDetail" className="block font-semibold mb-2">
-        Please tell us more
-      </label>
-      <input
-        type="text"
-        id="socialMediaDetail"
-        name="socialMediaDetail"
-        value={formData.socialMediaDetail}
-        onChange={handleChange}
-        className="w-full px-4 py-3 border border-gray-300 rounded-lg"
-        placeholder="How did you find us?"
-      />
-    </div>
-  )}
-</div>
+              {formData.hearAboutUs === 'Other' && (
+                <div className="mt-3">
+                  <label htmlFor="socialMediaDetail" className="block font-semibold mb-2">
+                    Please tell us more
+                  </label>
+                  <input
+                    type="text"
+                    id="socialMediaDetail"
+                    name="socialMediaDetail"
+                    value={formData.socialMediaDetail}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg"
+                    placeholder="How did you find us?"
+                  />
+                </div>
+              )}
+            </div>
+
+            <button type="submit" className="btn-primary w-full py-4 text-lg">
+              Schedule Free Visit
+            </button>
+          </form>
+        </div>
       </section>
     </>
   );
