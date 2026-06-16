@@ -10,6 +10,8 @@ export default function Home() {
     zipCode: '',
     message: '',
     preferredContact: 'email',
+    hearAboutUs: '',
+    socialMediaDetail: '',
   });
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
@@ -35,7 +37,7 @@ export default function Home() {
 
       if (response.ok) {
         setSubmitted(true);
-        setFormData({ name: '', phone: '', email: '', zipCode: '', message: '', preferredContact: 'email' });
+        setFormData({ name: '', phone: '', email: '', zipCode: '', message: '', preferredContact: 'email', hearAboutUs: '', socialMediaDetail: '' });
         setTimeout(() => setSubmitted(false), 5000);
         if (typeof window !== 'undefined' && (window as any).gtag) {
           (window as any).gtag('event', 'generate_lead', {
@@ -73,7 +75,7 @@ export default function Home() {
       <div className="flex-shrink-0 md:w-96 lg:w-[480px]">
         <Image
           src="/images/Portrait_Realtor_Pose.jpg"
-          alt="Natalie Perras, owner of Good COmpany Senior Concierge Services"
+          alt="Natalie Perras, owner of Good Company Senior Concierge Services"
           width={480}
           height={320}
           className="w-full object-cover"
@@ -305,6 +307,44 @@ export default function Home() {
                   Email
                 </label>
               </div>
+            </div>
+
+            <div>
+              <label htmlFor="hearAboutUs" className="block font-semibold mb-2">
+                How did you hear about us?
+              </label>
+              <select
+                id="hearAboutUs"
+                name="hearAboutUs"
+                value={formData.hearAboutUs}
+                onChange={handleChange}
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg"
+              >
+                <option value="">Select an option</option>
+                <option value="Google Search">Google Search</option>
+                <option value="Nextdoor">Nextdoor</option>
+                <option value="Door Hanger">Door Hanger</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Referred by a friend or family member">Referred by a friend or family member</option>
+                <option value="Other">Other</option>
+              </select>
+
+              {formData.hearAboutUs === 'Social Media' && (
+                <div className="mt-3">
+                  <label htmlFor="socialMediaDetail" className="block font-semibold mb-2">
+                    Which platform?
+                  </label>
+                  <input
+                    type="text"
+                    id="socialMediaDetail"
+                    name="socialMediaDetail"
+                    value={formData.socialMediaDetail}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg"
+                    placeholder="e.g. Facebook, Instagram..."
+                  />
+                </div>
+              )}
             </div>
 
             <button type="submit" className="btn-primary w-full py-4 text-lg">
