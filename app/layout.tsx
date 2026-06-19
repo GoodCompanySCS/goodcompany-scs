@@ -41,6 +41,18 @@ export default function RootLayout({
             gtag('config', 'G-LSC35890EF');
           `}
         </Script>
+        <Script
+          src="https://macombcountychamber.chambermaster.com/Content/Script/Member.js"
+          strategy="afterInteractive"
+          onLoad={() => {
+            if ((window as any).MNI?.Widgets?.Member) {
+              new (window as any).MNI.Widgets.Member('mni-membership-639174709150268212', {
+                member: 945626,
+                styleTemplate: '#@id{text-align:center;position:relative}#@id .mn-widget-member-name{font-weight:700}#@id .mn-widget-member-logo{max-width:100%}'
+              }).create();
+            }
+          }}
+        />
         <Header />
         <main>{children}</main>
         <Footer />
@@ -129,7 +141,13 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div style={{ borderTopColor: "rgba(199, 241, 232, 0.2)" }} className="border-t pt-8 text-center text-cream text-sm">
+
+        {/* Macomb County Chamber of Commerce Badge */}
+        <div style={{ borderTopColor: "rgba(199, 241, 232, 0.2)" }} className="border-t pt-8 mb-6 text-center">
+          <div id="mni-membership-639174709150268212"></div>
+        </div>
+
+        <div className="text-center text-cream text-sm">
           <p>&copy; {currentYear} Good Company Senior Concierge Services LLC. All rights reserved.</p>
         </div>
       </div>
