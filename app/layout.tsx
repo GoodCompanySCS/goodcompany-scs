@@ -44,15 +44,21 @@ export default function RootLayout({
         <Script
           src="https://macombcountychamber.chambermaster.com/Content/Script/Member.js"
           strategy="afterInteractive"
-          onLoad={() => {
-            if ((window as any).MNI?.Widgets?.Member) {
-              new (window as any).MNI.Widgets.Member('mni-membership-639174709150268212', {
-                member: 945626,
-                styleTemplate: '#@id{text-align:center;position:relative}#@id .mn-widget-member-name{font-weight:700}#@id .mn-widget-member-logo{max-width:100%}'
-              }).create();
-            }
-          }}
         />
+        <Script id="chamber-badge" strategy="afterInteractive">
+          {`
+            (function tryInit() {
+              if (window.MNI && window.MNI.Widgets && window.MNI.Widgets.Member) {
+                new window.MNI.Widgets.Member('mni-membership-639174709150268212', {
+                  member: 945626,
+                  styleTemplate: '#@id{text-align:center;position:relative}#@id .mn-widget-member-name{font-weight:700}#@id .mn-widget-member-logo{max-width:100%}'
+                }).create();
+              } else {
+                setTimeout(tryInit, 300);
+              }
+            })();
+          `}
+        </Script>
         <Header />
         <main>{children}</main>
         <Footer />
