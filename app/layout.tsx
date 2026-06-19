@@ -152,7 +152,7 @@ function Footer() {
               style={{
                 backgroundColor: "#F7F1E8",
                 borderRadius: "8px",
-                padding: 12px",
+                padding: "4px, 12px",
                 display: "inline-block",
               }}
             >
