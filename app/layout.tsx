@@ -114,7 +114,7 @@ function Footer() {
   return (
     <footer style={{ backgroundColor: "var(--charcoal)" }} className="text-cream py-12">
       <div className="container-max">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-cream mb-4">Services</h3>
             <ul className="space-y-2">
@@ -146,17 +146,26 @@ function Footer() {
               Rochester Hills, MI
             </p>
           </div>
+          <div>
+            <h3 className="text-cream mb-4">Member Of</h3>
+            <div
+              style={{
+                backgroundColor: "#F7F1E8",
+                borderRadius: "8px",
+                padding: "12px",
+                display: "inline-block",
+              }}
+            >
+              <div id="mni-membership-639174709150268212"></div>
+            </div>
+          </div>
         </div>
 
-        {/* Macomb County Chamber of Commerce Badge */}
-        <div style={{ borderTopColor: "rgba(199, 241, 232, 0.2)" }} className="border-t pt-8 mb-6 text-center">
-          <div id="mni-membership-639174709150268212"></div>
-        </div>
-
-        <div className="text-center text-cream text-sm">
+        <div style={{ borderTopColor: "rgba(199, 241, 232, 0.2)" }} className="border-t pt-8 text-center text-cream text-sm">
           <p>&copy; {currentYear} Good Company Senior Concierge Services LLC. All rights reserved.</p>
         </div>
       </div>
     </footer>
   );
 }
+
