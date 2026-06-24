@@ -7,7 +7,6 @@ export default function WhatsHappening() {
       {/* Page Header */}
       <section style={{ backgroundColor: 'var(--cream)' }} className="pt-16 md:pt-24 pb-8 text-center">
         <div className="container-max max-w-3xl">
-          <p style={{ color: 'var(--terracotta)', letterSpacing: '4px' }} className="text-xs font-semibold uppercase mb-3">Good Company</p>
           <h1 style={{ color: 'var(--sage)' }} className="mb-4">What's Happening</h1>
           <p style={{ color: '#7a7060' }} className="text-lg italic">Community appearances, events, and news from Good Company</p>
           <div style={{ width: '60px', height: '3px', backgroundColor: 'var(--terracotta)', margin: '1.5rem auto 0' }}></div>
