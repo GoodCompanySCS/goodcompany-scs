@@ -98,6 +98,9 @@ function Header() {
             <a href="/faq" style={{ color: '#000000', opacity: 0.7 }} className="font-semibold hover:opacity-70 text-sm md:text-base">
               FAQ
             </a>
+            <a href="/whats-happening" style={{ color: '#000000', opacity: 0.7 }} className="font-semibold hover:opacity-70 text-sm md:text-base">
+              What's Happening
+            </a>
             <a href="/contact" className="btn-primary text-sm md:text-base">
               Get Started
             </a>
@@ -160,6 +163,7 @@ function Footer() {
               <li><a href="/about" className="text-cream hover:text-honey">About Us</a></li>
               <li><a href="/contact" className="text-cream hover:text-honey">Contact</a></li>
               <li><a href="/faq" className="text-cream hover:text-honey">FAQ</a></li>
+              <li><a href="/whats-happening" className="text-cream hover:text-honey">What's Happening</a></li>
               <li><a href="/privacy" className="text-cream hover:text-honey">Privacy Policy</a></li>
               <li><a href="/terms" className="text-cream hover:text-honey">Terms of Service</a></li>
             </ul>
