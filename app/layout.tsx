@@ -79,6 +79,10 @@ function Header() {
                 alt="Good Company Logo"
                 className="h-16 md:h-24 w-auto"
               />
+              <div>
+                <h1 className="text-xl md:text-2xl font-bold" style={{ fontFamily: "Fraunces", color: "#87A878" }}>Good Company</h1>
+                <p className="text-xs tracking-widest" style={{ color: "#000000", opacity: 0.6, paddingLeft: "4px" }}>SENIOR CONCIERGE SERVICES</p>
+              </div>
             </div>
           </a>
           <nav className="flex gap-4 md:gap-8 items-center">
@@ -221,4 +225,3 @@ function Footer() {
     </footer>
   );
 }
-
