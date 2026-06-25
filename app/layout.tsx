@@ -142,20 +142,13 @@ function Footer() {
       <div className="container-max">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
 
-          {/* Column 1 — About Us, Contact, FAQ */}
-          <div>
+          {/* Column 1 — All links */}
+          <div className="md:col-span-2">
             <h3 className="text-cream mb-4">Company</h3>
             <ul className="space-y-2">
               <li><a href="/about" className="text-cream hover:text-honey">About Us</a></li>
               <li><a href="/contact" className="text-cream hover:text-honey">Contact</a></li>
               <li><a href="/faq" className="text-cream hover:text-honey">FAQ</a></li>
-            </ul>
-          </div>
-
-          {/* Column 2 — What's Happening, Privacy Policy, Terms */}
-          <div>
-            <h3 className="text-cream mb-4">More</h3>
-            <ul className="space-y-2">
               <li><a href="/whats-happening" className="text-cream hover:text-honey">What's Happening</a></li>
               <li><a href="/privacy" className="text-cream hover:text-honey">Privacy Policy</a></li>
               <li><a href="/terms" className="text-cream hover:text-honey">Terms of Service</a></li>
@@ -179,13 +172,20 @@ function Footer() {
               style={{
                 backgroundColor: "#F7F1E8",
                 borderRadius: "8px",
-                padding: "12px",
+                padding: "8px",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
+                overflow: "hidden",
               }}
             >
-              <div id="mni-membership-639174709150268212"></div>
+              <div
+                id="mni-membership-639174709150268212"
+                style={{
+                  transform: "scale(0.65)",
+                  transformOrigin: "top center",
+                }}
+              ></div>
             </div>
           </div>
 
