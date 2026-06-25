@@ -141,30 +141,28 @@ function Footer() {
     <footer style={{ backgroundColor: "var(--charcoal)" }} className="text-cream py-12">
       <div className="container-max">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          <div>
-            <h3 className="text-cream mb-4">Services</h3>
-            <ul className="space-y-2">
-              <li><a href="/services#technology" className="text-cream hover:text-honey">Technology Assistance</a></li>
-              <li><a href="/services#meals" className="text-cream hover:text-honey">Meals & Nutrition</a></li>
-              <li><a href="/services#companion" className="text-cream hover:text-honey">Companionship & Check-Ins</a></li>
-              <li><a href="/services#errands" className="text-cream hover:text-honey">Errands</a></li>
-              <li><a href="/services#home" className="text-cream hover:text-honey">Home & Yard Services</a></li>
-              <li><a href="/services#pet" className="text-cream hover:text-honey">Pet Care</a></li>
-              <li><a href="/services#paperwork" className="text-cream hover:text-honey">Paperwork & Safety Support</a></li>
-              <li><a href="/services#caregiver" className="text-cream hover:text-honey">Family Caregiver Relief</a></li>
-            </ul>
-          </div>
+
+          {/* Column 1 — About Us, Contact, FAQ */}
           <div>
             <h3 className="text-cream mb-4">Company</h3>
             <ul className="space-y-2">
               <li><a href="/about" className="text-cream hover:text-honey">About Us</a></li>
               <li><a href="/contact" className="text-cream hover:text-honey">Contact</a></li>
               <li><a href="/faq" className="text-cream hover:text-honey">FAQ</a></li>
+            </ul>
+          </div>
+
+          {/* Column 2 — What's Happening, Privacy Policy, Terms */}
+          <div>
+            <h3 className="text-cream mb-4">More</h3>
+            <ul className="space-y-2">
               <li><a href="/whats-happening" className="text-cream hover:text-honey">What's Happening</a></li>
               <li><a href="/privacy" className="text-cream hover:text-honey">Privacy Policy</a></li>
               <li><a href="/terms" className="text-cream hover:text-honey">Terms of Service</a></li>
             </ul>
           </div>
+
+          {/* Column 3 — Service Area */}
           <div>
             <h3 className="text-cream mb-4">Service Area</h3>
             <p className="text-cream">
@@ -173,6 +171,8 @@ function Footer() {
               Rochester Hills, MI
             </p>
           </div>
+
+          {/* Column 4 — Chamber Badge */}
           <div>
             <h3 className="text-cream mb-4">Member Of</h3>
             <div
@@ -180,12 +180,15 @@ function Footer() {
                 backgroundColor: "#F7F1E8",
                 borderRadius: "8px",
                 padding: "12px",
-                display: "inline-block",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
               }}
             >
               <div id="mni-membership-639174709150268212"></div>
             </div>
           </div>
+
         </div>
 
         {/* Social Media Links */}
