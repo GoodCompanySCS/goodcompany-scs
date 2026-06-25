@@ -173,17 +173,16 @@ function Footer() {
                 backgroundColor: "#F7F1E8",
                 borderRadius: "8px",
                 padding: "8px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                display: "inline-block",
+                maxWidth: "160px",
                 overflow: "hidden",
               }}
             >
               <div
                 id="mni-membership-639174709150268212"
                 style={{
-                  transform: "scale(0.65)",
-                  transformOrigin: "top center",
+                  transform: "scale(0.75)",
+                  transformOrigin: "top left",
                 }}
               ></div>
             </div>
