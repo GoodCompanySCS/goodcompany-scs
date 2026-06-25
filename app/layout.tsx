@@ -173,7 +173,7 @@ function Footer() {
                 backgroundColor: "#F7F1E8",
                 borderRadius: "8px",
                 width: "160px",
-                height: "155px",
+                height: "220px",
                 overflow: "hidden",
                 position: "relative",
               }}
