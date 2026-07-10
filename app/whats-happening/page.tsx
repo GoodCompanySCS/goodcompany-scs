@@ -18,10 +18,32 @@ export default function WhatsHappening() {
         <div className="container-max max-w-3xl">
           <div className="space-y-6">
 
-            {/* Packard Farmers Market */}
+            {/* Packard Farmers Market — July 11 */}
             <div style={{ backgroundColor: 'white', borderRadius: '12px', border: '0.5px solid #d4c9b8', overflow: 'hidden' }}>
               <div style={{ backgroundColor: 'var(--sage)', padding: '8px 20px' }}>
                 <span style={{ fontSize: '11px', fontWeight: '600', color: 'white', textTransform: 'uppercase', letterSpacing: '2px' }}>Upcoming Event</span>
+              </div>
+              <div style={{ padding: '1.5rem', display: 'flex', gap: '1.25rem' }}>
+                <div style={{ backgroundColor: 'var(--cream)', borderRadius: '10px', width: '80px', height: '80px', flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', border: '1px solid #d4c9b8' }}>
+                  <span style={{ fontSize: '11px', fontWeight: '600', color: 'var(--terracotta)', textTransform: 'uppercase', letterSpacing: '1px' }}>Jul</span>
+                  <span style={{ fontSize: '28px', fontWeight: '700', color: '#3a352e', lineHeight: '1' }}>11</span>
+                  <span style={{ fontSize: '10px', color: '#7a7060' }}>Friday</span>
+                </div>
+                <div style={{ flex: 1 }}>
+                  <h2 style={{ fontSize: '20px', fontWeight: '700', color: '#3a352e', marginBottom: '6px' }}>Packard Farmers Market</h2>
+                  <p style={{ fontSize: '13px', color: '#7a7060', marginBottom: '10px' }}>9:00 AM – 2:00 PM &nbsp;|&nbsp; Shelby Township, MI</p>
+                  <p style={{ fontSize: '14px', color: '#5a5248', lineHeight: '1.7', marginBottom: '12px' }}>
+                    Come find us at our tent at the Packard Farmers Market! Stop by for a free Grand Traverse Pie Company cookie and enter for a chance to win Detroit Lions preseason tickets. We'd love to meet you and chat about how Good Company can help you or someone you love.
+                  </p>
+                  <span style={{ backgroundColor: 'var(--cream)', color: 'var(--terracotta)', fontSize: '11px', fontWeight: '600', padding: '3px 12px', borderRadius: '12px', border: '1px solid var(--terracotta)' }}>Free to attend</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Packard Farmers Market — June 27 (past) */}
+            <div style={{ backgroundColor: 'white', borderRadius: '12px', border: '0.5px solid #d4c9b8', overflow: 'hidden', opacity: 0.7 }}>
+              <div style={{ backgroundColor: '#9a8f80', padding: '8px 20px' }}>
+                <span style={{ fontSize: '11px', fontWeight: '600', color: 'white', textTransform: 'uppercase', letterSpacing: '2px' }}>Past Event</span>
               </div>
               <div style={{ padding: '1.5rem', display: 'flex', gap: '1.25rem' }}>
                 <div style={{ backgroundColor: 'var(--cream)', borderRadius: '10px', width: '80px', height: '80px', flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', border: '1px solid #d4c9b8' }}>
@@ -35,7 +57,7 @@ export default function WhatsHappening() {
                   <p style={{ fontSize: '14px', color: '#5a5248', lineHeight: '1.7', marginBottom: '12px' }}>
                     Come find us at our tent at the Packard Farmers Market! Stop by for a free Grand Traverse Pie Company cookie and enter for a chance to win Detroit Lions preseason tickets. We'd love to meet you and chat about how Good Company can help you or someone you love.
                   </p>
-                  <span style={{ backgroundColor: 'var(--cream)', color: 'var(--terracotta)', fontSize: '11px', fontWeight: '600', padding: '3px 12px', borderRadius: '12px', border: '1px solid var(--terracotta)' }}>Free to attend</span>
+                  <span style={{ backgroundColor: 'var(--cream)', color: '#9a8f80', fontSize: '11px', fontWeight: '600', padding: '3px 12px', borderRadius: '12px', border: '1px solid #9a8f80' }}>Past event</span>
                 </div>
               </div>
             </div>
@@ -77,4 +99,3 @@ export default function WhatsHappening() {
     </div>
   );
 }
-
