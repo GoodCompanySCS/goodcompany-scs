@@ -33,7 +33,7 @@ export default function WhatsHappening() {
                   <h2 style={{ fontSize: '20px', fontWeight: '700', color: '#3a352e', marginBottom: '6px' }}>Packard Farmers Market</h2>
                   <p style={{ fontSize: '13px', color: '#7a7060', marginBottom: '10px' }}>9:00 AM – 2:00 PM &nbsp;|&nbsp; Shelby Township, MI</p>
                   <p style={{ fontSize: '14px', color: '#5a5248', lineHeight: '1.7', marginBottom: '12px' }}>
-                    Come find us at our tent at the Packard Farmers Market! Stop by for a free Grand Traverse Pie Company cookie and enter for a chance to win Detroit Lions preseason tickets. We'd love to meet you and chat about how Good Company can help you or someone you love.
+                    Come find us at our tent at the Packard Farmers Market! Stop by and enter for a chance to win Detroit Lions preseason tickets. We'd love to meet you and chat about how Good Company can help you or someone you love.
                   </p>
                   <span style={{ backgroundColor: 'var(--cream)', color: 'var(--terracotta)', fontSize: '11px', fontWeight: '600', padding: '3px 12px', borderRadius: '12px', border: '1px solid var(--terracotta)' }}>Free to attend</span>
                 </div>
